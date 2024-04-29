@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cifras-de-chiquinho/static/css/main.d14fa7c8.css",
+    "main.js": "/cifras-de-chiquinho/static/js/main.9bebe441.js",
+    "index.html": "/cifras-de-chiquinho/index.html",
+    "main.d14fa7c8.css.map": "/cifras-de-chiquinho/static/css/main.d14fa7c8.css.map",
+    "main.9bebe441.js.map": "/cifras-de-chiquinho/static/js/main.9bebe441.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d14fa7c8.css",
+    "static/js/main.9bebe441.js"
+  ]
+}
