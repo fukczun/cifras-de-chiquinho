@@ -441,10 +441,14 @@ Por minha culpa,    tão grande culpa
 
 [Refrão]
 
-          Dm7    G7         C G/B Am         Dm   E    Am  (A7)
-Senhor piedade, Cristo piedaaaaaaade, tem piedade ó Senhor
-          Dm7    G7         C G/B Am         Dm   E    Am  (E7)
-Senhor piedade, Cristo piedaaaaaaade, tem piedade ó Senhor
+          Dm7    G7         C G/B Am 
+Senhor piedade, Cristo piedaaaaaaade,
+       Dm   E    Am  (A7) 
+tem piedade ó Senhor
+          Dm7    G7         C G/B Am 
+Senhor piedade, Cristo piedaaaaaaade,
+       Dm   E    Am  (E7) 
+tem piedade ó Senhor
 
        Am       Dm    E    Am
 Peço à Virgem Maria, nossa mãe
