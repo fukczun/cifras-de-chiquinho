@@ -1,5 +1,5 @@
 import { getLetra, getAcordes, getCifra } from "../assets/cifras"
-import { canticoDeAdoracao, dancaDaAmizade, euNavegarei, euSouDoSenhor, molimMolim, oCeuSeAbre, passaFogo, pescadorDeCristo, pipoca, ruah } from "./letras"
+import { canticoDeAdoracao, dancaDaAmizade, euConfesso, euNavegarei, euSouDoSenhor, gloriaADeusNasAlturas, molimMolim, oCeuSeAbre, oSenhorRessurgiu, passaFogo, pescadorDeCristo, pipoca, ruah } from "./letras"
 
 const acordes = {
     molimMolim: getAcordes(molimMolim, ['G', 'Em', 'C', 'D', '(D7)']),
@@ -11,7 +11,10 @@ const acordes = {
     ruah: getAcordes(ruah, ['C7M', 'D', 'Em', 'G', 'C', 'Am7', 'Bm7']),
     pescadorDeCristo: getAcordes(pescadorDeCristo, ['G', 'Em', 'C', 'D', '(D4)']),
     pipoca: getAcordes(pipoca, ['E', 'B7', 'B']),
-    oCeuSeAbre: getAcordes(oCeuSeAbre, ['B', 'D#m', 'E', 'A', 'F#4', 'F#', 'C#m', 'B7M', 'B/D#', 'E7M', 'G#m'])
+    oCeuSeAbre: getAcordes(oCeuSeAbre, ['B', 'D#m', 'E', 'A', 'F#4', 'F#', 'C#m', 'B7M', 'B/D#', 'E7M', 'G#m']),
+    oSenhorRessurgiu: getAcordes(oSenhorRessurgiu, ['B', 'D#m7', 'E', 'C#m', 'F#', '(F#4)', '(F#)', 'D#m', 'G#m', 'G#m7', 'B7', 'C#7']),
+    euConfesso: getAcordes(euConfesso, ['Am', 'Dm', 'E', 'G7', 'Dm7', 'E7', 'C', 'G/B', '(A7)', '(E7)']),
+    gloriaADeusNasAlturas: getAcordes(gloriaADeusNasAlturas, ['Dm', 'C', 'A', '(A7)', 'F', 'A7', 'C', '(Bb)', 'Gm', 'Bb', '(A)'])
 }
 
 export const cifrasSemEstrutura = {
@@ -32,7 +35,7 @@ export const cifrasSemEstrutura = {
         isRelativa: false
     },
     dancaDaAmizade: {
-        titulo: 'Danca Da Amizade',
+        titulo: 'Danca da Amizade',
         autor: 'Comunidade Recado',
         tomPadrao: 'D',
         letra: getLetra(dancaDaAmizade, acordes.dancaDaAmizade),
@@ -40,7 +43,7 @@ export const cifrasSemEstrutura = {
         isRelativa: false
     },
     euSouDoSenhor: {
-        titulo: 'Eu Sou Do Senhor',
+        titulo: 'Eu Sou do Senhor',
         autor: 'Ministério Louva Deus',
         tomPadrao: 'G',
         letra: getLetra(euSouDoSenhor, acordes.euSouDoSenhor),
@@ -72,7 +75,7 @@ export const cifrasSemEstrutura = {
         isRelativa: false
     },
     pescadorDeCristo: {
-        titulo: 'Pescador De Cristo',
+        titulo: 'Pescador de Cristo',
         autor: 'Banda Dom',
         tomPadrao: 'G',
         letra: getLetra(pescadorDeCristo, acordes.pescadorDeCristo),
@@ -94,7 +97,31 @@ export const cifrasSemEstrutura = {
         letra: getLetra(oCeuSeAbre, acordes.oCeuSeAbre),
         acordes: acordes.oCeuSeAbre,
         isRelativa: false
-    }
+    },
+    oSenhorRessurgiu: {
+        titulo: 'O Senhor Ressurgiu',
+        autor: 'CNBB',
+        tomPadrao: 'B',
+        letra: getLetra(oSenhorRessurgiu, acordes.oSenhorRessurgiu),
+        acordes: acordes.oSenhorRessurgiu,
+        isRelativa: false
+    },
+    euConfesso: {
+        titulo: 'Eu Confesso',
+        autor: 'Músicas Católicas',
+        tomPadrao: 'Am',
+        letra: getLetra(euConfesso, acordes.euConfesso),
+        acordes: acordes.euConfesso,
+        isRelativa: true
+    },
+    gloriaADeusNasAlturas: {
+        titulo: 'Glória à Deus nas Alturas',
+        autor: 'Músicas Católicas',
+        tomPadrao: 'Dm',
+        letra: getLetra(gloriaADeusNasAlturas, acordes.gloriaADeusNasAlturas),
+        acordes: acordes.gloriaADeusNasAlturas,
+        isRelativa: true
+    },
 }
 
 export const cifras = Object.fromEntries(

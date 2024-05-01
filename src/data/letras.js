@@ -356,3 +356,154 @@ G#m               E
 Hoje eu posso ser um novo homem
       B              F#  F#4
 Pelo teu poder renascer`
+
+export const oSenhorRessurgiu = 
+`[Refrão]
+
+      B           D#m7  E        B
+O Senhor ressurgiu, aleluia, aleluia!
+        E          C#m            F#   (F#4) (F#)
+É o Cordeiro Pascal, aleluia, aleluia!
+    B          D#m7  E        B
+Imolado por nós, aleluia, aleluia!
+      E          C#m      D#m       C#m      E  B
+É o Cristo, o Senhor, ele vive e venceu, aleluia!
+
+      G#m        F#         D#m
+1. O Cristo, Senhor ressuscitou
+  C#m                  G#m7 F#
+A nossa esperança realizou
+    B       B7        E
+Vencida a morte para sempre
+   C#7                F#   (F#4) (F#)
+Triunfa a vida eternamente!
+
+[Refrão]
+
+B           D#m7  E        B
+O Senhor ressurgiu, aleluia, aleluia!
+        E          C#m            F#   (F#4) (F#)
+É o Cordeiro Pascal, aleluia, aleluia!
+    B          D#m7  E        B
+Imolado por nós, aleluia, aleluia!
+      E          C#m      D#m       C#m      E  B
+É o Cristo, o Senhor, ele vive e venceu, aleluia!
+
+      G#m      F#          D#m
+2. O Cristo remiu a seus irmãos
+   C#m                     G#m7 F#
+Ao Pai os conduziu por sua mão
+      B       B7           E
+No Espírito Santo unida esteja
+    C#7                       F#   (F#4) (F#)
+A família de Deus, que é a Igreja!
+
+[Refrão]
+
+B           D#m7  E        B
+O Senhor ressurgiu, aleluia, aleluia!
+        E          C#m            F#   (F#4) (F#)
+É o Cordeiro Pascal, aleluia, aleluia!
+    B          D#m7  E        B
+Imolado por nós, aleluia, aleluia!
+      E          C#m      D#m       C#m      E  B
+É o Cristo, o Senhor, ele vive e venceu, aleluia!
+
+      G#m           F#           D#m
+3. O Cristo, nossa Páscoa, se imolou
+    C#m                    G#m7 F#
+Seu sangue da morte nos livrou
+   B         B7         E
+Incólumes o mar atravessamos
+     C#7                  F#   (F#4) (F#)
+E à Terra prometida caminhamos!
+
+[Refrão]
+
+B           D#m7  E        B
+O Senhor ressurgiu, aleluia, aleluia!
+        E          C#m            F#   (F#4) (F#)
+É o Cordeiro Pascal, aleluia, aleluia!
+    B          D#m7  E        B
+Imolado por nós, aleluia, aleluia!
+      E          C#m      D#m       C#m      E  B
+É o Cristo, o Senhor, ele vive e venceu, aleluia!`
+
+export const euConfesso = 
+`       Am     Dm        E     Am
+Eu confesso a Deus e a vós irmãos
+       Dm       G7           Am 
+Tantas vezes pequei, não fui fiel
+     Dm7            E7      C     G/B   Am   
+Pensamentos e palavras, atitudes e omissões
+          Dm     E7             Am    (A7)
+Por minha culpa,    tão grande culpa
+
+[Refrão]
+
+          Dm7    G7         C G/B Am         Dm   E    Am  (A7)
+Senhor piedade, Cristo piedaaaaaaade, tem piedade ó Senhor
+          Dm7    G7         C G/B Am         Dm   E    Am  (E7)
+Senhor piedade, Cristo piedaaaaaaade, tem piedade ó Senhor
+
+       Am       Dm    E    Am
+Peço à Virgem Maria, nossa mãe
+    Dm          G7               Am 
+E a vós meus irmãos, rogueis por mim
+       Dm7             E7           C        G/B  Am   
+A Deus pai que nos perdoa e nos sustenta em suas mãos
+          Dm7  E7             Am   (A7)
+Por seu amor,     tão grande amor`
+
+export const gloriaADeusNasAlturas = 
+`
+ Dm                          C
+Glória a Deus nas alturas e paz na terra
+     A              Dm    (A7)
+Aos homens por Ele amados
+ Dm                          C
+Glória a Deus nas alturas e paz na terra
+     A              Dm    (A7)
+Aos homens por Ele amados
+
+Dm                          C
+Senhor Deus, Rei dos céus, Deus Pai Todo Poderoso:
+ F
+nós vos louvamos, vos bendizemos
+Gm            A7                (Bb)
+Vos adoramos, vos glorificamos, nós vos
+(A7)   Dm         Gm           A7  Dm (A7)
+Damos graças por vossa imensa glória
+
+   Dm
+Senhor Jesus Cristo, Filho Unigênito
+ C                              F
+Senhor Deus, Cordeiro de Deus, Filho de Deus Pai
+Gm                 A7              Bb
+Vós que tirais o pecado do mundo, tende
+            A
+Piedade de nós
+Gm                  A7                Bb
+Vós que tirais o pecado do mundo, acolhei a
+ C     F
+Nossa súplica
+Gm                  A7            Bb
+Vós que estais à direita do Pai, tende
+    A7      Dm  (A7)
+Piedade de nós
+
+   Dm                                   
+Só Vós sois o Santo, só Vós o Senhor, só
+ C                             F
+Vós o Altíssimo Jesus Cristo, com o Espírito Santo
+    Gm            A7
+Na glória de Deus Pai
+    Bb    A7       Dm (A7)
+Na glória de Deus Pai
+
+Dm
+Amém! Amém! 
+C
+Amém! Amém!
+Dm F Gm (A) Dm
+Aaaaaaaaaaaamém`

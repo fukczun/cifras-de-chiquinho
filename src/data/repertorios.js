@@ -2,6 +2,14 @@ import { getCifra } from "../assets/cifras"
 import { cifrasSemEstrutura } from "./cifras"
 
 export const repertorios = {
+    missaPascoa: {
+        titulo: 'Missa (Páscoa)',
+        cifras: {
+            oSenhorRessurgiu: getCifra(Object.assign({}, cifrasSemEstrutura.oSenhorRessurgiu), 'missaPascoa', 'oSenhorRessurgiu'),
+            euConfesso: getCifra(Object.assign({}, cifrasSemEstrutura.euConfesso), 'missaPascoa', 'euConfesso'),
+            gloriaADeusNasAlturas: getCifra(Object.assign({}, cifrasSemEstrutura.gloriaADeusNasAlturas), 'missaPascoa', 'gloriaADeusNasAlturas')
+        }
+    },
     crisma: {
         titulo: 'Crisma',
         cifras: {

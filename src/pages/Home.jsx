@@ -17,13 +17,13 @@ function Home(props) {
                     </ul>
                 </div>
             </div>
-            <div className="absolute max-lg:relative ml-5 max-lg:ml-0 mb-5">
+            <div className="absolute size-full max-lg:relative max-lg:ml-0 grid max-lg:block grid-cols-2 justify-items-center gap-x-[25rem]">
                 {Object.keys(repertorios).map((repertorio, index) => {
                     const cifrasRepertorio = repertorios[repertorio].cifras
                     const tituloRepertorio = repertorios[repertorio].titulo
                     return (
                         <div key={`repertorio-${index}`} className="flex flex-col min-w-[20rem] gap-10 pt-5 *:mx-auto *:bg-white/10 *:text-white">
-                            <h1 className="font-poppins text-5xl px-5 py-3 rounded-xl">{tituloRepertorio}</h1>
+                            <h1 className="font-poppins text-5xl px-5 py-3 rounded-xl text-center max-w-[70%] break-words">{tituloRepertorio}</h1>
                             <ul className="p-5 rounded-xl text-xl">
                                 {Object.keys(cifrasRepertorio).map((cifraNome, indexCifra) => {
                                     const cifra = cifrasRepertorio[cifraNome]
@@ -34,7 +34,7 @@ function Home(props) {
                                             return acc + Object.keys(repertorios[currentKey].cifras).length;
                                         }, 0);
 
-                                    return <Linha key={`linha-${(Object.keys(cifras).length) + cifrasRepertoriosPassados + indexCifra}`} titulo={cifra.titulo} index={(Object.keys(cifras).length) + cifrasRepertoriosPassados + indexCifra} tom={cifra.tom} chave={cifraNome} isRelativa={cifra.isRelativa} estrutura={repertorio} margim={'mb-5'} trocarPagina={props.trocarPagina}/>
+                                    return <Linha key={`linha-${(Object.keys(cifras).length) + cifrasRepertoriosPassados + indexCifra}`} titulo={cifra.titulo} index={(Object.keys(cifras).length) + cifrasRepertoriosPassados + indexCifra} tom={cifra.tom} chave={cifraNome} isRelativa={cifra.isRelativa} estrutura={repertorio} margim={'mb-5'} trocarPagina={props.trocarPagina} />
                                 })}
                             </ul>
                         </div>
