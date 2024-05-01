@@ -5,7 +5,7 @@ import Linha from "../components/Linha"
 
 function Home(props) {
     return (
-        <div className="flex flex-row-reverse max-sm:flex-col justify-end min-h-screen bg-gradient-to-bl from-stone-900 to-red-800">
+        <div className="flex flex-row-reverse max-lg:flex-col-reverse justify-end min-h-screen bg-gradient-to-bl from-stone-900 to-red-800">
             <div className="mx-auto">
                 <div className="flex flex-col gap-10 pt-5 *:mx-auto">
                     <h1 className="font-poppins text-5xl rounded-xl bg-white/10 text-white px-5 py-3">Cifras</h1>
@@ -17,7 +17,7 @@ function Home(props) {
                     </ul>
                 </div>
             </div>
-            <div className="absolute max-sm:relative ml-5 max-sm:ml-0 mb-5">
+            <div className="absolute max-lg:relative ml-5 max-lg:ml-0 mb-5">
                 {Object.keys(repertorios).map((repertorio, index) => {
                     const cifrasRepertorio = repertorios[repertorio].cifras
                     const tituloRepertorio = repertorios[repertorio].titulo
