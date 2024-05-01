@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/cifras-de-chiquinho/static/css/main.3ca2a77b.css",
-    "main.js": "/cifras-de-chiquinho/static/js/main.923eb84f.js",
+    "main.js": "/cifras-de-chiquinho/static/js/main.67db69a7.js",
     "index.html": "/cifras-de-chiquinho/index.html",
     "main.3ca2a77b.css.map": "/cifras-de-chiquinho/static/css/main.3ca2a77b.css.map",
-    "main.923eb84f.js.map": "/cifras-de-chiquinho/static/js/main.923eb84f.js.map"
+    "main.67db69a7.js.map": "/cifras-de-chiquinho/static/js/main.67db69a7.js.map"
   },
   "entrypoints": [
     "static/css/main.3ca2a77b.css",
-    "static/js/main.923eb84f.js"
+    "static/js/main.67db69a7.js"
   ]
 }
