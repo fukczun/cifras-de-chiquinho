@@ -6,7 +6,7 @@ import Linha from "../components/Linha"
 function Home(props) {
     return (
         <div className="flex flex-row-reverse max-lg:flex-col-reverse justify-end min-h-screen bg-gradient-to-bl from-stone-900 to-red-800">
-            <div className="mx-auto">
+            <div className="mx-auto z-10">
                 <div className="flex flex-col gap-10 pt-5 *:mx-auto">
                     <h1 className="font-poppins text-5xl rounded-xl bg-white/10 text-white px-5 py-3">Cifras</h1>
                     <ul className="p-5 rounded-xl text-xl max-sm:text-lg *:bg-white/10 *:text-white *:rounded-xl *:px-5 *:py-0.5 *:mb-3">
@@ -17,7 +17,7 @@ function Home(props) {
                     </ul>
                 </div>
             </div>
-            <div className="absolute size-full max-lg:relative max-lg:ml-0 grid max-lg:block grid-cols-2 justify-items-center gap-x-[25rem]">
+            <div className="absolute size-full max-lg:relative max-lg:ml-0 grid max-lg:block grid-cols-2 justify-items-center gap-x-[25rem] z-0">
                 {Object.keys(repertorios).map((repertorio, index) => {
                     const cifrasRepertorio = repertorios[repertorio].cifras
                     const tituloRepertorio = repertorios[repertorio].titulo
