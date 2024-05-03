@@ -7,7 +7,15 @@ export const repertorios = {
         cifras: {
             oSenhorRessurgiu: getCifra(Object.assign({}, cifrasSemEstrutura.oSenhorRessurgiu), 'missaPascoa', 'oSenhorRessurgiu'),
             euConfesso: getCifra(Object.assign({}, cifrasSemEstrutura.euConfesso), 'missaPascoa', 'euConfesso'),
-            gloriaADeusNasAlturas: getCifra(Object.assign({}, cifrasSemEstrutura.gloriaADeusNasAlturas), 'missaPascoa', 'gloriaADeusNasAlturas')
+            gloriaADeusNasAlturas: getCifra(Object.assign({}, cifrasSemEstrutura.gloriaADeusNasAlturas), 'missaPascoa', 'gloriaADeusNasAlturas'),
+            aleluia: getCifra(Object.assign({}, cifrasSemEstrutura.aleluia), 'missaPascoa', 'aleluia'),
+            euCreioNumMundoNovo: getCifra(Object.assign({}, cifrasSemEstrutura.euCreioNumMundoNovo), 'missaPascoa', 'euCreioNumMundoNovo'),
+            santo: getCifra(Object.assign({}, cifrasSemEstrutura.santo), 'missaPascoa', 'santo'),
+            amem: getCifra(Object.assign({}, cifrasSemEstrutura.amem), 'missaPascoa', 'amem'),
+            cordeiroDeDeus: getCifra(Object.assign({}, cifrasSemEstrutura.cordeiroDeDeus), 'missaPascoa', 'cordeiroDeDeus'),
+            celebremosNossaPascoa: getCifra(Object.assign({}, cifrasSemEstrutura.celebremosNossaPascoa), 'missaPascoa', 'celebremosNossaPascoa'),
+            parabensPraVoce: getCifra(Object.assign({}, cifrasSemEstrutura.parabensPraVoce), 'missaPascoa', 'parabensPraVoce'),
+            quemEEssaQueAvancaComoAurora_AEscolhida: getCifra(Object.assign({}, cifrasSemEstrutura.quemEEssaQueAvancaComoAurora_AEscolhida), 'missaPascoa', 'quemEEssaQueAvancaComoAurora_AEscolhida')
         }
     },
     crisma: {

@@ -8,8 +8,8 @@ function Linha(props) {
 
     return (
         <li>
-            <main className={`flex justify-between gap-9 ${props.margim}`}>
-                <p className="text-white hover:text-gray-400 cursor-pointer" onClick={() => props.trocarPagina(<CifraPage chave={props.chave} trocarPagina={props.trocarPagina} estrutura={props.estrutura} />)}><u>{props.titulo}</u></p> <span>Tom: [ <button onClick={() => setViewDiv('caixa-tons', props.index)}><span className="text-white hover:text-gray-400">{props.tom}</span></button> ]</span>
+            <main className={`flex w-[23vw] max-sm:w-[80vw] justify-between ${props.margim} h-[2rem]`}>
+                <p className="text-white hover:text-gray-400 cursor-pointer w-[15rem] max-sm:w-[12rem] overflow-hidden whitespace-nowrap text-ellipsis" onClick={() => props.trocarPagina(<CifraPage chave={props.chave} trocarPagina={props.trocarPagina} estrutura={props.estrutura} />)}><u>{props.titulo}</u></p> <span>Tom: [ <button onClick={() => setViewDiv('caixa-tons', props.index)}><span className="text-white hover:text-gray-400">{props.tom}</span></button> ]</span>
             </main>
             <div className="caixa-tons hidden grid-cols-4 my-5 block">
                 {tons.map((nota, index) =>

@@ -24,7 +24,7 @@ function Home(props) {
                     return (
                         <div key={`repertorio-${index}`} className="flex flex-col min-w-[20rem] gap-10 pt-5 *:mx-auto *:bg-white/10 *:text-white">
                             <h1 className="font-poppins text-5xl px-5 py-3 rounded-xl text-center max-w-[70%] break-words">{tituloRepertorio}</h1>
-                            <ul className="p-5 rounded-xl text-xl">
+                            <ul className="p-5 rounded-xl text-xl max-sm:text-lg">
                                 {Object.keys(cifrasRepertorio).map((cifraNome, indexCifra) => {
                                     const cifra = cifrasRepertorio[cifraNome]
                                     const keys = Object.keys(repertorios);

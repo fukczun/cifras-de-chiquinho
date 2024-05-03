@@ -1,5 +1,5 @@
 import { getLetra, getAcordes, getCifra } from "../assets/cifras"
-import { canticoDeAdoracao, dancaDaAmizade, euConfesso, euNavegarei, euSouDoSenhor, gloriaADeusNasAlturas, molimMolim, oCeuSeAbre, oSenhorRessurgiu, passaFogo, pescadorDeCristo, pipoca, ruah } from "./letras"
+import { aleluia, amem, canticoDeAdoracao, celebremosNossaPascoa, cordeiroDeDeus, dancaDaAmizade, euConfesso, euCreioNumMundoNovo, euNavegarei, euSouDoSenhor, gloriaADeusNasAlturas, molimMolim, oCeuSeAbre, oSenhorRessurgiu, parabensPraVoce, passaFogo, pescadorDeCristo, pipoca, quemEEssaQueAvancaComoAurora_AEscolhida, ruah, santo } from "./letras"
 
 const acordes = {
     molimMolim: getAcordes(molimMolim, ['G', 'Em', 'C', 'D', '(D7)']),
@@ -14,7 +14,15 @@ const acordes = {
     oCeuSeAbre: getAcordes(oCeuSeAbre, ['B', 'D#m', 'E', 'A', 'F#4', 'F#', 'C#m', 'B7M', 'B/D#', 'E7M', 'G#m']),
     oSenhorRessurgiu: getAcordes(oSenhorRessurgiu, ['B', 'D#m7', 'E', 'C#m', 'F#', '(F#4)', '(F#)', 'D#m', 'G#m', 'G#m7', 'B7', 'C#7']),
     euConfesso: getAcordes(euConfesso, ['Am', 'Dm', 'E', 'G7', 'Dm7', 'E7', 'C', 'G/B', '(A7)', '(E7)']),
-    gloriaADeusNasAlturas: getAcordes(gloriaADeusNasAlturas, ['Dm', 'C', 'A', '(A7)', 'F', 'A7', 'C', '(Bb)', 'Gm', 'Bb', '(A)'])
+    gloriaADeusNasAlturas: getAcordes(gloriaADeusNasAlturas, ['Dm', 'C', 'A', '(A7)', 'F', 'A7', 'C', '(Bb)', 'Gm', 'Bb', '(A)']),
+    aleluia: getAcordes(aleluia, ['A', '(A7)', 'D', 'E', 'F#m', 'C#m', 'Bm', '(E7)']),
+    euCreioNumMundoNovo: getAcordes(euCreioNumMundoNovo, ['A', 'E', '(A)', 'D', 'B', '(E7)']),
+    santo: getAcordes(santo, ['A', 'F#m','D', 'E', '(E7)']),
+    amem: getAcordes(amem, ['(D)', 'D#º','Em', 'C', 'G', 'D7', 'D', '(Em)']),
+    cordeiroDeDeus: getAcordes(cordeiroDeDeus, ['Dm', 'A7', 'D7', 'Gm', 'C', 'F', 'Bb', '(A7)']),
+    celebremosNossaPascoa: getAcordes(celebremosNossaPascoa, ['Am', 'Dm', 'E', 'F']),
+    parabensPraVoce: getAcordes(parabensPraVoce, ['E', 'B7', 'A', 'Am', 'E7', 'C#m', 'F#m', '(E7)']),
+    quemEEssaQueAvancaComoAurora_AEscolhida: getAcordes(quemEEssaQueAvancaComoAurora_AEscolhida, ['D', 'A', 'Bm', 'G', 'F#m', 'E', '(A7)', '(Bm)', 'A7', '(A)'])
 }
 
 export const cifrasSemEstrutura = {
@@ -121,6 +129,73 @@ export const cifrasSemEstrutura = {
         letra: getLetra(gloriaADeusNasAlturas, acordes.gloriaADeusNasAlturas),
         acordes: acordes.gloriaADeusNasAlturas,
         isRelativa: true
+    },
+    aleluia: {
+        titulo: 'Aleluia',
+        autor: 'Músicas Católicas',
+        tomPadrao: 'A',
+        letra: getLetra(aleluia, acordes.aleluia),
+        acordes: acordes.aleluia,
+        isRelativa: false
+    },
+    euCreioNumMundoNovo: {
+        titulo: 'Eu Creio Num Mundo Novo',
+        autor: 'Músicas Católicas',
+        tomPadrao: 'A',
+        letra: getLetra(euCreioNumMundoNovo, acordes.euCreioNumMundoNovo),
+        acordes: acordes.euCreioNumMundoNovo,
+        isRelativa: false
+    },
+    santo: {
+        titulo: 'Santo',
+        autor: 'Músicas Católicas',
+        tomPadrao: 'A',
+        letra: getLetra(santo, acordes.santo),
+        acordes: acordes.santo,
+        isRelativa: false
+    },
+    amem: {
+        titulo: 'Amém',
+        autor: 'Músicas Católicas',
+        tomPadrao: 'Em',
+        letra: getLetra(amem, acordes.amem),
+        acordes: acordes.amem,
+        isRelativa: true,
+        preparacao: 'D'
+    },
+    cordeiroDeDeus: {
+        titulo: 'Cordeiro de Deus',
+        autor: 'Paulo Roberto',
+        tomPadrao: 'Em',
+        letra: getLetra(cordeiroDeDeus, acordes.cordeiroDeDeus),
+        acordes: acordes.cordeiroDeDeus,
+        isRelativa: true,
+    },
+    celebremosNossaPascoa: {
+        titulo: 'Celebremos Nossa Páscoa',
+        autor: 'CNBB',
+        tomPadrao: 'Am',
+        letra: getLetra(celebremosNossaPascoa, acordes.celebremosNossaPascoa),
+        acordes: acordes.celebremosNossaPascoa,
+        isRelativa: true,
+    },
+    parabensPraVoce: {
+        titulo: 'Parabéns Pra Você',
+        autor: 'Músicas Católicas',
+        tomPadrao: 'E',
+        letra: getLetra(parabensPraVoce, acordes.parabensPraVoce),
+        acordes: acordes.parabensPraVoce,
+        isRelativa: false,
+        preparacao: 'E'
+    },
+    quemEEssaQueAvancaComoAurora_AEscolhida: {
+        titulo: 'Quem É Essa Que Avanca Como Aurora/ A Escolhida (pout-porri)',
+        autor: 'Músicas de Chiquinho',
+        tomPadrao: 'D',
+        letra: getLetra(quemEEssaQueAvancaComoAurora_AEscolhida, acordes.quemEEssaQueAvancaComoAurora_AEscolhida),
+        acordes: acordes.quemEEssaQueAvancaComoAurora_AEscolhida,
+        isRelativa: false,
+        preparacao: 'E'
     },
 }
 

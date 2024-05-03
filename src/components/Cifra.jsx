@@ -17,7 +17,7 @@ function Cifra(props) {
                 <SetasTom chave={props.chave} acordes={acordes} setAcordes={setAcordes} letra={letra} setLetra={setLetra} tomAtual={tom} setTom={setTom} isRelativa={props.isRelativa} />
                 <ButtonRoll />
             </div>
-            <p className="mb-5">Preparação: [ <span className="text-orange-900">{getPreparacao(acordes[0])}</span> ]</p>
+            <p className="mb-5">Preparação: [ <span className="text-orange-900">{getPreparacao(acordes[0], props.preparacao, props.tomPadrao, tom)}</span> ]</p>
             <pre className="*:block max-sm:w-min">
                 {letra}
             </pre>

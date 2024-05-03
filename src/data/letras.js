@@ -511,3 +511,311 @@ C
 Amém! Amém!
 Dm F Gm (A) Dm
 Aaaaaaaaaaaamém`
+
+export const aleluia = 
+`[Refrão]
+
+A                (A7)
+Aleluia, aleluia
+D
+Aleluia, aleluia!
+     A      E          A
+Aleluia, aleluia, aleluia
+    D        A
+Aleluia, aleluia
+    E         A
+Aleluia, aleluia! 
+
+[4º Domingo da Páscoa]
+
+   F#m                        C#m
+Eu sou o bom pastor, diz o senhor 
+      Bm               D                  Bm      E   (E7) 
+Eu conheço as minhas ovelhas e elas me conhecem a mim`
+
+export const euCreioNumMundoNovo = 
+`     A                         E             A
+Eu creio num mundo novo pois Cristo ressuscitou!
+    A                       E              A
+Eu vejo sua luz no povo por isso alegre estou!
+    E             A          E          A
+Em toda pequena oferta,  na força da união
+(A)  D              A         B             E  (E7)
+No  pobre que se liberta, eu vejo ressurreição!
+
+     A                         E             A
+Eu creio num mundo novo pois Cristo ressuscitou!
+    A                       E              A
+Eu vejo sua luz no povo por isso alegre estou!
+    E                A        E             A
+Na mão que foi estendida, no dom da libertação
+(A) D              A        B             E  (E7)
+Nascendo uma nova vida, eu vejo ressurreição!
+
+     A                         E             A
+Eu creio num mundo novo pois Cristo ressuscitou!
+    A                       E              A
+Eu vejo sua luz no povo por isso alegre estou!
+      E          A        E              A
+Nas flores oferecidas e quando se dá perdão
+(A) D             A         B             E  (E7)
+Nas dores compadecidas, eu vejo ressurreição!
+
+     A                         E             A
+Eu creio num mundo novo pois Cristo ressuscitou!
+    A                       E              A
+Eu vejo sua luz no povo por isso alegre estou!
+     E                 A         E                   A
+Nos homens que estão unidos/ com outros, partindo o pão
+(A)   D            A         B             E  (E7)
+Nos fracos fortalecidos, eu vejo ressurreição!
+
+     A                         E             A
+Eu creio num mundo novo pois Cristo ressuscitou!
+    A                       E              A
+Eu vejo sua luz no povo por isso alegre estou!`
+
+export const santo = 
+`[Primeira Parte]
+
+ A            F#m
+Santo, Santo, Santo
+ D                  E
+Senhor, Deus do universo
+   A                F#m
+O céu e a terra proclamam
+   D         E (E7)
+A Vossa glória
+
+[Refrão]
+
+   A          F#m       D E
+Hosa-na nas alturas, Hosana
+   A          F#m       D E (E7)
+Hosa-na nas alturas, Hosana
+
+    A         F#m
+Bendito o que vem
+    D          E
+Em nome do Senhor
+    A         F#m
+Bendito o que vem
+    D          E (E7)
+Em nome do Senhor
+
+[Refrão]
+
+   A          F#m       D E
+Hosa-na nas alturas, Hosana
+   A          F#m       D E (E7)
+Hosa-na nas alturas, Hosana`
+
+export const amem = 
+`D#º       Em         C         G         D7
+A________mém, a--a--mém a--a--mém, a--a--mém
+D#º       Em         C         G          D  (Em)
+A________mém, a--a--mém a--a--mém, a--a--mém`
+
+export const cordeiroDeDeus = 
+`    Dm       A7         Dm       D7
+Cordeiro de Deus que tirais o pecado
+   Gm    A7
+do mun...do
+Dm  D7     Gm    C        F C
+Tende  piedade, tende piedade, 
+ Dm      Gm        Bb  A7 Dm (A7)
+tende piedade, piedade de nós
+
+    Dm       A7         Dm       D7
+Cordeiro de Deus que tirais o pecado
+   Gm    A7
+do mun...do
+Dm  D7     Gm    C        F C
+Tende  piedade, tende piedade, 
+ Dm      Gm        Bb  A7 Dm (A7)
+tende piedade, piedade de nós
+
+Dm       A7         Dm       D7
+Cordeiro de Deus que tirais o pecado
+   Gm    A7
+do mun...do
+ Dm  D7    Gm   C         F C
+Daí-nos a paz, daí-nos a paz
+ Dm        Gm              Bb  A7  Dm
+Daí-nos a paz Senhor...  a vossa  paz`
+
+export const celebremosNossaPascoa = 
+`    Am           Dm     
+Celebremos nossa Páscoa!
+      E          Am 
+Na pureza, na verdade
+    Dm       E   Am
+Aleluia, aleluuuuia!
+
+     Am                           Dm       
+Dai graças ao Senhor, pois ele é bom!
+   F                 E
+"Eterna é sua misericórdia!"
+
+     Am           Dm     
+Celebremos nossa Páscoa!
+      E          Am 
+Na pureza, na verdade
+    Dm       E   Am
+Aleluia, aleluuuuia!
+
+        Am                       Dm  
+A mão direita do Senhor fez maravilhas
+         F                       E
+A mão direita do Senhor me levantou!
+
+     Am           Dm     
+Celebremos nossa Páscoa!
+      E          Am 
+Na pureza, na verdade
+    Dm       E   Am
+Aleluia, aleluuuuia!
+
+         Am                          Dm  
+Não morrerei, mas ao contrário, viverei
+         F                          E
+Para cantar as grandes obras do Senhor
+
+     Am           Dm     
+Celebremos nossa Páscoa!
+      E          Am 
+Na pureza, na verdade
+    Dm       E   Am
+Aleluia, aleluuuuia!
+
+  Am                          Dm  
+A pedra que os pedreiros rejeitaram
+            F                E
+Tornou-se agora a pedra angular
+
+     Am           Dm     
+Celebremos nossa Páscoa!
+      E          Am 
+Na pureza, na verdade
+    Dm       E   Am
+Aleluia, aleluuuuia!
+
+         Am                         Dm  
+Este é o dia que o Senhor fez para nós
+     F                   E
+Alegremo-nos e nele exultemos
+
+     Am           Dm     
+Celebremos nossa Páscoa!
+      E          Am 
+Na pureza, na verdade
+    Dm       E   Am
+Aleluia, aleluuuuia!`
+
+export const parabensPraVoce = 
+`    E         B7
+Parabéns pra você
+       A B7    E
+Nesta data querida
+        E7    A Am
+Muitas felicidades
+       E B7     E
+Muitos anos de vida
+
+       E         B7
+Que Jesus te abençoe
+       A B7     E
+Nessa nossa oração
+       E7      A Am
+Que Maria te guarde
+        E B7   E
+Dentro do coração
+
+    A          B7
+Derrama, oh Senhor
+    E       C#m
+Derrama, Senhor
+   F#m        B7             E (E7)
+Derrama sobre ele(a) o Seu amor
+
+           E
+O nosso irmão será abençoado(a)
+             B7
+Porque o Senhor
+                     E (E7)
+Vai derramar o Seu amor`
+
+export const quemEEssaQueAvancaComoAurora_AEscolhida = 
+`[Quem É Essa Que Avança Como Aurora]
+
+       D          A           Bm   G  A
+Quem é esta que avança como aurora
+   D           A                    Bm    G  A
+Temível como exército em ordem de batalha
+     D            A           Bm  G  A
+Brilhante como o sol e como a lua
+     D          A                Bm   G
+Mostrando os caminhos aos filhos seus
+
+A      D         A                     Bm  G  A
+Ah,ah, ah, minha alma glorifica ao senhor
+D         A       Bm  G
+  Meu espírito exulta
+A     D       A              Bm  G  A
+Ah,ah,ah, em Deus, meu Salvador
+D     A              Bm  G  A
+  Em Deus, meu Salvador
+  
+[A Escolhida]
+
+D                     A
+Uma entre todas foi a escolhida
+ Bm                     F#m
+Foste tu Maria a serva preferida
+ G             D
+Mãe do meu Senhor
+ E              A  (A7)
+Mãe do meu salvador
+
+   D     G        A         D (Bm)
+Maria, cheia de graça e consolo
+ G      A7              D (A) (Bm)
+Venha caminhar com teu poooOooovo
+ G         A        D  (A7)
+Nossa mãe sempre será
+
+   D     G        A         D (Bm)
+Maria, cheia de graça e consolo
+ G         A7           D (A) (Bm)  
+Venha caminhar com teu poooOooovo
+ G         A        D  (A7)
+Nossa mãe sempre será
+
+ D                    A
+Roga pelos pecadores desta Terra
+ Bm                       F#m
+Roga pelo povo que em seu Deus espera
+ G             D
+Mãe do meu Senhor
+ E              A  (A7)
+Mãe do meu salvador
+
+   D     G        A         D (Bm) 
+Maria, cheia de graça e consolo
+ G     A7               D (A) (Bm)
+Venha caminhar com teu poooOooovo
+ G         A        D  (A7)
+Nossa mãe sempre será
+
+   D     G        A         D (Bm)
+Maria, cheia de graça e consolo
+ G        A7            D (A) (Bm)
+Venha caminhar com teu poooOooovo
+ G         A        D 
+Nossa mãe sempre será
+
+G         A        D (A) (Bm) 
+Nossa mãe sempre seráááÁááááá
+
+G         A        D 
+Nossa mãe sempre será`

@@ -48,12 +48,12 @@ function CifraPage(props) {
         <section className="cifra-page flex relative flex-wrap content-start justify-center bg-gradient-to-bl from-stone-900 to-red-800 min-w-min min-h-screen max-sm:min-h-min max-sm:w-min py-5 max-sm:py-0 items-center" onKeyDown={handleKeyDown} tabIndex={-1}>
             <div className="cifra-page-sm relative w-min min-w-[33rem] mx-auto bg-gray-100/50 py-3 px-4 max-sm:px-2 max-sm:w-screen max-sm:min-w-0 max-sm:min-h-screen rounded-xl max-sm:rounded-none">
                 <header className="font-poppins z-0">
-                    <h1 className="text-4xl max-sm:text-2xl max-xs:text-xl max-2xs:text-base max-w-[70%] ">{cifras[props.chave].titulo}</h1>
+                    <h1 className="text-4xl max-sm:text-2xl max-xs:text-xl max-2xs:text-base max-w-[80%] max-sm:max-w-[70%] ">{cifras[props.chave].titulo}</h1>
                     <h2 className="text-2xl max-sm:text-lg max-xs:text-base max-2xs:text-xs">{cifras[props.chave].autor}</h2>
                 </header>
                 <ButtonReturn onclick={() => props.trocarPagina(<Home trocarPagina={props.trocarPagina} />)} />
                 <div className="max-sm:text-xs max-xs:text-[0.6rem] max-2xs:text-[0.5rem]">
-                    <Cifra acordes={cifrasRepertorios[props.chave].acordes} letra={cifrasRepertorios[props.chave].letra} chave={props.chave} tom={cifrasRepertorios[props.chave].tom} tomPadrao={cifrasRepertorios[props.chave].tomPadrao} isRelativa={cifrasRepertorios[props.chave].isRelativa} />
+                    <Cifra acordes={cifrasRepertorios[props.chave].acordes} letra={cifrasRepertorios[props.chave].letra} chave={props.chave} tom={cifrasRepertorios[props.chave].tom} tomPadrao={cifrasRepertorios[props.chave].tomPadrao} isRelativa={cifrasRepertorios[props.chave].isRelativa} preparacao={cifrasRepertorios[props.chave].preparacao} />
                 </div>
             </div>
             <div className="scrool items-center justify-evenly hidden fixed bg-neutral-600/60 w-[30%] max-sm:w-[75%] h-[4%] rounded-lg">

@@ -18,12 +18,24 @@ function tomResto(acorde, tons) {
     else if (acorde.includes('8')) return dividirAcorde(acorde, '8')
     else if (acorde.includes('7')) return dividirAcorde(acorde, '7')
     else if (acorde.includes('4')) return dividirAcorde(acorde, '4')
+    else if (acorde.includes('º')) return dividirAcorde(acorde, 'º')
     return [acorde, '']
 }
 
-export function getPreparacao(primeiroAcorde) {
+export function getPreparacao(primeiroAcorde, preparacao, tomAtual, novoTom) {
     const tons = getTons()
     const quantTons = tons.length
+    if (preparacao) {
+        const [tomTomAtual, ] = tomResto(tomAtual, tons)
+        const [tomNovoTom, ] = tomResto(novoTom, tons)
+
+        const tomAtualIndex = tons.indexOf(tomTomAtual)
+        const novoTomIndex = tons.indexOf(tomNovoTom)
+        const diferenca = novoTomIndex - tomAtualIndex
+        
+        const preparacaoIndex = tons.indexOf(preparacao)
+        return tons[((preparacaoIndex + diferenca) % quantTons)%quantTons]
+    }
     const [tom,] = tomResto(primeiroAcorde, tons)
     const primeiroAcordeIndex = tons.indexOf(tom)
     return tons[(primeiroAcordeIndex - 5 + quantTons) % quantTons] + '7'
