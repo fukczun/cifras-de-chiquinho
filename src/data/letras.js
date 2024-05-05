@@ -358,114 +358,115 @@ Hoje eu posso ser um novo homem
 Pelo teu poder renascer`
 
 export const oSenhorRessurgiu = 
-`[Refrão]
+`
+{CAPO:4CASA; TOM:B}
+[Refrão]
 
-      B           D#m7  E        B
+      B                 E        B
 O Senhor ressurgiu, aleluia, aleluia!
-        E          C#m            F#   (F#4) (F#)
+        E                         F#
 É o Cordeiro Pascal, aleluia, aleluia!
-    B          D#m7  E        B
+    B                E        B
 Imolado por nós, aleluia, aleluia!
-      E          C#m      D#m       C#m      E  B
+      E                                        B
 É o Cristo, o Senhor, ele vive e venceu, aleluia!
 
-      G#m        F#         D#m
+      G#m                   F#  
 1. O Cristo, Senhor ressuscitou
-  C#m                  G#m7 F#
+   E                   G#m
 A nossa esperança realizou
-    B       B7        E
+    B                 E
 Vencida a morte para sempre
-   C#7                F#   (F#4) (F#)
+  C#m                F#
 Triunfa a vida eternamente!
 
 [Refrão]
 
-B           D#m7  E        B
+      B                 E        B
 O Senhor ressurgiu, aleluia, aleluia!
-        E          C#m            F#   (F#4) (F#)
+        E                         F#
 É o Cordeiro Pascal, aleluia, aleluia!
-    B          D#m7  E        B
+    B                E        B
 Imolado por nós, aleluia, aleluia!
-      E          C#m      D#m       C#m      E  B
+      E                                      E B
 É o Cristo, o Senhor, ele vive e venceu, aleluia!
 
-      G#m      F#          D#m
+      G#m                
 2. O Cristo remiu a seus irmãos
-   C#m                     G#m7 F#
+   E                     
 Ao Pai os conduziu por sua mão
-      B       B7           E
+      B                 
 No Espírito Santo unida esteja
-    C#7                       F#   (F#4) (F#)
+    E                      
 A família de Deus, que é a Igreja!
 
 [Refrão]
 
-B           D#m7  E        B
+      B                 E        B
 O Senhor ressurgiu, aleluia, aleluia!
-        E          C#m            F#   (F#4) (F#)
+        E                         F#
 É o Cordeiro Pascal, aleluia, aleluia!
-    B          D#m7  E        B
+    B                E        B
 Imolado por nós, aleluia, aleluia!
-      E          C#m      D#m       C#m      E  B
+      E                                      E B
 É o Cristo, o Senhor, ele vive e venceu, aleluia!
 
-      G#m           F#           D#m
+      G#m                      
 3. O Cristo, nossa Páscoa, se imolou
-    C#m                    G#m7 F#
+    E                   
 Seu sangue da morte nos livrou
-   B         B7         E
+   B                  
 Incólumes o mar atravessamos
-     C#7                  F#   (F#4) (F#)
+     E                  
 E à Terra prometida caminhamos!
 
 [Refrão]
 
-B           D#m7  E        B
+      B                 E        B
 O Senhor ressurgiu, aleluia, aleluia!
-        E          C#m            F#   (F#4) (F#)
+        E                         F#
 É o Cordeiro Pascal, aleluia, aleluia!
-    B          D#m7  E        B
+    B                E        B
 Imolado por nós, aleluia, aleluia!
-      E          C#m      D#m       C#m      E  B
+      E                                      E B
 É o Cristo, o Senhor, ele vive e venceu, aleluia!`
-
 export const euConfesso = 
-`       Am     Dm        E     Am
+`       Am     Dm      (E)    Am
 Eu confesso a Deus e a vós irmãos
-       Dm       G7           Am 
+       Dm        G           Am 
 Tantas vezes pequei, não fui fiel
-     Dm7            E7      C     G/B   Am   
+     Dm             E       C     (G)   Am   
 Pensamentos e palavras, atitudes e omissões
-          Dm     E7             Am    (A7)
+          Dm     E             Am    (A7)
 Por minha culpa,    tão grande culpa
 
 [Refrão]
 
-          Dm7    G7         C G/B Am 
+          Dm      G         C (G) Am 
 Senhor piedade, Cristo piedaaaaaaade,
        Dm   E    Am  (A7) 
 tem piedade ó Senhor
-          Dm7    G7         C G/B Am 
+          Dm      G         C (G) Am 
 Senhor piedade, Cristo piedaaaaaaade,
-       Dm   E    Am  (E7) 
+       Dm   E    Am  (E) 
 tem piedade ó Senhor
 
-       Am       Dm    E    Am
+       Am       Dm   (E)   Am
 Peço à Virgem Maria, nossa mãe
-    Dm          G7               Am 
+    Dm          G                Am 
 E a vós meus irmãos, rogueis por mim
-       Dm7             E7           C        G/B  Am   
+       Dm              E            C       (G)  Am   
 A Deus pai que nos perdoa e nos sustenta em suas mãos
-          Dm7  E7             Am   (A7)
+          Dm   E              Am   (A7)
 Por seu amor,     tão grande amor
 
 [Refrão]
 
-          Dm7    G7         C G/B Am 
+          Dm      G         C (G) Am 
 Senhor piedade, Cristo piedaaaaaaade,
        Dm   E    Am  (A7) 
 tem piedade ó Senhor
-          Dm7    G7         C G/B Am 
+          Dm      G         C (G) Am 
 Senhor piedade, Cristo piedaaaaaaade,
        Dm   E    Am 
 tem piedade ó Senhor`
@@ -537,14 +538,16 @@ Aleluia, aleluia
     E         A
 Aleluia, aleluia! 
 
-[4º Domingo da Páscoa]
+[6º Domingo da Páscoa]
 
-   F#m                        C#m
-Eu sou o bom pastor, diz o senhor 
-      Bm               D     
-Eu conheço as minhas ovelhas
-              Bm      E   (E7) 
-e elas me conhecem a mim`
+        F#m
+Quem me ama realmente
+                 C#m
+guardará minha palavra 
+               Bm               
+E meu pai o amará
+             E  
+e ele nós viremos`
 
 export const euCreioNumMundoNovo = 
 `     A                         E             A
@@ -620,41 +623,42 @@ Em nome do Senhor
 
    A          F#m       D E
 Hosa-na nas alturas, Hosana
-   A          F#m       D E (E7)
+   A          F#m       D E (A)
 Hosa-na nas alturas, Hosana`
 
 export const amem = 
-`D#º       Em         C         G         D7
+`D         Em         C         G         D7
 A________mém, a--a--mém a--a--mém, a--a--mém
-D#º       Em         C         G          D  (Em)
+D         Em         C         G          D  (Em)
 A________mém, a--a--mém a--a--mém, a--a--mém`
 
 export const cordeiroDeDeus = 
-`    Dm       A7         Dm       D7
+`{CAPO:5CASA; TOM:Dm}
+    Dm
 Cordeiro de Deus que tirais o pecado
-   Gm    A7
+   Gm    A
 do mun...do
-Dm  D7     Gm    C        F C
+ Dm        Gm    C        Dm
 Tende  piedade, tende piedade, 
- Dm      Gm        Bb  A7 Dm (A7)
+         Gm          A     Dm (A7)
 tende piedade, piedade de nós
 
-    Dm       A7         Dm       D7
+    Dm
 Cordeiro de Deus que tirais o pecado
-   Gm    A7
+   Gm    A
 do mun...do
-Dm  D7     Gm    C        F C
+ Dm        Gm    C        Dm
 Tende  piedade, tende piedade, 
- Dm      Gm        Bb  A7 Dm (A7)
+         Gm          A     Dm (A7)
 tende piedade, piedade de nós
 
-Dm       A7         Dm       D7
+    Dm
 Cordeiro de Deus que tirais o pecado
-   Gm    A7
+   Gm    A
 do mun...do
- Dm  D7    Gm   C         F C
+ Dm        Gm   C         Dm
 Daí-nos a paz, daí-nos a paz
- Dm        Gm              Bb  A7  Dm
+           Gm               A     Dm
 Daí-nos a paz Senhor...  a vossa  paz`
 
 export const celebremosNossaPascoa = 
@@ -726,7 +730,8 @@ Na pureza, na verdade
 Aleluia, aleluuuuia!`
 
 export const parabensPraVoce = 
-`    E         B7
+`{CAPO:2CASA; TOM:E}
+    E         B7
 Parabéns pra você
        A B7    E
 Nesta data querida
@@ -744,9 +749,9 @@ Que Maria te guarde
         E B7   E
 Dentro do coração
 
-    A          B7
+    A 
 Derrama, oh Senhor
-    E       C#m
+    E
 Derrama, Senhor
    F#m        B7             E (E7)
 Derrama sobre ele(a) o Seu amor
@@ -834,91 +839,112 @@ G         A        D
 Nossa mãe sempre será`
 
 export const benditoSejasOReiDaGloria = 
-`  Dm      A7     Dm A#      A7
+`{CAPO:5CASA; TOM:Dm}
+   Dm      A     Dm          A
 1-Bendito sejas, ó  Rei da glória
- F      Gm    C7          F  (C)
+ F      Gm     C          F
 Ressuscitado, Senhor da Igreja
-Dm      Gm                A#  A7  D  (A7)
+Dm      Gm                A       D
 Aqui trazemos as nossas ofer.....tas
 
- D          G      D        E7      A7
+ D          G      D                A
 Vê com bons olhos nossas humildes ofertas
- D         G  Gm    D       A7        Dm
+ D          G       D        A        Dm
 Tudo o que te.mos, seja pra Ti, ó Senhor
 
-   Dm          A7     Dm   A#     A7
+    Dm         A      Dm          A
 2- Vidas se encontram no altar de Deus
-F        Gm    C7          F  (C)
+ F       Gm    C           F
 Gente se doa, Dom que se imola
-Dm      Gm                A#  A7  D  (A7)
+Dm      Gm                A       D
 Aqui trazemos as nossas ofer.....tas
 
- D          G      D        E7      A7
+ D          G      D                A
 Vê com bons olhos nossas humildes ofertas
- D         G  Gm    D       A7        Dm
+ D          G       D        A        Dm
 Tudo o que te.mos, seja pra Ti, ó Senhor
 
-  Dm        A7     Dm  A#     A7
+  Dm         A     Dm         A
 3-Irmãos da terra, irmãos do céu
- F        Gm     C7           F  (C)
+ F        Gm      C           F
 Juntos cantemos glória ao Senhor
-Dm      Gm                A#  A7  D  (A7)
+Dm      Gm                A       D
 Aqui trazemos as nossas ofer.....tas
 
- D          G      D        E7      A7
+ D          G      D                A
 Vê com bons olhos nossas humildes ofertas
- D         G  Gm    D       A7        Dm
+ D          G       D        A        Dm
 Tudo o que te.mos, seja pra Ti, ó Senhor`
 
 export const gloriaADeusNosAltosCeus = 
 ` D                          
 Glória a Deus nos altos céus,
-       (Bm)          Em
+                     Em
 paz na terra a seus amados
-                    D            E7          A
+                    D             E          A
 A vós louvam rei celeste, os que foram libertados!
   D             G          
 Glória a Deus, lá nos céus,
-    D       A       D   (A7)
+    D       A       D  
  e paz aos seus a--mém!
 
- D                              (Bm)        Em
+ D                                          Em
 Deus e Pai nós vos louvamos, adoramos bendizemos
-                       D           E7           A
+                       D            E            A
 Damos glória ao vosso nome, vossos dons agradece|--mos!
   D             G          
 Glória a Deus, lá nos céus,
-    D       A       D   (A7)
+    D       A       D 
  e paz aos seus a--mém!
 
- D                            (Bm)      Em
+ D                                      Em
 Senhor nosso Jesus Cristo, unigênito do Pai
-                      D            E7           A
+                      D             E            A
 Vós de Deus cordeiro santo, nossas culpas perdoa---ai!
   D             G          
 Glória a Deus, lá nos céus,
-    D       A       D   (A7)
+    D       A       D  
  e paz aos seus a--mém!
 
- D                                 (Bm)          Em
+ D                                               Em
 Vós, que estais junto do Pai, como nosso intercessor
-                  D          E7             A
+                  D          E              A
 Acolhei nossos pedidos, atendei nosso clamo---or!
   D             G          
 Glória a Deus, lá nos céus,
-    D       A       D   (A7)
+    D       A       D
  e paz aos seus a--mém!
 
- D                            (Bm)         Em
+ D                                         Em
 Vós somente sois o santo, o altíssimo o Senhor
-                D           E7             A
+                D            E              A
 Com espirito divino de Deus Pai no esplendo---or!
 
   D             G          
 Glória a Deus, lá nos céus,
-    D       A       D   (A7)
+    D       A       D  
  e paz aos seus a--mém!
   D             G          
 Glória a Deus, lá nos céus,
     D       A       D
  e paz aos seus a--mém!`
+
+export const quemEEssaQueAvancaComoAurora = 
+`{CAPO:2CASA; TOM:D}
+      D          A           Bm 
+Quem é esta que avança como aurora
+  D           A                    Bm
+Temível como exército em ordem de batalha
+    D            A           Bm
+Brilhante como o sol e como a lua
+    D          A                Bm 
+Mostrando os caminhos aos filhos seus
+
+A      D         A                     Bm 
+Ah,ah, ah, minha alma glorifica ao senhor
+D         A       Bm 
+  Meu espírito exulta
+A     D       A              Bm 
+Ah,ah,ah, em Deus, meu Salvador
+D     A              Bm
+  Em Deus, meu Salvador`
