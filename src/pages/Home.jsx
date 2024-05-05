@@ -5,7 +5,7 @@ import Linha from "../components/Linha"
 
 function Home(props) {
     return (
-        <div className="flex flex-row-reverse max-lg:flex-col-reverse justify-end min-h-screen bg-gradient-to-bl from-stone-900 to-red-800">
+        <div className="home flex flex-row-reverse max-lg:flex-col-reverse justify-end min-h-screen bg-gradient-to-bl from-stone-900 to-red-800">
             <div className="mx-auto z-10">
                 <div className="flex flex-col gap-10 pt-5 *:mx-auto">
                     <h1 className="font-poppins text-5xl rounded-xl bg-white/10 text-white px-5 py-3">Cifras</h1>

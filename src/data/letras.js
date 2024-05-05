@@ -457,7 +457,18 @@ E a vós meus irmãos, rogueis por mim
        Dm7             E7           C        G/B  Am   
 A Deus pai que nos perdoa e nos sustenta em suas mãos
           Dm7  E7             Am   (A7)
-Por seu amor,     tão grande amor`
+Por seu amor,     tão grande amor
+
+[Refrão]
+
+          Dm7    G7         C G/B Am 
+Senhor piedade, Cristo piedaaaaaaade,
+       Dm   E    Am  (A7) 
+tem piedade ó Senhor
+          Dm7    G7         C G/B Am 
+Senhor piedade, Cristo piedaaaaaaade,
+       Dm   E    Am 
+tem piedade ó Senhor`
 
 export const gloriaADeusNasAlturas = 
 `
@@ -530,8 +541,10 @@ Aleluia, aleluia!
 
    F#m                        C#m
 Eu sou o bom pastor, diz o senhor 
-      Bm               D                  Bm      E   (E7) 
-Eu conheço as minhas ovelhas e elas me conhecem a mim`
+      Bm               D     
+Eu conheço as minhas ovelhas
+              Bm      E   (E7) 
+e elas me conhecem a mim`
 
 export const euCreioNumMundoNovo = 
 `     A                         E             A
@@ -819,3 +832,93 @@ Nossa mãe sempre seráááÁááááá
 
 G         A        D 
 Nossa mãe sempre será`
+
+export const benditoSejasOReiDaGloria = 
+`  Dm      A7     Dm A#      A7
+1-Bendito sejas, ó  Rei da glória
+ F      Gm    C7          F  (C)
+Ressuscitado, Senhor da Igreja
+Dm      Gm                A#  A7  D  (A7)
+Aqui trazemos as nossas ofer.....tas
+
+ D          G      D        E7      A7
+Vê com bons olhos nossas humildes ofertas
+ D         G  Gm    D       A7        Dm
+Tudo o que te.mos, seja pra Ti, ó Senhor
+
+   Dm          A7     Dm   A#     A7
+2- Vidas se encontram no altar de Deus
+F        Gm    C7          F  (C)
+Gente se doa, Dom que se imola
+Dm      Gm                A#  A7  D  (A7)
+Aqui trazemos as nossas ofer.....tas
+
+ D          G      D        E7      A7
+Vê com bons olhos nossas humildes ofertas
+ D         G  Gm    D       A7        Dm
+Tudo o que te.mos, seja pra Ti, ó Senhor
+
+  Dm        A7     Dm  A#     A7
+3-Irmãos da terra, irmãos do céu
+ F        Gm     C7           F  (C)
+Juntos cantemos glória ao Senhor
+Dm      Gm                A#  A7  D  (A7)
+Aqui trazemos as nossas ofer.....tas
+
+ D          G      D        E7      A7
+Vê com bons olhos nossas humildes ofertas
+ D         G  Gm    D       A7        Dm
+Tudo o que te.mos, seja pra Ti, ó Senhor`
+
+export const gloriaADeusNosAltosCeus = 
+` D                          
+Glória a Deus nos altos céus,
+       (Bm)          Em
+paz na terra a seus amados
+                    D            E7          A
+A vós louvam rei celeste, os que foram libertados!
+  D             G          
+Glória a Deus, lá nos céus,
+    D       A       D   (A7)
+ e paz aos seus a--mém!
+
+ D                              (Bm)        Em
+Deus e Pai nós vos louvamos, adoramos bendizemos
+                       D           E7           A
+Damos glória ao vosso nome, vossos dons agradece|--mos!
+  D             G          
+Glória a Deus, lá nos céus,
+    D       A       D   (A7)
+ e paz aos seus a--mém!
+
+ D                            (Bm)      Em
+Senhor nosso Jesus Cristo, unigênito do Pai
+                      D            E7           A
+Vós de Deus cordeiro santo, nossas culpas perdoa---ai!
+  D             G          
+Glória a Deus, lá nos céus,
+    D       A       D   (A7)
+ e paz aos seus a--mém!
+
+ D                                 (Bm)          Em
+Vós, que estais junto do Pai, como nosso intercessor
+                  D          E7             A
+Acolhei nossos pedidos, atendei nosso clamo---or!
+  D             G          
+Glória a Deus, lá nos céus,
+    D       A       D   (A7)
+ e paz aos seus a--mém!
+
+ D                            (Bm)         Em
+Vós somente sois o santo, o altíssimo o Senhor
+                D           E7             A
+Com espirito divino de Deus Pai no esplendo---or!
+
+  D             G          
+Glória a Deus, lá nos céus,
+    D       A       D   (A7)
+ e paz aos seus a--mém!
+  D             G          
+Glória a Deus, lá nos céus,
+    D       A       D
+ e paz aos seus a--mém!`

@@ -1,5 +1,5 @@
 import { getLetra, getAcordes, getCifra } from "../assets/cifras"
-import { aleluia, amem, canticoDeAdoracao, celebremosNossaPascoa, cordeiroDeDeus, dancaDaAmizade, euConfesso, euCreioNumMundoNovo, euNavegarei, euSouDoSenhor, gloriaADeusNasAlturas, molimMolim, oCeuSeAbre, oSenhorRessurgiu, parabensPraVoce, passaFogo, pescadorDeCristo, pipoca, quemEEssaQueAvancaComoAurora_AEscolhida, ruah, santo } from "./letras"
+import { aleluia, amem, benditoSejasOReiDaGloria, canticoDeAdoracao, celebremosNossaPascoa, cordeiroDeDeus, dancaDaAmizade, euConfesso, euCreioNumMundoNovo, euNavegarei, euSouDoSenhor, gloriaADeusNasAlturas, gloriaADeusNosAltosCeus, molimMolim, oCeuSeAbre, oSenhorRessurgiu, parabensPraVoce, passaFogo, pescadorDeCristo, pipoca, quemEEssaQueAvancaComoAurora_AEscolhida, ruah, santo } from "./letras"
 
 const acordes = {
     molimMolim: getAcordes(molimMolim, ['G', 'Em', 'C', 'D', '(D7)']),
@@ -22,7 +22,9 @@ const acordes = {
     cordeiroDeDeus: getAcordes(cordeiroDeDeus, ['Dm', 'A7', 'D7', 'Gm', 'C', 'F', 'Bb', '(A7)']),
     celebremosNossaPascoa: getAcordes(celebremosNossaPascoa, ['Am', 'Dm', 'E', 'F']),
     parabensPraVoce: getAcordes(parabensPraVoce, ['E', 'B7', 'A', 'Am', 'E7', 'C#m', 'F#m', '(E7)']),
-    quemEEssaQueAvancaComoAurora_AEscolhida: getAcordes(quemEEssaQueAvancaComoAurora_AEscolhida, ['D', 'A', 'Bm', 'G', 'F#m', 'E', '(A7)', '(Bm)', 'A7', '(A)'])
+    quemEEssaQueAvancaComoAurora_AEscolhida: getAcordes(quemEEssaQueAvancaComoAurora_AEscolhida, ['D', 'A', 'Bm', 'G', 'F#m', 'E', '(A7)', '(Bm)', 'A7', '(A)']),
+    benditoSejasOReiDaGloria: getAcordes(benditoSejasOReiDaGloria, ['Dm', 'A7', 'A#', 'F', 'Gm', 'C7', '(C)', '(A7)', 'D', 'G', 'E7']),
+    gloriaADeusNosAltosCeus: getAcordes(gloriaADeusNosAltosCeus, ['D', '(Bm)', 'Em', 'E7', 'A', 'G', '(A7)']),
 }
 
 export const cifrasSemEstrutura = {
@@ -166,7 +168,7 @@ export const cifrasSemEstrutura = {
     cordeiroDeDeus: {
         titulo: 'Cordeiro de Deus',
         autor: 'Paulo Roberto',
-        tomPadrao: 'Em',
+        tomPadrao: 'Dm',
         letra: getLetra(cordeiroDeDeus, acordes.cordeiroDeDeus),
         acordes: acordes.cordeiroDeDeus,
         isRelativa: true,
@@ -196,6 +198,22 @@ export const cifrasSemEstrutura = {
         acordes: acordes.quemEEssaQueAvancaComoAurora_AEscolhida,
         isRelativa: false,
         preparacao: 'E'
+    },
+    benditoSejasOReiDaGloria: {
+        titulo: 'Bendito Sejas Ó Rei Da Glória',
+        autor: 'Ministério Theos Xadaí',
+        tomPadrao: 'Dm',
+        letra: getLetra(benditoSejasOReiDaGloria, acordes.benditoSejasOReiDaGloria),
+        acordes: acordes.benditoSejasOReiDaGloria,
+        isRelativa: true
+    },
+    gloriaADeusNosAltosCeus: {
+        titulo: 'Glória a Deus nos Altos Céus',
+        autor: 'Músicas Católicas',
+        tomPadrao: 'D',
+        letra: getLetra(gloriaADeusNosAltosCeus, acordes.gloriaADeusNosAltosCeus),
+        acordes: acordes.gloriaADeusNosAltosCeus,
+        isRelativa: true
     },
 }
 

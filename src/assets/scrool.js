@@ -20,6 +20,10 @@ function scroolScreen(inputRange) {
             clearInterval(scrollInterval)
         }
 
+        else if (document.getElementsByClassName('home')[0]) {
+            clearInterval(scrollInterval)
+        }
+
         else {
             if (currentScrollPosition < scrollTo) {
                 window.scrollBy(0, 1)
@@ -27,7 +31,9 @@ function scroolScreen(inputRange) {
             }
             currentScrollPosition = document.documentElement.scrollTop
 
-            if (currentScrollPosition >= scrollTo - 0.611) buttonPlay.innerText = '▷'
+            if (currentScrollPosition >= scrollTo - 1) {
+                buttonPlay.innerText = '▷'
+            }
 
             if (!divScrool.style.display) clearInterval(scrollInterval)
 

@@ -6,7 +6,7 @@ function App() {
   const [paginaAtual, setPaginaAtual] = useState(<Home trocarPagina={trocarPagina} />)
 
   function trocarPagina(pagina) {
-    setPaginaAtual(pagina);
+    setPaginaAtual(pagina)
   }
 
   return (
