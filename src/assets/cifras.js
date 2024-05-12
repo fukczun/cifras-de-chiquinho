@@ -1,3 +1,5 @@
+import { mudarTom } from "./tom"
+
 export function getCifra(cifra, estrutura, chave) {
     cifra.tom = getTom(cifra.tomPadrao, chave, estrutura)
     cifra.estrutura = estrutura
@@ -43,4 +45,14 @@ export function getAcordes(letra, acordes) {
         if (contemNotas) notasCifra = notasCifra.concat(linhas[i].split(/\s+/))
     }
     return Array.from(new Set(notasCifra)).filter(notaCifra => notaCifra)
+}
+
+export function simplificarCifra(letra, setLetra, acordes, setAcordes, tipo, setTipo) {
+    const buttonSimplificar = document.getElementsByClassName('simplificar')[0]
+    const novoTipo = tipo === 0 ? 1 : 0
+
+    setLetra(letra[novoTipo])
+    setAcordes(acordes[novoTipo])
+    setTipo(novoTipo)
+    buttonSimplificar.innerText = tipo === 0 ? 'Simplificar' : 'Original'
 }

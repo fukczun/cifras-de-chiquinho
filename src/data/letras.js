@@ -1,5 +1,5 @@
-export const molimMolim = 
-`G                    Em           C                D
+export const molimMolim =
+[`G                    Em           C                D
 O meu coração era de pedra, resolvi abri-lo pra Jesus 
      G              Em     C       D         G
 O espirito santo de Deus, veio e agiu sobre mim
@@ -21,10 +21,10 @@ E eu fiquei molim, molim, molim
   Em 
 Molim, molim, molim
    C             D         G  (D7)
-Molim, molim, molim pra Jesus`
+Molim, molim, molim pra Jesus`]
 
 export const passaFogo = 
-`       D                  G
+[`       D                  G
 Passa fogo no meu braço agora
        D                  G
 Passa fogo no meu braço agora
@@ -62,10 +62,10 @@ Eu disse:  Braço, perna, cabeça e coração
   G
 Braço, perna, cabeça e coração
   A                           D   (A7)
-Braço, perna, cabeça e coraçãÃão`
+Braço, perna, cabeça e coraçãÃão`]
 
 export const dancaDaAmizade = 
-`          D                      A
+[`          D                      A
 Essa é a dança, é a dança da amizade
        G        A         D  (A7)
 É alegria para lá e para cá
@@ -78,10 +78,10 @@ PREPARA...
    D         A         G (A7)         D
 Laiá laiá laiá HEY! Laiá      laiá laiá HEY!
    D         A         G (A7)         D
-Laiá laiá laiá HEY! Laiá      laiá laiá HEY!`
+Laiá laiá laiá HEY! Laiá      laiá laiá HEY!`]
 
 export const euSouDoSenhor =
-` G  Em  Am           D7        G    Em
+[` G  Em  Am           D7        G    Em
 Você   que gosta de balançar, venha
            Am        D7       G   Em
 Vem com a gente pra dançar, pra Deus
@@ -135,10 +135,10 @@ Nana Nana
  Am        D7        G  Em
 Nana Nana Nana Nana Nan
  Am        D7   G 
-Nana Nana`
+Nana Nana`]
 
 export const euNavegarei = 
-`          Am                Em
+[`          Am                Em
 Eu navegarei no oceano do Espírito 
             F  Dm               E
 E ali adorarei ao Deus do meu amor
@@ -161,10 +161,10 @@ Que desce como fogo
                   F     Dm
 Vem como em pentecostes 
                E
-E enche-me de novo`
+E enche-me de novo`]
 
 export const canticoDeAdoracao = 
-`           Dm               Bb
+[`           Dm               Bb
 Pra te adorar foi que eu nasci
          Gm7          A4  (A7)
 Para exaltar a Ti Senhor!
@@ -172,10 +172,10 @@ Para exaltar a Ti Senhor!
         Dm        Bb      C   (A7)
 A minha alma tem sede de Ti
          Dm          Bb      C  A4 (A7)
-O meu espírito necessita de Ti`
+O meu espírito necessita de Ti`]
 
 export const ruah = 
-`            C7M        D           Em   G
+[`            C7M        D           Em   G
 Vem Santo Espírito inflama os corações
           C7M     D       Em  G
 Acende em nós a chama do amor
@@ -228,10 +228,10 @@ Vem Espírito
    C                               
 Envia o teu, envia o teu
                 D      Em
-Envia o teu Ruaaaaaaaaaaaah`
+Envia o teu Ruaaaaaaaaaaaah`]
 
 export const pescadorDeCristo = 
-`     G            Em              C             D  (D4)
+[`     G            Em              C             D  (D4)
 Sou pescador de cristo, lanço as redes sobre o mar
     G            Em          C           D   (D4)
 As vezes me desespero glub glub vou afundar
@@ -249,10 +249,10 @@ Mas jesus é meu amigo ele vai me ensinar
      G       Em        C           D
 A nadar    aAa       aAa        aaAa
      G       Em        C           D
-A nadar    aAa       aAa        aaAa`
+A nadar    aAa       aAa        aaAa`]
 
 export const pipoca = 
-`       E                   B7
+[`       E                   B7
 Uma pipoca espocando na panela
                                  E
 Uma sozinha, o louvor quase não sai
@@ -334,10 +334,10 @@ Prepara
            B               E              B             E
 É um tal de ploc ploc ploc ploc ploc ploc ploc ploc ploc ploc
            B               E              B             E
-É um tal de ploc ploc ploc ploc ploc ploc ploc ploc ploc ploc`
+É um tal de ploc ploc ploc ploc ploc ploc ploc ploc ploc ploc`]
 
 export const oCeuSeAbre = 
-` B                      D#m
+[` B                      D#m
 Hoje o céu se abre pra derramar
           E               B     A  F#4  F#
 Sobre os corações toda a graça do Pai
@@ -355,13 +355,80 @@ Tocar meu ser,     fluir em mim
 G#m               E
 Hoje eu posso ser um novo homem
       B              F#  F#4
-Pelo teu poder renascer`
+Pelo teu poder renascer`]
 
 export const oSenhorRessurgiu = 
-`
-{CAPO:4CASA; TOM:B}
+[`[Refrão]
+ 
+      B           D#m7  E        B
+O Senhor ressurgiu, aleluia, aleluia!
+        E          C#m            F#   (F#4) (F#)
+É o Cordeiro Pascal, aleluia, aleluia!
+    B          D#m7  E        B
+Imolado por nós, aleluia, aleluia!
+      E          C#m      D#m       C#m      E  B
+É o Cristo, o Senhor, ele vive e venceu, aleluia!
+
+      G#m        F#         D#m
+1. O Cristo, Senhor ressuscitou
+  C#m                  G#m7 F#
+A nossa esperança realizou
+    B      B7         E
+Vencida a morte para sempre
+  C#m7                F#   (F#4) (F#)
+Triunfa a vida eternamente!
+
 [Refrão]
 
+      B           D#m7  E        B
+O Senhor ressurgiu, aleluia, aleluia!
+        E          C#m            F#   (F#4) (F#)
+É o Cordeiro Pascal, aleluia, aleluia!
+    B          D#m7  E        B
+Imolado por nós, aleluia, aleluia!
+      E          C#m      D#m       C#m      E  B
+É o Cristo, o Senhor, ele vive e venceu, aleluia!
+
+      G#m      F#          D#m
+2. O Cristo remiu a seus irmãos
+   C#m                     G#m7 F#
+Ao Pai os conduziu por sua mão
+      B      B7            E
+No Espírito Santo unida esteja
+   C#m7                       F#   (F#4) (F#)
+A família de Deus, que é a Igreja!
+
+[Refrão]
+
+      B           D#m7  E        B
+O Senhor ressurgiu, aleluia, aleluia!
+        E          C#m            F#   (F#4) (F#)
+É o Cordeiro Pascal, aleluia, aleluia!
+    B          D#m7  E        B
+Imolado por nós, aleluia, aleluia!
+      E          C#m      D#m       C#m      E  B
+É o Cristo, o Senhor, ele vive e venceu, aleluia!
+
+      G#m           F#           D#m
+3. O Cristo, nossa Páscoa, se imolou
+    C#m                    G#m7 F#
+Seu sangue da morte nos livrou
+   B         B7         E
+Incólumes o mar atravessamos
+    C#m7                  F#   (F#4) (F#)
+E à Terra prometida caminhamos!
+
+[Refrão]
+
+      B           D#m7  E        B
+O Senhor ressurgiu, aleluia, aleluia!
+        E          C#m            F#   (F#4) (F#)
+É o Cordeiro Pascal, aleluia, aleluia!
+    B          D#m7  E        B
+Imolado por nós, aleluia, aleluia!
+      E          C#m      D#m       C#m      E  B
+É o Cristo, o Senhor, ele vive e venceu, aleluia!`,
+`[Refrão]
       B                 E        B
 O Senhor ressurgiu, aleluia, aleluia!
         E                         F#
@@ -429,8 +496,48 @@ O Senhor ressurgiu, aleluia, aleluia!
     B                E        B
 Imolado por nós, aleluia, aleluia!
       E                                      E B
-É o Cristo, o Senhor, ele vive e venceu, aleluia!`
+É o Cristo, o Senhor, ele vive e venceu, aleluia!`]
+
 export const euConfesso = 
+[`       Am     Dm        (E) Am
+Eu confesso a Deus e a vós irmãos
+       Dm       G7           Am 
+Tantas vezes pequei, não fui fiel
+     Dm7            E7      C     (G/B) Am   
+Pensamentos e palavras, atitudes e omissões
+          Dm     E7             Am    (A7)
+Por minha culpa,    tão grande culpa
+
+[Refrão]
+
+          Dm7    G7        C (G/B) Am 
+Senhor piedade, Cristo piedaaaaaaaade,
+       Dm   E    Am  (A7) 
+tem piedade ó Senhor
+          Dm7    G7        C (G/B) Am
+Senhor piedade, Cristo piedaaaaaaaade,
+       Dm   E    Am  (E7) 
+tem piedade ó Senhor
+
+       Am       Dm    (E)   Am
+Peço à Virgem Maria, nossa mãe
+    Dm          G7               Am 
+E a vós meus irmãos, rogueis por mim
+       Dm7             E7           C       (G/B) Am   
+A Deus pai que nos perdoa e nos sustenta em suas mãos
+          Dm7  E7             Am   (A7)
+Por seu amor,     tão grande amor
+
+[Refrão]
+
+          Dm7    G7        C (G/B) Am 
+Senhor piedade, Cristo piedaaaaaaaade,
+       Dm   E    Am  (A7) 
+tem piedade ó Senhor
+          Dm7    G7        C (G/B) Am 
+Senhor piedade, Cristo piedaaaaaaaade,
+       Dm   E    Am 
+tem piedade ó Senhor`,
 `       Am     Dm      (E)    Am
 Eu confesso a Deus e a vós irmãos
        Dm        G           Am 
@@ -469,10 +576,10 @@ tem piedade ó Senhor
           Dm      G         C (G) Am 
 Senhor piedade, Cristo piedaaaaaaade,
        Dm   E    Am 
-tem piedade ó Senhor`
+tem piedade ó Senhor`]
 
 export const gloriaADeusNasAlturas = 
-`
+[`
  Dm                          C
 Glória a Deus nas alturas e paz na terra
      A              Dm    (A7)
@@ -522,10 +629,10 @@ Amém! Amém!
 C
 Amém! Amém!
 Dm F Gm (A) Dm
-Aaaaaaaaaaaamém`
+Aaaaaaaaaaaamém`]
 
 export const aleluia = 
-`[Refrão]
+[`[Refrão]
 
 A                (A7)
 Aleluia, aleluia
@@ -547,10 +654,10 @@ guardará minha palavra
                Bm               
 E meu pai o amará
              E  
-e ele nós viremos`
+e ele nós viremos`]
 
 export const euCreioNumMundoNovo = 
-`     A                         E             A
+[`     A                         E             A
 Eu creio num mundo novo pois Cristo ressuscitou!
     A                       E              A
 Eu vejo sua luz no povo por isso alegre estou!
@@ -589,10 +696,10 @@ Nos fracos fortalecidos, eu vejo ressurreição!
      A                         E             A
 Eu creio num mundo novo pois Cristo ressuscitou!
     A                       E              A
-Eu vejo sua luz no povo por isso alegre estou!`
+Eu vejo sua luz no povo por isso alegre estou!`]
 
 export const santo = 
-`[Primeira Parte]
+[`[Primeira Parte]
 
  A            F#m
 Santo, Santo, Santo
@@ -624,17 +731,46 @@ Em nome do Senhor
    A          F#m       D E
 Hosa-na nas alturas, Hosana
    A          F#m       D E (A)
-Hosa-na nas alturas, Hosana`
+Hosa-na nas alturas, Hosana`]
 
 export const amem = 
+[`D#º       Em         C         G         D7
+A________mém, a--a--mém a--a--mém, a--a--mém
+D#º       Em         C         G          D  (Em)
+A________mém, a--a--mém a--a--mém, a--a--mém`,
 `D         Em         C         G         D7
 A________mém, a--a--mém a--a--mém, a--a--mém
 D         Em         C         G          D  (Em)
-A________mém, a--a--mém a--a--mém, a--a--mém`
+A________mém, a--a--mém a--a--mém, a--a--mém`]
 
 export const cordeiroDeDeus = 
-`{CAPO:5CASA; TOM:Dm}
-    Dm
+[`    Dm       A7         Dm       D7
+Cordeiro de Deus que tirais o pecado
+   Gm    A7
+do mun...do
+Dm  D7     Gm    C        F C
+Tende  piedade, tende piedade, 
+ Dm      Gm        Bb  A7 Dm (A7)
+tende piedade, piedade de nós
+
+    Dm       A7         Dm       D7
+Cordeiro de Deus que tirais o pecado
+   Gm    A7
+do mun...do
+Dm  D7     Gm    C        F C
+Tende  piedade, tende piedade, 
+ Dm      Gm        Bb  A7 Dm (A7)
+tende piedade, piedade de nós
+
+Dm       A7         Dm       D7
+Cordeiro de Deus que tirais o pecado
+   Gm    A7
+do mun...do
+ Dm  D7    Gm   C         F C
+Daí-nos a paz, daí-nos a paz
+ Dm        Gm              Bb  A7  Dm
+Daí-nos a paz Senhor...  a vossa  paz`,
+`    Dm
 Cordeiro de Deus que tirais o pecado
    Gm    A
 do mun...do
@@ -659,10 +795,10 @@ do mun...do
  Dm        Gm   C         Dm
 Daí-nos a paz, daí-nos a paz
            Gm               A     Dm
-Daí-nos a paz Senhor...  a vossa  paz`
+Daí-nos a paz Senhor...  a vossa  paz`]
 
 export const celebremosNossaPascoa = 
-`    Am           Dm     
+[`    Am           Dm     
 Celebremos nossa Páscoa!
       E          Am 
 Na pureza, na verdade
@@ -727,11 +863,41 @@ Celebremos nossa Páscoa!
       E          Am 
 Na pureza, na verdade
     Dm       E   Am
-Aleluia, aleluuuuia!`
+Aleluia, aleluuuuia!`]
 
 export const parabensPraVoce = 
-`{CAPO:2CASA; TOM:E}
-    E         B7
+[`    E         B7
+Parabéns pra você
+       A B7    E
+Nesta data querida
+        E7    A Am
+Muitas felicidades
+       E B7     E
+Muitos anos de vida
+
+       E         B7
+Que Jesus te abençoe
+       A B7     E
+Nessa nossa oração
+       E7      A Am
+Que Maria te guarde
+        E B7   E
+Dentro do coração
+
+    A          B7
+Derrama, oh Senhor
+    E       C#m
+Derrama, Senhor
+   F#m        B7             E (E7)
+Derrama sobre ele(a) o Seu amor
+
+           E
+O nosso irmão será abençoado(a)
+             B7
+Porque o Senhor
+                     E (E7)
+Vai derramar o Seu amor`,
+`    E         B7
 Parabéns pra você
        A B7    E
 Nesta data querida
@@ -761,10 +927,10 @@ O nosso irmão será abençoado(a)
              B7
 Porque o Senhor
                      E (E7)
-Vai derramar o Seu amor`
+Vai derramar o Seu amor`]
 
 export const quemEEssaQueAvancaComoAurora_AEscolhida = 
-`[Quem É Essa Que Avança Como Aurora]
+[`[Quem É Essa Que Avança Como Aurora]
 
        D          A           Bm   G  A
 Quem é esta que avança como aurora
@@ -836,11 +1002,45 @@ G         A        D (A) (Bm)
 Nossa mãe sempre seráááÁááááá
 
 G         A        D 
-Nossa mãe sempre será`
+Nossa mãe sempre será`]
 
 export const benditoSejasOReiDaGloria = 
-`{CAPO:5CASA; TOM:Dm}
-   Dm      A     Dm          A
+[`   Dm      A7    Dm  Bb      A7
+1-Bendito sejas, ó  Rei da glória
+ F      Gm    C7          F  (C)
+Ressuscitado, Senhor da Igreja
+Dm      Gm                Bb  A7  Dm  (A7)
+Aqui trazemos as nossas ofer.....tas
+
+ D          G      D        E7      A7
+Vê com bons olhos nossas humildes ofertas
+ D         G  Gm    D       A7        Dm
+Tudo o que te.mos, seja pra Ti, ó Senhor
+
+   Dm          A7     Dm   Bb     A7
+2- Vidas se encontram no altar de Deus
+F        Gm    C7          F  (C)
+Gente se doa, Dom que se imola
+Dm      Gm                Bb  A7  Dm  (A7)
+Aqui trazemos as nossas ofer.....tas
+
+ D          G      D        E7      A7
+Vê com bons olhos nossas humildes ofertas
+ D         G  Gm    D       A7        Dm
+Tudo o que te.mos, seja pra Ti, ó Senhor
+
+  Dm        A7     Dm  Bb     A7
+3-Irmãos da terra, irmãos do céu
+ F        Gm     C7           F  (C)
+Juntos cantemos glória ao Senhor
+Dm      Gm                Bb  A7  Dm  (A7)
+Aqui trazemos as nossas ofer.....tas
+
+ D          G      D        E7      A7
+Vê com bons olhos nossas humildes ofertas
+ D         G  Gm    D       A7        Dm
+Tudo o que te.mos, seja pra Ti, ó Senhor`,
+`   Dm      A     Dm          A
 1-Bendito sejas, ó  Rei da glória
  F      Gm     C          F
 Ressuscitado, Senhor da Igreja
@@ -874,10 +1074,10 @@ Aqui trazemos as nossas ofer.....tas
  D          G      D                A
 Vê com bons olhos nossas humildes ofertas
  D          G       D        A        Dm
-Tudo o que te.mos, seja pra Ti, ó Senhor`
+Tudo o que te.mos, seja pra Ti, ó Senhor`]
 
 export const gloriaADeusNosAltosCeus = 
-` D                          
+[` D                          
 Glória a Deus nos altos céus,
                      Em
 paz na terra a seus amados
@@ -927,11 +1127,10 @@ Glória a Deus, lá nos céus,
   D             G          
 Glória a Deus, lá nos céus,
     D       A       D
- e paz aos seus a--mém!`
+ e paz aos seus a--mém!`]
 
 export const quemEEssaQueAvancaComoAurora = 
-`{CAPO:2CASA; TOM:D}
-      D          A           Bm 
+[`      D          A           Bm 
 Quem é esta que avança como aurora
   D           A                    Bm
 Temível como exército em ordem de batalha
@@ -947,4 +1146,126 @@ D         A       Bm
 A     D       A              Bm 
 Ah,ah,ah, em Deus, meu Salvador
 D     A              Bm
-  Em Deus, meu Salvador`
+  Em Deus, meu Salvador`]
+
+export const consagracaoANossaSenhora = 
+[`G
+Oh, minha Senhora
+      Bm7
+E também minha Mãe
+Am        D9
+Eu me ofereço
+        G            (Dm7)  Em7
+Inteiramente todo a vóóóóóóóóós
+Am     D7
+E em prova
+    Bm7       Em7
+Da minha devoção
+    Am       D7          G  (Am7) (D7)
+Eu hoje vos dou meu coração
+
+[Refrão] 
+
+    G
+Consagro a vós meus olhos
+       Bm7
+Meus ouvidos, minha boca
+ Am         D7
+Tudo o que sou
+         G           Bm7  Em7
+Desejo que a vós perten__ça
+   Am         D7
+Incomparável Mãe
+      Bm7         Em7
+Guardai-me, defendei-me
+      Am7
+Como filho(a)
+          D            B4  B7  
+E propriedade vossa amém!
+      Am7
+Como filho(a)
+          D            Cm (Dm) (G)
+E propriedade vossa amém!`]
+
+export const anjosDeDeus = 
+[` C                        G
+Tem anjos voando neste lugar
+                                F
+No meio do povo e em cima do altar
+                    
+Subindo e descendo 
+                 C  G
+Em todas as direçõ__es
+     C                    
+Não sei se a igreja subiu 
+                G
+Ou se o céu desceu
+                                   F
+Só sei que está cheio de anjos de Deus
+                  G           C  G
+Porque o próprio Deus está aqui
+
+ C                        G
+Tem anjos voando neste lugar
+                                F
+No meio do povo e em cima do altar
+                    
+Subindo e descendo 
+                 C  G
+Em todas as direçõ__es
+     C                    
+Não sei se a igreja subiu 
+                G
+Ou se o céu desceu
+                                   F
+Só sei que está cheio de anjos de Deus
+                  G           C
+Porque o próprio Deus está aqui`]
+
+export const salmo46 = 
+[`   E            A                B
+Por entre aclamações, Deus se elevou
+      A          F#m            B 
+O Senhor subiu ao toque da trombeta!
+ 
+       E           F#m            C#m
+Povos todos do universo, batei palmas
+          A                    C#m
+Gritai a Deus aclamações de alegria!
+           E          F#m           C#m
+Porque sublime é o Senhor, o Deus altíssimo
+       A                      C#m
+O soberano que domina toda a terra
+
+    E            A                B
+Por entre aclamações, Deus se elevou
+      A          F#m            B 
+O Senhor subiu ao toque da trombeta!
+
+    E           F#m            C#m
+Por entre aclamações, Deus se elevou
+      A                       C#m
+O Senhor subiu ao toque da trombeta
+       E          F#m           C#m
+Salmodiai ao nosso Deus ao som da harpa
+      A                              C#m
+Salmodiai, ao som da harpa, ao nosso rei!
+
+    E            A                B
+Por entre aclamações, Deus se elevou
+      A          F#m            B 
+O Senhor subiu ao toque da trombeta!
+
+        E              F#m           C#m
+Porque Deus é o grande rei de toda a terra,
+           A                          C#m
+Ao som da harpa acompanhai os seus louvores!
+      E           F#m        C#m
+Deus reina sobre todas as nações
+         A                  C#m
+Está sentado no seu trono glorios
+
+    E            A                B
+Por entre aclamações, Deus se elevou
+      A          F#m            B 
+O Senhor subiu ao toque da trombeta!`]
