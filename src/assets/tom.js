@@ -134,8 +134,8 @@ export function aumentarTons(tomAtual, setTom, tomComCapo, setTomComCapo, acorde
     const index = tons.indexOf(tom)
     tomAtual = tons[(index + diferenca) % quantTons] + resto
 
-    const tomComCapoIndex = tons.indexOf(tomComCapo)
-    const tomAtualIndex = tons.indexOf(tomAtual)
+    const tomComCapoIndex = tons.indexOf(tomResto(tomComCapo, tons)[0])
+    const tomAtualIndex = tons.indexOf(tomResto(tomAtual, tons)[0])
     const diferencaComCapo = ((tomAtualIndex - tomComCapoIndex + quantTons) % quantTons) % quantTons
 
     const indexCapo = tons.indexOf(tomAtual)
@@ -214,8 +214,8 @@ export function baixarTons(tomAtual, setTom, tomComCapo, setTomComCapo, acordes,
     const index = tons.indexOf(tom)
     tomAtual = tons[(index - diferenca + quantTons) % quantTons] + resto
 
-    const tomComCapoIndex = tons.indexOf(tomComCapo)
-    const tomAtualIndex = tons.indexOf(tomAtual)
+    const tomComCapoIndex = tons.indexOf(tomResto(tomComCapo, tons)[0])
+    const tomAtualIndex = tons.indexOf(tomResto(tomAtual, tons)[0])
     const diferencaComCapo = ((tomAtualIndex - tomComCapoIndex + quantTons) % quantTons) % quantTons
 
     const indexCapo = tons.indexOf(tomAtual)
@@ -263,14 +263,17 @@ export function adicionarCapo(capo, tomAtual) {
     const [tom, resto] = tomResto(tomAtual, tons)
 
     const index = tons.indexOf(tom)
+    const tomDiv = document.getElementsByClassName('tom')[0]
 
-    if (capo) {
-        const tom = document.getElementsByClassName('tom')[0]
-        tom.innerText = `${tomAtual} (${tons[((index - Number(capo) + quantTons) % quantTons) % quantTons] + resto})`
+    if (Number(capo)) {
+        tomDiv.innerText = `${tomAtual} (${tons[((index - Number(capo) + quantTons) % quantTons) % quantTons] + resto})`
+    }
+    else {
+        tomDiv.innerText = tomAtual
     }
 }
 
-export function mudarTom(tomAtual, novoTom, setTom, novoTomComCapo, setTomComCapo, acordes, setAcordes, letra, setLetra, setLetraComCapo, isRelativa) {
+export function mudarTom(tomAtual, tomAtualComCapo, novoTom, setTom, novoTomComCapo, setTomComCapo, acordes, setAcordes, letra, setLetra, setLetraComCapo, isRelativa) {
     const tons = getTons(isRelativa)
     const novoTomIndex = tons.indexOf(novoTom)
     const novoTomComCapoIndex = tons.indexOf(novoTomComCapo)
@@ -281,9 +284,16 @@ export function mudarTom(tomAtual, novoTom, setTom, novoTomComCapo, setTomComCap
 
     if (diferenca > 0 || diferencaComCapo > 0) { aumentarTons(tomAtual, setTom, novoTomComCapo, setTomComCapo, acordes, setAcordes, letra, setLetra, setLetraComCapo, diferenca) }
     else if (diferenca < 0 || diferencaComCapo < 0) { baixarTons(tomAtual, setTom, novoTomComCapo, setTomComCapo, acordes, setAcordes, letra, setLetra, setLetraComCapo, Math.abs(diferenca)) }
+    else if (tomAtualComCapo !== tomAtual){
+        setTomComCapo(tomAtual)
+        setLetraComCapo(letra)
+        setAcordes(acordes)
+    }
 }
 
 export function getTomCapo(tomAtual, capo) {
+    if (!tomAtual) return tomAtual
+
     const tons = getTons()
     const quantTons = 12
     const [tom, resto] = tomResto(tomAtual, tons)

@@ -15,7 +15,7 @@ export function getCapo(chave, estrutura) {
     return estruturaLocalStorage && estruturaLocalStorage[chave] ? estruturaLocalStorage[chave] : 0
 }
 
-export function selectCapo(setCapo, novoCapo, tomAtual, setTom, setTomComCapo, acordes, setAcordes, letra, setLetra, setLetraComCapo, isRelativa) {
+export function selectCapo(setCapo, novoCapo, tomAtual, tomAtualComCapo, setTom, setTomComCapo, acordes, setAcordes, letra, setLetra, setLetraComCapo, isRelativa) {
     setCapo(novoCapo)
-    mudarTom (tomAtual, tomAtual, setTom, getTomCapo(tomAtual, novoCapo), setTomComCapo, acordes, setAcordes, letra, setLetra, setLetraComCapo, isRelativa)
+    mudarTom (tomAtual, tomAtualComCapo, tomAtual, setTom, getTomCapo(tomAtual, novoCapo), setTomComCapo, acordes, setAcordes, letra, setLetra, setLetraComCapo, isRelativa)
 }

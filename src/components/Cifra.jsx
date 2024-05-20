@@ -17,7 +17,7 @@ function Cifra(props) {
     const [tomComCapo, setTomComCapo] = useState(getTomCapo(props.tom, capo))
 
     useEffect(() => {
-        mudarTom(props.tomPadrao, tom, setTom, tomComCapo, setTomComCapo, acordes, setAcordes, letra, setLetra, setLetraComCapo, props.isRelativa, capo)
+        mudarTom(props.tomPadrao, tomComCapo, tom, setTom, tomComCapo, setTomComCapo, acordes, setAcordes, letra, setLetra, setLetraComCapo, props.isRelativa, capo)
     }, [tipoCifra]) // eslint-disable-line
 
     useEffect(() => {
@@ -32,11 +32,11 @@ function Cifra(props) {
                     <ButtonRoll />
                 </div>
                 <div className="max-lg:mt-0">
-                    <SelectCapo setCapo={setCapo} tomAtual={tom} setTom={setTom} setTomComCapo={setTomComCapo} acordes={acordes} setAcordes={setAcordes} letra={letra} setLetra={setLetra} setLetraComCapo={setLetraComCapo} isRelativa={props.isRelativa} capo={capo}/>
+                    <SelectCapo setCapo={setCapo} tomAtual={tom} tomAtualComCapo={tomComCapo} setTom={setTom} setTomComCapo={setTomComCapo} acordes={acordes} setAcordes={setAcordes} letra={letra} setLetra={setLetra} setLetraComCapo={setLetraComCapo} isRelativa={props.isRelativa} capo={capo}/>
                     {props.letra[1] ? <ButtonSimplificar letra={props.letra} setLetra={setLetra} acordes={props.acordes} setAcordes={setAcordes} tipo={tipoCifra} setTipo={setTipoCifra}/> : null}
                 </div>
             </div>
-            <p className="mb-5">Preparação: [ <span className="text-orange-900">{getPreparacao(acordes[0], props.preparacao, props.tomPadrao, tom, props.isRelativa)}</span> ]</p>
+            <p className="mb-5">Preparação: [ <span className="text-orange-900">{getPreparacao(getTomCapo(acordes[0], capo), getTomCapo(props.preparacao, capo), props.tomPadrao, tom, props.isRelativa)}</span> ]</p>
             <pre className="*:block max-sm:w-min">
                 {letraComCapo}
             </pre>
