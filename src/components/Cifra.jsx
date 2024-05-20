@@ -32,7 +32,7 @@ function Cifra(props) {
                     <ButtonRoll />
                 </div>
                 <div className="max-lg:mt-0">
-                    <SelectCapo setCapo={setCapo} tomPadrao={props.tomPadrao} setTom={setTom} setTomComCapo={setTomComCapo} acordes={acordes} setAcordes={setAcordes} letra={letra} setLetra={setLetra} setLetraComCapo={setLetraComCapo} isRelativa={props.isRelativa} capo={capo}/>
+                    <SelectCapo setCapo={setCapo} tomAtual={tom} setTom={setTom} setTomComCapo={setTomComCapo} acordes={acordes} setAcordes={setAcordes} letra={letra} setLetra={setLetra} setLetraComCapo={setLetraComCapo} isRelativa={props.isRelativa} capo={capo}/>
                     {props.letra[1] ? <ButtonSimplificar letra={props.letra} setLetra={setLetra} acordes={props.acordes} setAcordes={setAcordes} tipo={tipoCifra} setTipo={setTipoCifra}/> : null}
                 </div>
             </div>
