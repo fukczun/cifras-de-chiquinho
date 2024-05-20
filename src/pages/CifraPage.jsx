@@ -53,7 +53,7 @@ function CifraPage(props) {
                 </header>
                 <ButtonReturn onclick={() => props.trocarPagina(<Home trocarPagina={props.trocarPagina} />)} />
                 <div className="max-sm:text-xs max-xs:text-[0.6rem] max-2xs:text-[0.5rem]">
-                    <Cifra acordes={cifrasRepertorios[props.chave].acordes} letra={cifrasRepertorios[props.chave].letra} chave={props.chave} tom={cifrasRepertorios[props.chave].tom} tomPadrao={cifrasRepertorios[props.chave].tomPadrao} isRelativa={cifrasRepertorios[props.chave].isRelativa} preparacao={cifrasRepertorios[props.chave].preparacao} />
+                    <Cifra acordes={cifrasRepertorios[props.chave].acordes} letra={cifrasRepertorios[props.chave].letra} chave={props.chave} tom={cifrasRepertorios[props.chave].tom} tomPadrao={cifrasRepertorios[props.chave].tomPadrao} isRelativa={cifrasRepertorios[props.chave].isRelativa} preparacao={cifrasRepertorios[props.chave].preparacao} estrutura={props.estrutura} />
                 </div>
             </div>
             <div className="scrool items-center justify-evenly hidden fixed bg-neutral-600/60 w-[30%] max-sm:w-[75%] h-[4%] rounded-lg">

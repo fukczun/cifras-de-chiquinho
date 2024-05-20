@@ -273,10 +273,14 @@ Aí então o louvor aumenta mais
 E  E  E
 Prepara
 
-            B               E              B             E
-É um tal de ploc ploc ploc ploc ploc ploc ploc ploc ploc ploc
-           B               E              B             E
-É um tal de ploc ploc ploc ploc ploc ploc ploc ploc ploc ploc
+              B              E   
+É um tal de ploc ploc ploc ploc 
+            B              E
+ploc ploc ploc ploc ploc ploc
+              B              E   
+É um tal de ploc ploc ploc ploc 
+            B              E
+ploc ploc ploc ploc ploc ploc
 
 
 [Duas pipocas]
@@ -429,6 +433,7 @@ Imolado por nós, aleluia, aleluia!
       E          C#m      D#m       C#m      E  B
 É o Cristo, o Senhor, ele vive e venceu, aleluia!`,
 `[Refrão]
+
       B                 E        B
 O Senhor ressurgiu, aleluia, aleluia!
         E                         F#
@@ -1269,3 +1274,13 @@ Está sentado no seu trono glorios
 Por entre aclamações, Deus se elevou
       A          F#m            B 
 O Senhor subiu ao toque da trombeta!`]
+
+export const cristoEONossoAmem = 
+[`                  A7      
+Cristo é o nosso amém 
+                  Dm
+Cristo é o nosso amém
+ Gm   Dm   A7   Dm
+Amém,amém,amém,amém 
+ Gm   Dm   A7   Dm
+Amém,amém,amém,amém `]

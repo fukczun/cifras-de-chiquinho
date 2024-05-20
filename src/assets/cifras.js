@@ -1,5 +1,3 @@
-import { mudarTom } from "./tom"
-
 export function getCifra(cifra, estrutura, chave) {
     cifra.tom = getTom(cifra.tomPadrao, chave, estrutura)
     cifra.estrutura = estrutura
@@ -54,5 +52,5 @@ export function simplificarCifra(letra, setLetra, acordes, setAcordes, tipo, set
     setLetra(letra[novoTipo])
     setAcordes(acordes[novoTipo])
     setTipo(novoTipo)
-    buttonSimplificar.innerText = tipo === 0 ? 'Simplificar' : 'Original'
+    buttonSimplificar.innerText = novoTipo === 0 ? 'Simplificar' : 'Original'
 }

@@ -12,7 +12,7 @@ export const repertorios = {
             aleluia: getCifra(Object.assign({}, cifrasSemEstrutura.aleluia), 'missaPascoa', 'aleluia'),
             benditoSejasOReiDaGloria: getCifra(Object.assign({}, cifrasSemEstrutura.benditoSejasOReiDaGloria), 'missaPascoa', 'benditoSejasOReiDaGloria'),
             santo: getCifra(Object.assign({}, cifrasSemEstrutura.santo), 'missaPascoa', 'santo'),
-            amem: getCifra(Object.assign({}, cifrasSemEstrutura.amem), 'missaPascoa', 'amem'),
+            cristoEONossoAmem: getCifra(Object.assign({}, cifrasSemEstrutura.cristoEONossoAmem), 'missaPascoa', 'cristoEONossoAmem'),
             anjosDeDeus: getCifra(Object.assign({}, cifrasSemEstrutura.anjosDeDeus), 'missaPascoa', 'anjosDeDeus'),
             cordeiroDeDeus: getCifra(Object.assign({}, cifrasSemEstrutura.cordeiroDeDeus), 'missaPascoa', 'cordeiroDeDeus'),
             celebremosNossaPascoa: getCifra(Object.assign({}, cifrasSemEstrutura.celebremosNossaPascoa), 'missaPascoa', 'celebremosNossaPascoa'),

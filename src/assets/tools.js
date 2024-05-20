@@ -23,7 +23,6 @@ export function esconderAoClicarFora(classeDiv, classeBotao, display='grid') {
     const button = document.getElementsByClassName(classeBotao)[0]
 
     document.addEventListener("click", function (event) {
-
         if (div.style.display === 'grid' && !div.contains(event.target) && !button.contains(event.target)) setViewDiv(classeDiv, display)
     })
 }
