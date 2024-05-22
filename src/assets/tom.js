@@ -23,6 +23,7 @@ function tomResto(acorde, tons) {
 }
 
 export function getPreparacao(primeiroAcorde, preparacao, tomAtual, novoTom, isRelativa) {
+    const tonsSemRelativa = getTons()
     const tons = getTons(isRelativa)
     const quantTons = tons.length
     if (preparacao) {
@@ -33,12 +34,14 @@ export function getPreparacao(primeiroAcorde, preparacao, tomAtual, novoTom, isR
         const novoTomIndex = tons.indexOf(tomNovoTom)
         const diferenca = novoTomIndex - tomAtualIndex
 
-        const preparacaoIndex = tons.indexOf(preparacao)
-        return tons[((preparacaoIndex + diferenca) % quantTons) % quantTons]
+        const [tom, m] = removeMenor(preparacao)
+        const preparacaoIndex = tonsSemRelativa.indexOf(tom)
+        return tonsSemRelativa[((preparacaoIndex + diferenca) % quantTons) % quantTons] + m
     }
-    const [tom,] = tomResto(primeiroAcorde, tons)
-    const primeiroAcordeIndex = tons.indexOf(tom)
-    return tons[(primeiroAcordeIndex - 5 + quantTons) % quantTons] + '7'
+    const tom = removeMenor(primeiroAcorde)[0]
+    const primeiroAcordeIndex = tonsSemRelativa.indexOf(tom)
+    console.log(tonsSemRelativa[(primeiroAcordeIndex - 5 + quantTons) % quantTons] + '7')
+    return tonsSemRelativa[(primeiroAcordeIndex - 5 + quantTons) % quantTons] + '7'
 }
 
 function alterarAcordesLetra(letra, acordes, novosAcordes) {
@@ -138,7 +141,7 @@ export function aumentarTons(tomAtual, setTom, tomComCapo, setTomComCapo, acorde
     const tomAtualIndex = tons.indexOf(tomResto(tomAtual, tons)[0])
     const diferencaComCapo = ((tomAtualIndex - tomComCapoIndex + quantTons) % quantTons) % quantTons
 
-    const indexCapo = tons.indexOf(tomAtual)
+    const indexCapo = tons.indexOf(tomResto(tomAtual, tons)[0])
     const tomAtualComCapo = tons[(indexCapo - diferencaComCapo + quantTons) % quantTons] + resto
 
     const novosAcordesComCapo = novosAcordes.map(function (acorde) {
@@ -218,7 +221,7 @@ export function baixarTons(tomAtual, setTom, tomComCapo, setTomComCapo, acordes,
     const tomAtualIndex = tons.indexOf(tomResto(tomAtual, tons)[0])
     const diferencaComCapo = ((tomAtualIndex - tomComCapoIndex + quantTons) % quantTons) % quantTons
 
-    const indexCapo = tons.indexOf(tomAtual)
+    const indexCapo = tons.indexOf(tomResto(tomAtual, tons)[0])
     const tomAtualComCapo = tons[(indexCapo - diferencaComCapo + quantTons) % quantTons] + resto
 
     const novosAcordesComCapo = novosAcordes.map(function (acorde) {
@@ -300,4 +303,11 @@ export function getTomCapo(tomAtual, capo) {
 
     const index = tons.indexOf(tom)
     return tons[((index - Number(capo) + quantTons) % quantTons) % quantTons] + resto
+}
+
+export function removeMenor(acorde) {
+    const indice = acorde.indexOf('m')
+
+    if (indice !== -1) return [acorde.substring(0, indice), 'm']
+    return [acorde, '']
 }

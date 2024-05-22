@@ -36,6 +36,7 @@ function Cifra(props) {
                     {props.letra[1] ? <ButtonSimplificar letra={props.letra} setLetra={setLetra} acordes={props.acordes} setAcordes={setAcordes} tipo={tipoCifra} setTipo={setTipoCifra}/> : null}
                 </div>
             </div>
+            {console.log(getPreparacao(getTomCapo(acordes[0], capo), getTomCapo(props.preparacao, capo), props.tomPadrao, tom, props.isRelativa))}
             <p className="mb-5">Preparação: [ <span className="text-orange-900">{getPreparacao(getTomCapo(acordes[0], capo), getTomCapo(props.preparacao, capo), props.tomPadrao, tom, props.isRelativa)}</span> ]</p>
             <pre className="*:block max-sm:w-min">
                 {letraComCapo}
