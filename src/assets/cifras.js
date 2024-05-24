@@ -45,11 +45,12 @@ export function getAcordes(letra, acordes) {
     return Array.from(new Set(notasCifra)).filter(notaCifra => notaCifra)
 }
 
-export function simplificarCifra(letra, setLetra, acordes, setAcordes, tipo, setTipo) {
+export function simplificarCifra(letra, setLetra, setLetraComCapo, acordes, setAcordes, tipo, setTipo) {
     const buttonSimplificar = document.getElementsByClassName('simplificar')[0]
     const novoTipo = tipo === 0 ? 1 : 0
 
     setLetra(letra[novoTipo])
+    setLetraComCapo(letra[novoTipo])
     setAcordes(acordes[novoTipo])
     setTipo(novoTipo)
     buttonSimplificar.innerText = novoTipo === 0 ? 'Simplificar' : 'Original'

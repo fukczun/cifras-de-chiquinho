@@ -297,10 +297,14 @@ Aí então o louvor aumenta mais
 E  E  E
 Prepara
 
-           B               E              B             E
-É um tal de ploc ploc ploc ploc ploc ploc ploc ploc ploc ploc
-           B               E              B             E
-É um tal de ploc ploc ploc ploc ploc ploc ploc ploc ploc ploc
+              B                 E   
+É um tal de ploc ploploc ploc ploc
+               B                 E
+ploploc ploc ploc ploploc ploc ploc
+              B                 E   
+É um tal de ploc ploploc ploc ploc
+               B                 E
+ploploc ploc ploc ploploc ploc ploc
 
 [Três pipocas]
 
@@ -316,10 +320,14 @@ Aí então o louvor aumenta mais
 E  E  E
 Prepara
 
-           B               E              B             E
-É um tal de ploc ploc ploc ploc ploc ploc ploc ploc ploc ploc
-           B               E              B             E
-É um tal de ploc ploc ploc ploc ploc ploc ploc ploc ploc ploc
+              B                 E   
+É um tal de ploc ploploc ploc ploc
+               B                 E
+ploploc ploc ploc ploploc ploc ploc
+              B                 E   
+É um tal de ploc ploploc ploc ploc
+               B                 E
+ploploc ploc ploc ploploc ploc ploc
 
 [Todas as pipocas juntas]
 
@@ -335,10 +343,14 @@ Aí então o louvor aumenta mais
 E  E  E
 Prepara
 
-           B               E              B             E
-É um tal de ploc ploc ploc ploc ploc ploc ploc ploc ploc ploc
-           B               E              B             E
-É um tal de ploc ploc ploc ploc ploc ploc ploc ploc ploc ploc`]
+              B                 E   
+É um tal de ploc ploploc ploc ploc
+               B                 E
+ploploc ploc ploc ploploc ploc ploc
+              B                 E   
+É um tal de ploc ploploc ploc ploc
+               B                 E
+ploploc ploc ploc ploploc ploc ploc`]
 
 export const oCeuSeAbre = 
 [` B                      D#m
@@ -1284,3 +1296,637 @@ Cristo é o nosso amém
 Amém,amém,amém,amém 
  Gm   Dm   A7   Dm
 Amém,amém,amém,amém `]
+
+export const passeioDeCarangueijo = 
+[`  C       G       Am
+Quando a solidão aperta
+                F G   Am  (G)
+Dói primeiro o pé-e---é
+ C    G          Am
+Passeio de caranguejo
+              F G   Am  (C7)
+Depende da maré-e---é
+
+ F         G      C   (C7)
+Não vou ficar chorando
+ F         G      C   (G/B)     Am     (G)
+Vendo a vida  passaa--aaaaar--aaaaar--aaaaar
+ F      G       C         Am
+Vou entoar meu canto, louvando com os
+Dm      G          C (C7)
+Anjos até o sol raiar
+
+ F         G      C   (C7)
+Não vou ficar chorando
+ F         G      C   (G/B)     Am     (G)
+Vendo a vida  passaa--aaaaar--aaaaar--aaaaar
+ F      G       C         Am
+Vou entoar meu canto, louvando com os
+Dm      G          C
+Anjos até o sol raiar
+
+   C                      G           Am
+A boca fala aquilo que o coração tá cheio
+   C                      G           Am
+A boca fala aquilo que o coração tá cheio
+              F G  Am
+Tá cheio de amo-o--or
+              F G  Am
+Tá cheio de amo-o--or
+
+   C                      G           Am
+A boca fala aquilo que o coração tá cheio
+   C                      G           Am
+A boca fala aquilo que o coração tá cheio
+              F G  Am
+Tá cheio de amo-o--or
+              F G  Am (C7)
+Tá cheio de amo-o--or`,
+`  C               Am
+Quando a solidão aperta
+                F     Am
+Dói primeiro o pé-e---é
+ C               Am
+Passeio de caranguejo
+              F     Am 
+Depende da maré-e---é
+
+ F                C
+Não vou ficar chorando
+ F                C             Am
+Vendo a vida  passaa--aaaaar--aaaaar--aaaaar
+ F              C
+Vou entoar meu canto, louvando com os
+Dm     (G)         C
+Anjos até o sol raiar
+
+ F                C
+Não vou ficar chorando
+ F                C             Am
+Vendo a vida  passaa--aaaaar--aaaaar--aaaaar
+ F              C
+Vou entoar meu canto, louvando com os
+Dm     (G)         C
+Anjos até o sol raiar
+
+   C                                  Am
+A boca fala aquilo que o coração tá cheio
+   C                                  Am
+A boca fala aquilo que o coração tá cheio
+              F    Am
+Tá cheio de amo-o--or
+              F    Am
+Tá cheio de amo-o--or
+
+   C                                  Am
+A boca fala aquilo que o coração tá cheio
+   C                                  Am
+A boca fala aquilo que o coração tá cheio
+              F    Am
+Tá cheio de amo-o--or
+              F    Am
+Tá cheio de amo-o--or`]
+
+export const oSenhorERei = 
+[`
+Bm  D   A         Bm
+OoO OoO Oo Oo OoOoOo
+Bm  D   A         Bm
+OoO OoO Oo Oo OoOoOo
+
+Bm               (Bm) (A)  D
+  O Senhor é Rei  O----o---O
+                         A
+O Senhor é meu Pastor e Rei
+Bm                     D
+  O Senhor está no céu
+                     A
+O Senhor está no maaAar
+         G          A
+Na extensão do infinito
+
+Bm              (Bm) (A)  D
+  O Senhor é Rei O----o---O
+                         A
+O Senhor é meu Pastor e Rei
+Bm                     D
+  O Senhor está no céu
+                     A
+O Senhor está no maaAar
+         G          A
+Na extensão do infinito
+
+(A7)
+Aonde Ele está...
+
+D              A  
+  Está no céééÉéu
+             Bm
+Está no maaaAar (tchibum)
+         G          A
+Na extensão do infinito
+
+(A7)
+Aonde Ele está...
+
+D              A  
+  Está no céééÉéu
+             Bm
+Está no maaaAar (tchibum)
+         G          A
+Na extensão do infinito
+
+Bm                 (Bm) (A)  D
+  Quando eu vacilar O----o---O
+                         A
+Eu não temerei (Não Não Não)
+           G          A
+Pois o Senhor está comigo
+
+Bm                 (Bm) (A)  D
+  Quando eu vacilar O----o---O
+                         A
+Eu não temerei (Não Não Não)
+           G          A
+Pois o Senhor está comigo
+
+(A7)
+Aonde Ele está...
+
+D              A  
+  Está no céééÉéu
+             Bm
+Está no maaaAar (tchibum)
+         G          A
+Na extensão do infinito
+
+(A7)
+Aonde Ele está...
+
+D              A  
+  Está no céééÉéu
+             Bm
+Está no maaaAar (tchibum)
+         G          A
+Na extensão do infinito`]
+
+export const vemVemVemEspiritoSanto = 
+[` D       (Bm7)           G
+Vem, vem, vem, Espírito Santo
+                    A7               D  (A7)
+Transforma a minha vida, quero renascer
+ D       (Bm7)           G
+Vem, vem, vem, Espírito Santo
+                    A7               D  (D7)
+Transforma a minha vida, quero renascer
+
+[Refrão]
+
+             G              A
+Quero abandonar-me em seu amor
+      F#m                      Bm
+Encharcar-me em seus rios, Senhor
+      G            A              Am7  D
+Derrubar as barreiras em meu coração
+
+(D7)         G              A
+Quero abandonar-me em seu amor
+      F#m                      Bm
+Encharcar-me em seus rios, Senhor
+      G            A              D  (A7)
+Derrubar as barreiras em meu coração`,
+` D                       G
+Vem, vem, vem, Espírito Santo
+                    A                D  (A7)
+Transforma a minha vida, quero renascer
+ D                       G
+Vem, vem, vem, Espírito Santo
+                    A                D  (D7)
+Transforma a minha vida, quero renascer
+
+[Refrão]
+
+             G              A
+Quero abandonar-me em seu amor
+      F#m                      Bm
+Encharcar-me em seus rios, Senhor
+      G            A              D  (D7)
+Derrubar as barreiras em meu coração
+
+             G              A
+Quero abandonar-me em seu amor
+      F#m                      Bm
+Encharcar-me em seus rios, Senhor
+      G            A              D  (A7)
+Derrubar as barreiras em meu coração`]
+
+export const aparecida = 
+[`     G#7M           Bb         Cm (D#)
+Apareceu pra mim a mãe do meu amor
+           G#7M        Bb          Cm (D#)
+Vestida de glória e a lua sob seus pés
+          G#7M        Bb
+Olhou pra mim e me pediu
+        D#    Bb     Cm
+Que eu fosse mais de Deus
+       G#7M       Bb          D#
+Salve Rainha, eu vou te obedecer
+
+     G#7M           Bb         Cm (D#)
+Apareceu pra mim a mãe do meu amor
+           G#7M        Bb          Cm (D#)
+Vestida de glória e a lua sob seus pés
+          G#7M        Bb
+Olhou pra mim e me pediu
+        D#    Bb     Cm
+Que eu fosse mais de Deus
+       G#7M       Bb          D#
+Salve Rainha, eu vou te obedecer
+
+     Fm              G#7M         D#           Bb
+Aparecida, cheia da graça, doce rainha mãe de Deus
+         Fm        G#7M           D#           Bb
+Virgem Maria, imaculada, eu me consagro filho teu
+      Fm         G#7M            D#       Bb
+E não vou mais fingir que não te vejo mããÃãe
+      Fm         G#7M         D#  Bb
+E não vou mais fugir do teu amoooOor
+
+           Fm           G#7M        D#           Bb
+Hoje eu percebo, quanto tempo eu perdi, longe de ti
+      G#7M          Bb          G#7M (Bb)
+Doce mamãe, não me deixa sair daqui
+
+      G#7M          Bb          G#7M
+Doce mamãe, não me deixa sair daqui
+
+    D#       Cm G#7M           Bb
+Mãezinha do céu, eu não sei rezar
+            G#7M        Bb        D#
+Eu só sei dizer que eu quero te amar
+  D#                             G#7M      
+Azul é o teu manto, branco é seu véu
+  G#7M       D#      Bb      D#
+Mãezinha eu quero te ver lá céu
+  G#7M       D#      Bb      D#
+Mãezinha eu quero te ver lá céu`,
+`     G#             Bb         Cm
+Apareceu pra mim a mãe do meu amor
+           G#          Bb          Cm
+Vestida de glória e a lua sob seus pés
+          G#          Bb
+Olhou pra mim e me pediu
+        D#    Bb     Cm
+Que eu fosse mais de Deus
+       G#         Bb          D#
+Salve Rainha, eu vou te obedecer
+
+     G#             Bb         Cm
+Apareceu pra mim a mãe do meu amor
+           G#          Bb          Cm
+Vestida de glória e a lua sob seus pés
+          G#          Bb
+Olhou pra mim e me pediu
+        D#    Bb     Cm
+Que eu fosse mais de Deus
+       G#         Bb          D#
+Salve Rainha, eu vou te obedecer
+
+     Fm              G#           D#           Bb
+Aparecida, cheia da graça, doce rainha mãe de Deus
+         Fm        G#             D#           Bb
+Virgem Maria, imaculada, eu me consagro filho teu
+      Fm         G#              D#       Bb
+E não vou mais fingir que não te vejo mããÃãe
+      Fm         G#           D#  Bb
+E não vou mais fugir do teu amoooOor
+
+           Fm           G#          D#           Bb
+Hoje eu percebo, quanto tempo eu perdi, longe de ti
+      G#            Bb          G#7M (Bb)
+Doce mamãe, não me deixa sair daqui
+
+      G#            Bb          G#
+Doce mamãe, não me deixa sair daqui
+
+    D#          G#
+Mãezinha do céu, eu não sei rezar
+   Bb                    G#        D#
+Eu só sei dizer que eu quero te amar
+  D#                             G#      
+Azul é o teu manto, branco é seu véu
+  G#         D#      Bb      D#
+Mãezinha eu quero te ver lá céu
+  G#         D#      Bb      D#
+Mãezinha eu quero te ver lá céu`]
+
+export const regacoAcolhedor = 
+[`       G#7M     A#9      Cm7
+Oh, minh’alma retorna à tua paz
+        G#7M        A#9
+Como criança bem tranqüila
+           D#7M  A#/D       Cm7
+No regaço acolhedor de sua mãe.(2x)
+      G#7MA#           D#7M
+Minha Mãe é a Virgem Maria
+  A#/D    Cm7  Cm/A#     G#7M        A#9
+É ela que agora vai me acolher, me abraçar,
+       D#7M  A#/D      Cm7
+me perdoar, me compreender,
+       G#7M        A#
+me acalmar, me ensinar,
+      Cm7
+me educar,
+      G#7MA#9 Cm7
+me formar, me amar.   (2x)
+       G#7M     A#       Cm7
+Oh, minh’alma retorna à tua paz...`]
+
+export const virgemDoSilencio = 
+[` C                    Dm
+Nossa Senhora Virgem do silêncio
+  G               C  G7
+Quero sempre Te amar
+    C                  Dm
+Deitar no Teu colo sentir Teu perfume
+      G                 C  G
+Teu carinho materno ganhar
+
+ C                    Dm
+Nossa Senhora Virgem do silêncio
+  G               C  G7
+Quero sempre Te amar
+    C                  Dm
+Deitar no Teu colo sentir Teu perfume
+      G                 C  G
+Teu carinho materno ganhar
+
+ F                  G
+Lágrimas de Sangue nos Teus olhos
+   Em                 Am
+Estigma e martírio da alma
+    Dm          G7
+Mãezinha minha vida
+       Gm            C7
+Pra igreja quero consumir
+
+  F                 G
+Quero estar ao Teu lado na Cruz
+    Em                  Am
+Sofrendo as dores de Jesus
+     Dm            G7           C         G
+E dizer que na loucura da cruz vou seguir
+
+ C                    Dm
+Nossa Senhora Virgem do silêncio
+  G               C  G7
+Quero sempre Te amar
+    C                  Dm
+Deitar no Teu colo sentir Teu perfume
+      G                 C  G
+Teu carinho materno ganhar
+
+ F                  G
+Lágrimas de Sangue nos Teus olhos
+   Em                 Am
+Estigma e martírio da alma
+    Dm          G7
+Mãezinha minha vida
+       Gm            C7
+Pra igreja quero consumir
+
+  F                 G
+Quero estar ao Teu lado na Cruz
+    Em                  Am
+Sofrendo as dores de Jesus
+     Dm            G7           C         G
+E dizer que na loucura da cruz vou seguir
+
+ Gb                  Ab
+Lágrimas de Sangue nos Teus olhos
+   Fm                 Bbm
+Estigma e martírio da alma
+    Ebm          Ab7
+Mãezinha minha vida
+       Abm           Db7
+Pra igreja quero consumir
+
+  Gb                 Ab
+Quero estar ao Teu lado na Cruz
+    Fm                  Bbm
+Sofrendo as dores de Jesus
+     Ebm            Ab7          Db      Ab
+E dizer que na loucura da cruz vou seguir`]
+
+export const maeDoMeuSalvador = 
+[`C  Em  Eb  Dm  G7              C  Em Ebm Dm G7
+Nossa Senhora Mãe do meu Salvador
+C  Em  Eb  Dm  G7              C  Em Ebm Dm G7
+Nossa Senhora Mãe do meu Salvador
+
+C                Em   Eb
+Todo dia acordo, pego no meu terço
+Dm                 G7
+Rezo o meu rosário pra você
+C             Em   Eb
+Durante o dia peço a intercessão
+Dm                G7       C  Em Ebm Dm
+Pois a providência é a solução
+    G7   C Em Ebm Dm G7
+É a solução
+
+( C  Em  Eb  Dm  G7 )
+
+C  Em Ebm Dm G7
+Nossa Senhora Mãe do meu Salvador
+
+C                Em   Eb
+Acariciado por seu belo manto
+Dm                 G7
+Sinto sua ternura pra valer
+C              Em   Eb
+Minha intercessora, Bem-Aventurada
+Dm                    G7        C   Em Ebm Dm
+Me leva pra Cristo que é nosso viver
+       G7      C Em Ebm Dm G7
+Que é nosso viver`]
+
+export const mariaDeNazare = 
+[`              F#m7  B7         E
+Maria de Nazaré, Maria me cativou
+                        F#m7
+Fez mais forte a minha fé
+   B7              E
+E por filho me adotou
+
+[Refrão 1]
+
+    Bm7      E      A
+Às vezes eu paro e fico a pensar
+   Am              E
+E sem perceber me vejo a rezar
+   C#m            F#m7
+E meu coração se põe a cantar
+     B7            E
+Pra virgem de Nazaré
+
+   Bm7      E     A
+Menina que Deus amou e escolheu
+     Am              E
+Pra mãe de Jesus, o filho de Deus
+   C#m              F#m7
+Maria que o povo inteiro elegeu
+    B7            E  B7
+Senhora e mãe do céu
+
+( E  F#m7  B7  E )
+( F#m7  B7  E  B7 )
+
+[Segunda Parte]
+
+   E                F#m7
+Maria que eu quero bem
+   B7           E
+Maria do puro amor
+                   F#m7
+Igual a você, ninguém
+     B7             E
+Mãe pura do meu Senhor
+
+[Refrão 2]
+
+    Bm7     E         A
+Em cada mulher que a terra criou
+     Am             E
+Um traço de Deus Maria deixou
+    C#m            F#m7
+Um sonho de mãe Maria plantou
+     B7                E
+Pro mundo encontrar a paz
+
+    Bm7    E      A
+Maria que fez o Cristo falar
+   Am            E
+Maria que fez Jesus caminhar
+   C#m          F#m7
+Maria que só viveu pra seu Deus
+   B7          E  B7
+Maria do povo meu
+
+[Final] E  F#m7  B7  E
+        F#m7  B7  E  B7
+        E  F#m7  B7  E
+        F#m7  B7  E  B7
+        E  F#m7  B7  E
+        F#m7  B7  E`]
+
+export const mariaDeMinhaInfancia = 
+[`   D                    A7
+Eu era pequeno, nem me lembro
+    G                            D
+Só lembro que à noite, ao pé da cama
+    D7                    G
+Juntava as mãozinhas e rezava apressado
+       A7                  D
+Mas rezava como alguém que ama
+    D                      A
+Nas Ave - Marias que eu rezava
+    G                     D
+Eu sempre engolia umas palavras
+   D7               G
+E muito cansado acabava dormindo
+       A7              D          
+Mas dormia como quem amava
+
+         D7          G
+Ave Maria, Mãe de Jesus
+         A7               D
+O tempo passa, não volta mais
+          D7           G
+Tenho saudade daquele tempo
+             A7             D
+Que eu te chamava de minha mãe
+      D7             G
+Ave Maria, Mãe de Jesus
+       A7            D
+Ave Maria, Mãe de Jesus
+
+ D                           A7
+Depois fui crescendo, eu me lembro
+   G                       D
+E fui esquecendo nossa amizade
+D7                      G
+Chegava lá em casa chateado e cansado
+      A7                   D
+De rezar não tinha nem vontade
+D                       A7
+Andei duvidando, eu me lembro
+      G                           D
+Das coisas mais puras que me ensinaram
+ D7                   G
+Perdi o costume da criança inocente
+            
+        A7                   D            
+Minhas mãos quase não se ajuntavam
+
+      D7             G
+Ave Maria, Mãe de Jesus
+         A7               D
+O tempo passa, não volta mais
+D7                     G
+Tenho saudade daquele tempo
+             A7             D
+Que eu te chamava de minha mãe
+       D7            G
+Ave Maria, Mãe de Jesus
+      A7             D
+Ave Maria, Mãe de Jesus
+
+D                         A7
+O teu amor cresce com a gente
+   G                           D
+A mãe nunca esquece o filho ausente
+D7                       G
+Eu chego lá em casa chateado e cansado
+         A7            D          
+Mas eu rezo como antigamente
+    D                       A7
+Nas Ave Marias que hoje eu rezo
+    G            A7        D
+Esqueço as palavras e adormeço
+D7                                     G
+E embora cansado, sem rezar como eu devo
+       A7                   D           
+Eu de Ti Maria, não me esqueço`]
+
+export const todaTua = 
+[`A9                      C#m
+Estava tão distante do teu aconchego mãe
+E         B9
+Mas voltei
+A9                     C#m
+Percebi que tudo que eu preciso esta em ti
+E               B9
+Me reencontrei
+
+        A9           E         B5
+No teu olhar no teu carinho e amor
+F#m11       B4        B
+Conduza-me, conduza-me
+
+       A9               E
+Toda tua, inteiramente tua
+           B9       E
+Eu quero ser, oh mãe
+
+  F#m          A9
+Tu és modelo, tu és força
+      C#m        B9
+Me apresentando vida
+          A9        F#m      B9
+Que me leva ao caminho da cruz
+
+       A9               E
+Todo teu, inteiramente teu
+           B9       E
+Eu quero ser, oh mãe`]

@@ -38,9 +38,8 @@ export function getPreparacao(primeiroAcorde, preparacao, tomAtual, novoTom, isR
         const preparacaoIndex = tonsSemRelativa.indexOf(tom)
         return tonsSemRelativa[((preparacaoIndex + diferenca) % quantTons) % quantTons] + m
     }
-    const tom = removeMenor(primeiroAcorde)[0]
+    const tom = tomResto(removeMenor(primeiroAcorde)[0])[0]
     const primeiroAcordeIndex = tonsSemRelativa.indexOf(tom)
-    console.log(tonsSemRelativa[(primeiroAcordeIndex - 5 + quantTons) % quantTons] + '7')
     return tonsSemRelativa[(primeiroAcordeIndex - 5 + quantTons) % quantTons] + '7'
 }
 
@@ -114,7 +113,7 @@ export function aumentarTons(tomAtual, setTom, tomComCapo, setTomComCapo, acorde
 
                 const indexes = [tons.indexOf(tonsAcorde[0]), tons.indexOf(tonsAcorde[1])]
 
-                return tons[((indexes[0] + diferenca) % quantTons) % quantTons] + restosAcorde[0] + "/" + tons[((indexes[1] + diferenca) % quantTons) % quantTons] + restosAcorde[1]
+                return `(${tons[((indexes[0] + diferenca) % quantTons) % quantTons] + restosAcorde[0] + "/" + tons[((indexes[1] + diferenca) % quantTons) % quantTons] + restosAcorde[1]})`
             }
             const index = tons.indexOf(tom)
             return `(${tons[((index + diferenca) % quantTons) % quantTons] + resto})`
@@ -154,7 +153,7 @@ export function aumentarTons(tomAtual, setTom, tomComCapo, setTomComCapo, acorde
 
                 const indexes = [tons.indexOf(tonsAcorde[0]), tons.indexOf(tonsAcorde[1])]
 
-                return tons[((indexes[0] - diferencaComCapo + quantTons) % quantTons) % quantTons] + restosAcorde[0] + "/" + tons[((indexes[1] - diferencaComCapo + quantTons) % quantTons) % quantTons] + restosAcorde[1]
+                return `(${tons[((indexes[0] - diferencaComCapo + quantTons) % quantTons) % quantTons] + restosAcorde[0] + "/" + tons[((indexes[1] - diferencaComCapo + quantTons) % quantTons) % quantTons] + restosAcorde[1]})`
             }
             const index = tons.indexOf(tom)
             return `(${tons[((index - diferencaComCapo + quantTons) % quantTons) % quantTons] + resto})`
@@ -194,7 +193,7 @@ export function baixarTons(tomAtual, setTom, tomComCapo, setTomComCapo, acordes,
 
                 const indexes = [tons.indexOf(tonsAcorde[0]), tons.indexOf(tonsAcorde[1])]
 
-                return tons[(indexes[0] - diferenca + quantTons) % quantTons] + restosAcorde[0] + "/" + tons[(indexes[1] - diferenca + quantTons) % quantTons] + restosAcorde[1]
+                return `(${tons[(indexes[0] - diferenca + quantTons) % quantTons] + restosAcorde[0] + "/" + tons[(indexes[1] - diferenca + quantTons) % quantTons] + restosAcorde[1]})`
             }
             const index = tons.indexOf(tom)
             return `(${tons[(index - diferenca + quantTons) % quantTons] + resto})`
@@ -234,7 +233,7 @@ export function baixarTons(tomAtual, setTom, tomComCapo, setTomComCapo, acordes,
 
                 const indexes = [tons.indexOf(tonsAcorde[0]), tons.indexOf(tonsAcorde[1])]
 
-                return tons[((indexes[0] - diferencaComCapo + quantTons) % quantTons) % quantTons] + restosAcorde[0] + "/" + tons[((indexes[1] - diferencaComCapo + quantTons) % quantTons) % quantTons] + restosAcorde[1]
+                return `(${tons[((indexes[0] - diferencaComCapo + quantTons) % quantTons) % quantTons] + restosAcorde[0] + "/" + tons[((indexes[1] - diferencaComCapo + quantTons) % quantTons) % quantTons] + restosAcorde[1]})`
             }
             const index = tons.indexOf(tom)
             return `(${tons[((index - diferencaComCapo + quantTons) % quantTons) % quantTons] + resto})`

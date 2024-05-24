@@ -2,6 +2,14 @@ import { getCifra } from "../assets/cifras"
 import { cifrasSemEstrutura } from "./cifras"
 
 export const repertorios = {
+    animacaoJantar: {
+        titulo: 'Animação Jantar',
+        cifras: {
+            passeioDeCarangueijo: getCifra(Object.assign({}, cifrasSemEstrutura.passeioDeCarangueijo), 'animacaoJantar', 'passeioDeCarangueijo'),
+            oSenhorERei: getCifra(Object.assign({}, cifrasSemEstrutura.oSenhorERei), 'animacaoJantar', 'oSenhorERei'),
+            vemVemVemEspiritoSanto: getCifra(Object.assign({}, cifrasSemEstrutura.vemVemVemEspiritoSanto), 'animacaoJantar', 'vemVemVemEspiritoSanto'),
+        }
+    },
     missaPascoa: {
         titulo: 'Missa (Páscoa)',
         cifras: {
