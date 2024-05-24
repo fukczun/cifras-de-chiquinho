@@ -1603,7 +1603,7 @@ E não vou mais fugir do teu amoooOor
 
            Fm           G#          D#           Bb
 Hoje eu percebo, quanto tempo eu perdi, longe de ti
-      G#            Bb          G#7M (Bb)
+      G#            Bb          G#   (Bb)
 Doce mamãe, não me deixa sair daqui
 
       G#            Bb          G#
@@ -1621,135 +1621,54 @@ Mãezinha eu quero te ver lá céu
 Mãezinha eu quero te ver lá céu`]
 
 export const regacoAcolhedor = 
-[`       G#7M     A#9      Cm7
+[`       G#7M     Bb9         Cm7
 Oh, minh’alma retorna à tua paz
-        G#7M        A#9
-Como criança bem tranqüila
-           D#7M  A#/D       Cm7
-No regaço acolhedor de sua mãe.(2x)
-      G#7MA#           D#7M
-Minha Mãe é a Virgem Maria
-  A#/D    Cm7  Cm/A#     G#7M        A#9
-É ela que agora vai me acolher, me abraçar,
-       D#7M  A#/D      Cm7
-me perdoar, me compreender,
-       G#7M        A#
-me acalmar, me ensinar,
+       G#7M          Bb9
+Como criança bem tranquila
+           D#   Bb/D       Cm7
+No regaço acolhedor de sua mãe (2x)
+
+      G#7M          Bb9
+Minha Mãe (Oh minha mãe) 
+              D#
+é a Virgem Maria
+  Bb/D     Cm7            G#7M         Bb9
+É ela que agora vai me acolher, me abraçar
+        D#     Bb/D    Cm7
+me perdoar, me compreender
+       G#7M        Bb9
+me acalmar, me ensinar
       Cm7
 me educar,
-      G#7MA#9 Cm7
-me formar, me amar.   (2x)
-       G#7M     A#       Cm7
+      G#7M     Bb9     Cm7
+me formaaaaaaaaaar, me amar (2x)
+
+       G#7M     Bb9         Cm7
+Oh, minh’alma retorna à tua paz...`,
+`        G#       Bb          Cm
+Oh, minh’alma retorna à tua paz
+       G#            Bb
+Como criança bem tranquila
+           D#   Bb         Cm
+No regaço acolhedor de sua mãe (2x)
+
+      G#            Bb
+Minha Mãe (Oh minha mãe) 
+              D#
+é a Virgem Maria
+  Bb       Cm             G#           Bb
+É ela que agora vai me acolher, me abraçar
+        D#     Bb      Cm
+me perdoar, me compreender
+       G#          Bb
+me acalmar, me ensinar
+      Cm
+me educar
+      G#       Bb      Cm
+me formaaaaaaaaaar, me amar (2x)
+
+        G#      Bb          Cm
 Oh, minh’alma retorna à tua paz...`]
-
-export const virgemDoSilencio = 
-[` C                    Dm
-Nossa Senhora Virgem do silêncio
-  G               C  G7
-Quero sempre Te amar
-    C                  Dm
-Deitar no Teu colo sentir Teu perfume
-      G                 C  G
-Teu carinho materno ganhar
-
- C                    Dm
-Nossa Senhora Virgem do silêncio
-  G               C  G7
-Quero sempre Te amar
-    C                  Dm
-Deitar no Teu colo sentir Teu perfume
-      G                 C  G
-Teu carinho materno ganhar
-
- F                  G
-Lágrimas de Sangue nos Teus olhos
-   Em                 Am
-Estigma e martírio da alma
-    Dm          G7
-Mãezinha minha vida
-       Gm            C7
-Pra igreja quero consumir
-
-  F                 G
-Quero estar ao Teu lado na Cruz
-    Em                  Am
-Sofrendo as dores de Jesus
-     Dm            G7           C         G
-E dizer que na loucura da cruz vou seguir
-
- C                    Dm
-Nossa Senhora Virgem do silêncio
-  G               C  G7
-Quero sempre Te amar
-    C                  Dm
-Deitar no Teu colo sentir Teu perfume
-      G                 C  G
-Teu carinho materno ganhar
-
- F                  G
-Lágrimas de Sangue nos Teus olhos
-   Em                 Am
-Estigma e martírio da alma
-    Dm          G7
-Mãezinha minha vida
-       Gm            C7
-Pra igreja quero consumir
-
-  F                 G
-Quero estar ao Teu lado na Cruz
-    Em                  Am
-Sofrendo as dores de Jesus
-     Dm            G7           C         G
-E dizer que na loucura da cruz vou seguir
-
- Gb                  Ab
-Lágrimas de Sangue nos Teus olhos
-   Fm                 Bbm
-Estigma e martírio da alma
-    Ebm          Ab7
-Mãezinha minha vida
-       Abm           Db7
-Pra igreja quero consumir
-
-  Gb                 Ab
-Quero estar ao Teu lado na Cruz
-    Fm                  Bbm
-Sofrendo as dores de Jesus
-     Ebm            Ab7          Db      Ab
-E dizer que na loucura da cruz vou seguir`]
-
-export const maeDoMeuSalvador = 
-[`C  Em  Eb  Dm  G7              C  Em Ebm Dm G7
-Nossa Senhora Mãe do meu Salvador
-C  Em  Eb  Dm  G7              C  Em Ebm Dm G7
-Nossa Senhora Mãe do meu Salvador
-
-C                Em   Eb
-Todo dia acordo, pego no meu terço
-Dm                 G7
-Rezo o meu rosário pra você
-C             Em   Eb
-Durante o dia peço a intercessão
-Dm                G7       C  Em Ebm Dm
-Pois a providência é a solução
-    G7   C Em Ebm Dm G7
-É a solução
-
-( C  Em  Eb  Dm  G7 )
-
-C  Em Ebm Dm G7
-Nossa Senhora Mãe do meu Salvador
-
-C                Em   Eb
-Acariciado por seu belo manto
-Dm                 G7
-Sinto sua ternura pra valer
-C              Em   Eb
-Minha intercessora, Bem-Aventurada
-Dm                    G7        C   Em Ebm Dm
-Me leva pra Cristo que é nosso viver
-       G7      C Em Ebm Dm G7
-Que é nosso viver`]
 
 export const mariaDeNazare = 
 [`              F#m7  B7         E
@@ -1779,16 +1698,24 @@ Maria que o povo inteiro elegeu
     B7            E  B7
 Senhora e mãe do céu
 
-( E  F#m7  B7  E )
-( F#m7  B7  E  B7 )
-
 [Segunda Parte]
+
+E      F#m7 
+Ave MariiiiA
+B7      E
+Ave MariiiiA
+E      F#m7 
+Ave MariiiiA
+B7        E
+Mãe de Jesus
+
+[Terceira Parte]
 
    E                F#m7
 Maria que eu quero bem
    B7           E
 Maria do puro amor
-                   F#m7
+                 F#m7
 Igual a você, ninguém
      B7             E
 Mãe pura do meu Senhor
@@ -1813,91 +1740,16 @@ Maria que só viveu pra seu Deus
    B7          E  B7
 Maria do povo meu
 
-[Final] E  F#m7  B7  E
-        F#m7  B7  E  B7
-        E  F#m7  B7  E
-        F#m7  B7  E  B7
-        E  F#m7  B7  E
-        F#m7  B7  E`]
+[Segunda Parte]
 
-export const mariaDeMinhaInfancia = 
-[`   D                    A7
-Eu era pequeno, nem me lembro
-    G                            D
-Só lembro que à noite, ao pé da cama
-    D7                    G
-Juntava as mãozinhas e rezava apressado
-       A7                  D
-Mas rezava como alguém que ama
-    D                      A
-Nas Ave - Marias que eu rezava
-    G                     D
-Eu sempre engolia umas palavras
-   D7               G
-E muito cansado acabava dormindo
-       A7              D          
-Mas dormia como quem amava
-
-         D7          G
-Ave Maria, Mãe de Jesus
-         A7               D
-O tempo passa, não volta mais
-          D7           G
-Tenho saudade daquele tempo
-             A7             D
-Que eu te chamava de minha mãe
-      D7             G
-Ave Maria, Mãe de Jesus
-       A7            D
-Ave Maria, Mãe de Jesus
-
- D                           A7
-Depois fui crescendo, eu me lembro
-   G                       D
-E fui esquecendo nossa amizade
-D7                      G
-Chegava lá em casa chateado e cansado
-      A7                   D
-De rezar não tinha nem vontade
-D                       A7
-Andei duvidando, eu me lembro
-      G                           D
-Das coisas mais puras que me ensinaram
- D7                   G
-Perdi o costume da criança inocente
-            
-        A7                   D            
-Minhas mãos quase não se ajuntavam
-
-      D7             G
-Ave Maria, Mãe de Jesus
-         A7               D
-O tempo passa, não volta mais
-D7                     G
-Tenho saudade daquele tempo
-             A7             D
-Que eu te chamava de minha mãe
-       D7            G
-Ave Maria, Mãe de Jesus
-      A7             D
-Ave Maria, Mãe de Jesus
-
-D                         A7
-O teu amor cresce com a gente
-   G                           D
-A mãe nunca esquece o filho ausente
-D7                       G
-Eu chego lá em casa chateado e cansado
-         A7            D          
-Mas eu rezo como antigamente
-    D                       A7
-Nas Ave Marias que hoje eu rezo
-    G            A7        D
-Esqueço as palavras e adormeço
-D7                                     G
-E embora cansado, sem rezar como eu devo
-       A7                   D           
-Eu de Ti Maria, não me esqueço`]
+E      F#m7 
+Ave MariiiiA
+B7      E
+Ave MariiiiA
+E      F#m7 
+Ave MariiiiA
+B7        E
+Mãe de Jesus`]
 
 export const todaTua = 
 [`A9                      C#m

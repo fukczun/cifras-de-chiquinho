@@ -1,5 +1,5 @@
 import { getLetra, getAcordes, getCifra } from "../assets/cifras"
-import { aleluia, amem, anjosDeDeus, aparecida, benditoSejasOReiDaGloria, canticoDeAdoracao, celebremosNossaPascoa, consagracaoANossaSenhora, cordeiroDeDeus, cristoEONossoAmem, dancaDaAmizade, euConfesso, euCreioNumMundoNovo, euNavegarei, euSouDoSenhor, gloriaADeusNasAlturas, gloriaADeusNosAltosCeus, molimMolim, oCeuSeAbre, oSenhorERei, oSenhorRessurgiu, parabensPraVoce, passaFogo, passeioDeCarangueijo, pescadorDeCristo, pipoca, quemEEssaQueAvancaComoAurora, quemEEssaQueAvancaComoAurora_AEscolhida, ruah, salmo46, santo, vemVemVemEspiritoSanto } from "./letras"
+import { aleluia, amem, anjosDeDeus, aparecida, benditoSejasOReiDaGloria, canticoDeAdoracao, celebremosNossaPascoa, consagracaoANossaSenhora, cordeiroDeDeus, cristoEONossoAmem, dancaDaAmizade, euConfesso, euCreioNumMundoNovo, euNavegarei, euSouDoSenhor, gloriaADeusNasAlturas, gloriaADeusNosAltosCeus, mariaDeNazare, molimMolim, oCeuSeAbre, oSenhorERei, oSenhorRessurgiu, parabensPraVoce, passaFogo, passeioDeCarangueijo, pescadorDeCristo, pipoca, quemEEssaQueAvancaComoAurora, quemEEssaQueAvancaComoAurora_AEscolhida, regacoAcolhedor, ruah, salmo46, santo, vemVemVemEspiritoSanto } from "./letras"
 
 const acordes = {
     molimMolim: molimMolim.map(letra => getAcordes(letra, ['G', 'Em', 'C', 'D', '(D7)'])),
@@ -34,6 +34,8 @@ const acordes = {
     oSenhorERei: oSenhorERei.map(letra => getAcordes(letra, ['Bm', 'D', 'A', '(Bm)', '(A)', 'G', '(A7)'])),
     vemVemVemEspiritoSanto: vemVemVemEspiritoSanto.map(letra => getAcordes(letra, ['D', '(Bm7)', 'G', 'A7', '(A7)', '(D7)', 'A', 'F#m', 'Bm', 'Am7', ''])),
     aparecida: aparecida.map(letra => getAcordes(letra, ['G#7M', 'Bb', 'Cm', '(D#)', 'D#', 'Fm', '(Bb)', 'G#'])),
+    regacoAcolhedor: regacoAcolhedor.map(letra => getAcordes(letra, ['G#7M', 'Bb9', 'Cm7', 'D#', 'Bb/D', 'G#', 'Bb', 'Cm', '(Bb)', 'G#'])),
+    mariaDeNazare: mariaDeNazare.map(letra => getAcordes(letra, ['F#m7', 'B7', 'E', 'Bm7', 'A', 'Am', 'C#m', 'Cm', '(Bb)', 'G#'])),
 }
 
 export const cifrasSemEstrutura = {
@@ -295,6 +297,23 @@ export const cifrasSemEstrutura = {
         letra: aparecida.map((letra, index) => getLetra(letra, acordes.aparecida[index])),
         acordes: acordes.aparecida,
         isRelativa: false,
+    },
+    regacoAcolhedor: {
+        titulo: 'Regaço Acolhedor', 
+        autor: 'Ir. Kelly Patrícia',
+        tomPadrao: 'D#',
+        letra: regacoAcolhedor.map((letra, index) => getLetra(letra, acordes.regacoAcolhedor[index])),
+        acordes: acordes.regacoAcolhedor,
+        isRelativa: false,
+    },
+    mariaDeNazare: {
+        titulo: 'Maria De Nazaré', 
+        autor: 'Padre Zezinho',
+        tomPadrao: 'E',
+        letra: mariaDeNazare.map((letra, index) => getLetra(letra, acordes.mariaDeNazare[index])),
+        acordes: acordes.mariaDeNazare,
+        isRelativa: false,
+        preparacao: 'E'
     },
 }
 

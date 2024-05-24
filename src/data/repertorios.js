@@ -8,6 +8,10 @@ export const repertorios = {
             passeioDeCarangueijo: getCifra(Object.assign({}, cifrasSemEstrutura.passeioDeCarangueijo), 'animacaoJantar', 'passeioDeCarangueijo'),
             oSenhorERei: getCifra(Object.assign({}, cifrasSemEstrutura.oSenhorERei), 'animacaoJantar', 'oSenhorERei'),
             vemVemVemEspiritoSanto: getCifra(Object.assign({}, cifrasSemEstrutura.vemVemVemEspiritoSanto), 'animacaoJantar', 'vemVemVemEspiritoSanto'),
+            quemEEssaQueAvancaComoAurora: getCifra(Object.assign({}, cifrasSemEstrutura.quemEEssaQueAvancaComoAurora), 'animacaoJantar', 'quemEEssaQueAvancaComoAurora'),
+            aparecida: getCifra(Object.assign({}, cifrasSemEstrutura.aparecida), 'animacaoJantar', 'aparecida'),
+            regacoAcolhedor: getCifra(Object.assign({}, cifrasSemEstrutura.regacoAcolhedor), 'animacaoJantar', 'regacoAcolhedor'),
+            mariaDeNazare: getCifra(Object.assign({}, cifrasSemEstrutura.mariaDeNazare), 'animacaoJantar', 'mariaDeNazare'),
         }
     },
     missaPascoa: {
