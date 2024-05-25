@@ -1,5 +1,5 @@
 import { getLetra, getAcordes, getCifra } from "../assets/cifras"
-import { aleluia, amem, anjosDeDeus, aparecida, benditoSejasOReiDaGloria, canticoDeAdoracao, celebremosNossaPascoa, consagracaoANossaSenhora, cordeiroDeDeus, cristoEONossoAmem, dancaDaAmizade, euConfesso, euCreioNumMundoNovo, euNavegarei, euSouDoSenhor, gloriaADeusNasAlturas, gloriaADeusNosAltosCeus, mariaDeNazare, molimMolim, oCeuSeAbre, oSenhorERei, oSenhorRessurgiu, parabensPraVoce, passaFogo, passeioDeCarangueijo, pescadorDeCristo, pipoca, quemEEssaQueAvancaComoAurora, quemEEssaQueAvancaComoAurora_AEscolhida, regacoAcolhedor, ruah, salmo46, santo, vemVemVemEspiritoSanto } from "./letras"
+import { aAlegriaDoSenhor, aAlegriaEstaNoCoracao, aleluia, amem, anjosDeDeus, aparecida, benditoSejasOReiDaGloria, canticoDeAdoracao, celebremosNossaPascoa, chuvaDeGraca, consagracaoANossaSenhora, cordeiroDeDeus, cristoEONossoAmem, dancaDaAmizade, euConfesso, euCreioNumMundoNovo, euNavegarei, euSouDoSenhor, gloriaADeusNasAlturas, gloriaADeusNosAltosCeus, mariaDeNazare, molimMolim, oCeuSeAbre, oSenhorERei, oSenhorRessurgiu, parabensPraVoce, passaFogo, passeioDeCarangueijo, pescadorDeCristo, pipoca, quemEEssaQueAvancaComoAurora, quemEEssaQueAvancaComoAurora_AEscolhida, regacoAcolhedor, ruah, salmo46, santo, todaTua, vemVemVemEspiritoSanto } from "./letras"
 
 const acordes = {
     molimMolim: molimMolim.map(letra => getAcordes(letra, ['G', 'Em', 'C', 'D', '(D7)'])),
@@ -36,6 +36,10 @@ const acordes = {
     aparecida: aparecida.map(letra => getAcordes(letra, ['G#7M', 'Bb', 'Cm', '(D#)', 'D#', 'Fm', '(Bb)', 'G#'])),
     regacoAcolhedor: regacoAcolhedor.map(letra => getAcordes(letra, ['G#7M', 'Bb9', 'Cm7', 'D#', 'Bb/D', 'G#', 'Bb', 'Cm', '(Bb)', 'G#'])),
     mariaDeNazare: mariaDeNazare.map(letra => getAcordes(letra, ['F#m7', 'B7', 'E', 'Bm7', 'A', 'Am', 'C#m', 'Cm', '(Bb)', 'G#'])),
+    todaTua: todaTua.map(letra => getAcordes(letra, ['A9', 'C#m', 'E', 'B9', 'F#m', 'B4', '(B7)', 'Cm', '(Bb)', 'G#'])),
+    aAlegriaEstaNoCoracao: aAlegriaEstaNoCoracao.map(letra => getAcordes(letra, ['C', 'F', '(Bb)', '(F)', 'D7', 'C7', 'G', 'Cm', '(Bb)', 'G#'])),
+    chuvaDeGraca: chuvaDeGraca.map(letra => getAcordes(letra, ['G', 'D', 'Em', 'C'])),
+    aAlegriaDoSenhor: aAlegriaDoSenhor.map(letra => getAcordes(letra, ['D', 'G', 'A', 'Em'])),
 }
 
 export const cifrasSemEstrutura = {
@@ -292,7 +296,7 @@ export const cifrasSemEstrutura = {
     },
     aparecida: {
         titulo: 'Aparecida', 
-        autor: 'Comunidade Católica Shalom',
+        autor: 'Comunidade Católica Colo de Deus',
         tomPadrao: 'D#',
         letra: aparecida.map((letra, index) => getLetra(letra, acordes.aparecida[index])),
         acordes: acordes.aparecida,
@@ -315,6 +319,40 @@ export const cifrasSemEstrutura = {
         isRelativa: false,
         preparacao: 'E'
     },
+    todaTua: {
+        titulo: 'Toda Tua', 
+        autor: 'Comunidade Católica Colo de Deus',
+        tomPadrao: 'E',
+        letra: todaTua.map((letra, index) => getLetra(letra, acordes.todaTua[index])),
+        acordes: acordes.todaTua,
+        isRelativa: false,
+        preparacao: 'B'
+    },
+    aAlegriaEstaNoCoracao: {
+        titulo: 'A Alegria Está No Coração', 
+        autor: 'Corinhos Evangélicos',
+        tomPadrao: 'C',
+        letra: aAlegriaEstaNoCoracao.map((letra, index) => getLetra(letra, acordes.aAlegriaEstaNoCoracao[index])),
+        acordes: acordes.aAlegriaEstaNoCoracao,
+        isRelativa: false
+    },
+    chuvaDeGraca: {
+        titulo: 'Chuva De Graca', 
+        autor: 'Eliana Ribeiro',
+        tomPadrao: 'G',
+        letra: chuvaDeGraca.map((letra, index) => getLetra(letra, acordes.chuvaDeGraca[index])),
+        acordes: acordes.chuvaDeGraca,
+        isRelativa: false,
+        preparacao: 'G'
+    },
+    aAlegriaDoSenhor: {
+        titulo: 'A Alegria Do Senhor', 
+        autor: 'Músicas de Chiquinho',
+        tomPadrao: 'D',
+        letra: aAlegriaDoSenhor.map((letra, index) => getLetra(letra, acordes.aAlegriaDoSenhor[index])),
+        acordes: acordes.aAlegriaDoSenhor,
+        isRelativa: false
+    }
 }
 
 export const cifras = Object.fromEntries(

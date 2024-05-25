@@ -1752,33 +1752,165 @@ B7        E
 Mãe de Jesus`]
 
 export const todaTua = 
-[`A9                      C#m
+[`  A9                       C#m
 Estava tão distante do teu aconchego mãe
-E         B9
-Mas voltei
-A9                     C#m
+ E         B9
+Mas volteeEei
+A9                         C#m
 Percebi que tudo que eu preciso esta em ti
-E               B9
-Me reencontrei
+    E          B9
+Me reencontreeEei
 
-        A9           E         B5
+          A9           E        B9
 No teu olhar no teu carinho e amor
-F#m11       B4        B
+   F#m              B4 (B7)
 Conduza-me, conduza-me
 
-       A9               E
+      A9                E
 Toda tua, inteiramente tua
-           B9       E
+          B9      E
 Eu quero ser, oh mãe
 
-  F#m          A9
+      A9                E
+Toda tua, inteiramente tua
+          B9      E
+Eu quero ser, oh mãe
+
+   F#m         A9
 Tu és modelo, tu és força
-      C#m        B9
+     C#m        B9
 Me apresentando vida
-          A9        F#m      B9
+       A9        F#m       B9
 Que me leva ao caminho da cruz
 
-       A9               E
+      A9                E
 Todo teu, inteiramente teu
-           B9       E
+          B9      E
+Eu quero ser, oh mãe
+
+      A9                E
+Todo teu, inteiramente teu
+          B9      E
 Eu quero ser, oh mãe`]
+
+export const aAlegriaEstaNoCoracao = 
+[`C            
+A alegria está no coração
+     F                  C  (Bb) (F)
+De quem já conhece a Jesus
+C             
+A verdadeira paz só tem aquele
+     D7             G
+Que já conhece a Jesus
+
+[Refrão]
+
+C                   C7
+O sentimento mais precioso
+     F               G#
+Que vem do nosso Senhor
+      C          G       
+É o amor que só tem quem
+                C  (Bb) (F)  
+Já conhece a Jesus
+
+[Primeira Parte]
+
+C            
+A alegria está no coração
+     F                  C  (Bb) (F)
+De quem já conhece a Jesus
+C             
+A verdadeira paz só tem aquele
+     D7             G
+Que já conhece a Jesus
+
+[Refrão]
+
+C                   C7
+O sentimento mais precioso
+     F               G#
+Que vem do nosso Senhor
+      C          G       
+É o amor que só tem quem
+                C  G
+Já conhece a Jesus
+
+[Ponte]
+
+         C           
+Posso pisar numa tropa
+      C7
+E saltar as muralhas
+    F        G#
+Aleluia! Aleluia!
+         C           
+Posso pisar numa tropa
+      C7
+E saltar as muralhas
+    F        G#
+Aleluia! Aleluia!
+
+    C  C7     F  C
+Alelui_a! Alelui_a!
+    C  C7     D7  G
+Alelui_a! Alelui__a!`]
+
+export const chuvaDeGraca = 
+[`           G               D
+Chuva de graça  pedimos a ti
+          Em               C
+Chuva de graça derrama em nós
+           G            D
+Chuva de graça neste lugar
+    C
+Derrama!
+
+ G                D
+Há uma chuva de graça aqui
+Em                C
+Está chovendo sobre todos nós
+G                    D
+E quem mais se entregar
+              C
+Mais se molhará
+ G               D
+Há uma semente pra germinar
+Em                 C
+E muitos frutos a se produzir
+ G               D
+Na terra do coração
+              C
+Derrama tua graça`]
+
+export const aAlegriaDoSenhor = 
+[`D                G             A
+A alegria do Senhor é a nossa força
+D                G             A
+A alegria do Senhor é a nossa força
+D                G             A
+A alegria do Senhor é a nossa força
+D                G             A
+A alegria do Senhor é a nossa força
+
+[Ponte]
+
+ D         G      A
+Pa parara papa parara
+ D         G
+Pa parara pa (Ai Ai Ai)
+ D         G      A
+Pa parara papa parara
+ D         G A
+Pa parara pa
+
+[Parte 2]
+
+D            G           A
+Alegrei-me quando me disseram
+  D             Em          A
+"Vamos, vamos à casa do Senhor?"
+D            G           A
+Alegrei-me quando me disseram
+  D             Em          A
+"Vamos, vamos à casa do Senhor?"`]

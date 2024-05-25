@@ -12,6 +12,11 @@ export const repertorios = {
             aparecida: getCifra(Object.assign({}, cifrasSemEstrutura.aparecida), 'animacaoJantar', 'aparecida'),
             regacoAcolhedor: getCifra(Object.assign({}, cifrasSemEstrutura.regacoAcolhedor), 'animacaoJantar', 'regacoAcolhedor'),
             mariaDeNazare: getCifra(Object.assign({}, cifrasSemEstrutura.mariaDeNazare), 'animacaoJantar', 'mariaDeNazare'),
+            todaTua: getCifra(Object.assign({}, cifrasSemEstrutura.todaTua), 'animacaoJantar', 'todaTua'),
+            aAlegriaEstaNoCoracao: getCifra(Object.assign({}, cifrasSemEstrutura.aAlegriaEstaNoCoracao), 'animacaoJantar', 'aAlegriaEstaNoCoracao'),
+            euSouDoSenhor: getCifra(Object.assign({}, cifrasSemEstrutura.euSouDoSenhor), 'animacaoJantar', 'euSouDoSenhor'),
+            chuvaDeGraca: getCifra(Object.assign({}, cifrasSemEstrutura.chuvaDeGraca), 'animacaoJantar', 'chuvaDeGraca'),
+            aAlegriaDoSenhor: getCifra(Object.assign({}, cifrasSemEstrutura.aAlegriaDoSenhor), 'animacaoJantar', 'aAlegriaDoSenhor')
         }
     },
     missaPascoa: {
