@@ -1914,3 +1914,53 @@ D            G           A
 Alegrei-me quando me disseram
   D             Em          A
 "Vamos, vamos à casa do Senhor?"`]
+
+export const vemEEuMostrarei = 
+[`
+ D              Bm              G                A7
+Vem e eu mostrarei que o meu caminho te leva ao pai
+     D             Bm             G            A7
+Guiarei os passos teus e junto a Ti hei de seguir
+          F#        Bm          G      A7
+Sim, eu irei e saberei como chegar ao fim
+        F#            Bm             G     A7      D
+De onde vim pra onde vou, por onde irás, irei, também
+
+     Bm       G      A7
+La laiá La laiá La laiá
+
+ D            Bm                 G          A7
+Vem e eu te direi o que ainda estás a procurar
+      D            Bm           G           A7
+A verdade é como o sol e invadirá o teu coração
+        F#           Bm           G      A7
+Sim eu irei e aprenderei minha razão de ser
+            F#             Bm          G      A7   D
+Eu creio em Ti que crês em mim, e Tua luz, verei a luz
+
+     Bm       G      A7
+La laiá La laiá La laiá
+
+ D              Bm           G           A7
+Vem, e eu te farei da minha vida participar
+     D           Bm            G             A7
+Viverás em mim aqui: viver em mim é o bem maior
+         D          F#          G        A7
+Sim, eu irei e viverei a vida inteira assim
+       D            F#              G     A7        D
+Eternidade é, na verdade, o amor vivendo sempre em nós
+
+     Bm       G      A7
+La laiá La laiá La laiá
+
+ D                 Bm                 Em          A7
+Vem, que a terra espera quem possa e queira realizar
+      D            Bm              Em            A7
+com amor, a construção de um mundo novo muito melhor!
+         D         F#               G       A7
+Sim, eu irei e levarei Teu nome aos meus irmãos
+        D           F#             G     A7   D
+Iremos nós e o Teu amor vai construir enfim a paz!
+
+     Bm       G      A7
+La laiá La laiá La laiá`]
