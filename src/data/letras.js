@@ -1916,8 +1916,7 @@ Alegrei-me quando me disseram
 "Vamos, vamos à casa do Senhor?"`]
 
 export const vemEEuMostrarei = 
-[`
- D              Bm              G                A7
+[` D              Bm              G                A7
 Vem e eu mostrarei que o meu caminho te leva ao pai
      D             Bm             G            A7
 Guiarei os passos teus e junto a Ti hei de seguir
@@ -1935,7 +1934,7 @@ Vem e eu te direi o que ainda estás a procurar
 A verdade é como o sol e invadirá o teu coração
         F#           Bm           G      A7
 Sim eu irei e aprenderei minha razão de ser
-            F#             Bm          G      A7   D
+            F#             Bm          G      A7    D
 Eu creio em Ti que crês em mim, e Tua luz, verei a luz
 
      Bm       G      A7
@@ -1945,22 +1944,387 @@ La laiá La laiá La laiá
 Vem, e eu te farei da minha vida participar
      D           Bm            G             A7
 Viverás em mim aqui: viver em mim é o bem maior
-         D          F#          G        A7
+        F#         Bm            G       A7
 Sim, eu irei e viverei a vida inteira assim
-       D            F#              G     A7        D
+      F#            Bm              G     A7        D
 Eternidade é, na verdade, o amor vivendo sempre em nós
 
      Bm       G      A7
 La laiá La laiá La laiá
 
- D                 Bm                 Em          A7
+ D                 Bm                  G         A7
 Vem, que a terra espera quem possa e queira realizar
-      D            Bm              Em            A7
+      D            Bm               G            A7
 com amor, a construção de um mundo novo muito melhor!
-         D         F#               G       A7
+         F#         Bm               G       A7
 Sim, eu irei e levarei Teu nome aos meus irmãos
-        D           F#             G     A7   D
+        F#          Bm             G     A7    D
 Iremos nós e o Teu amor vai construir enfim a paz!
 
      Bm       G      A7
 La laiá La laiá La laiá`]
+
+export const alegresVamosACasaDoPai = 
+[`         C      G7       C (C7)
+Alegres vamos à casa do Pai 
+          F 
+e na alegria
+   G7          C (A7)
+Cantar seu louvor
+       Dm   G7         C    Am       Dm       
+Em sua casa,  somos felizes:  participamos
+   G7        C
+Da ceia do amor
+
+[Primeira Parte]
+
+      Am                Dm         G7        
+A alegria nos vem do Senhor, seu amor nos
+             C
+Conduz pela mão
+      A7                    Dm         
+Ele é luz que ilumina o seu povo, com
+     D7                 G7
+Segurança lhe dá a salvação
+
+[Refrão]
+
+         C      G7       C (C7)
+Alegres vamos à casa do Pai 
+          F 
+e na alegria
+   G7          C (A7)
+Cantar seu louvor
+       Dm   G7         C    Am       Dm       
+Em sua casa,  somos felizes:  participamos
+   G7        C
+Da ceia do amor
+
+[Segunda Parte]
+
+     Am                      Dm        
+O Senhor nos concede os seus bens, nos
+   G7                  C
+Convida à sua mesa sentar
+      A7                  Dm           D7   
+ E partilha conosco o seu pão, somos irmãos
+                  G7
+ Ao redor deste altar
+
+[Refrão]
+
+         C      G7       C (C7)
+Alegres vamos à casa do Pai 
+          F 
+e na alegria
+   G7          C (A7)
+Cantar seu louvor
+       Dm   G7         C    Am       Dm       
+Em sua casa,  somos felizes:  participamos
+   G7        C
+Da ceia do amor
+
+[Terceira Parte]
+
+     Am                   Dm          G7      
+Voltarei sempre à casa do Pai, de meu Deus
+               C
+Cantarei o louvor
+     A7               Dm 
+Só será bem feliz uma vida, que busque em
+D7                 G7
+Deus sua fonte de amor
+
+[Refrão]
+
+         C      G7       C (C7)
+Alegres vamos à casa do Pai 
+          F 
+e na alegria
+   G7          C (A7)
+Cantar seu louvor
+       Dm   G7         C    Am       Dm       
+Em sua casa,  somos felizes:  participamos
+   G7        C
+Da ceia do amor`]
+
+export const primeiraCrista = 
+[`              C           G
+Primeira cristã Maria da luz
+          Dm   G7             C (G7)
+Sabias, ó mãe,    amar teu Jesus
+              C            G
+Primeira cristã Maria do amor
+           Dm   G7             C    (C7)
+Soubeste seguir   teu filho e Senhor
+
+[Refrão]
+
+          F           G7      C
+Nossa Senhora das milhões de luzes
+        Am    Dm        G7     C (C7)
+Que meu povo acende pra te louvar
+      F       G7   C
+Iluminada, iluminadora
+   Am  Dm            G7    C
+Inspiradora de quem quer amar
+              G7
+E andar com Jesus
+               C
+E andar com Jesus
+              G7
+E andar com Jesus
+               C  (G7)
+E andar com Jesus
+
+[Segunda parte]
+
+              C           G
+Primeira cristã Maria do lar
+           Dm   G7               C (G7)
+Ensinas, ó mãe,    teu jeito de amar
+              C           G
+Primeira cristã Maria da paz
+            Dm  G7             C      (C7)
+Ensinas, ó mãe,    como é que Deus faz
+
+[Refrão]
+
+          F           G7      C
+Nossa Senhora das milhões de luzes
+        Am    Dm        G7     C (C7)
+Que meu povo acende pra te louvar
+      F       G7   C
+Iluminada, iluminadora
+   Am  Dm            G7    C
+Inspiradora de quem quer amar
+              G7
+E andar com Jesus
+               C
+E andar com Jesus
+              G7
+E andar com Jesus
+               C  (G7)
+E andar com Jesus
+
+[Terceira parte]
+
+              C               G
+Primeira cristã sempre a meditar
+           Dm   G7          C  (G7)
+Vivias em Deus,    sabias orar
+              C           G
+Primeira cristã fiel a Jesus
+            Dm  G7           C      (C7)
+Por todo lugar,    na luz e na cruz
+
+[Refrão]
+
+          F           G7      C
+Nossa Senhora das milhões de luzes
+        Am    Dm        G7     C (C7)
+Que meu povo acende pra te louvar
+      F       G7   C
+Iluminada, iluminadora
+   Am  Dm            G7    C
+Inspiradora de quem quer amar
+              G7
+E andar com Jesus
+               C
+E andar com Jesus
+              G7
+E andar com Jesus
+               C  (G7)
+E andar com Jesus`]
+
+export const aveMaria = 
+[`                      G
+Ave Maria, cheia de graça
+F         G        C
+O Senhor, é... convosco
+         F                 C
+Bendita sois, entre as mulheres
+              F              G
+Bendito é o fruto, do vosso ventre
+   C
+Jesus
+
+ C  C7M C  D/C C  C7M  C  F
+Saantaa Mariiiaa, mãe de Deus
+ G         C
+Rogai por nós
+ F     G  C
+PeecadoOores
+F      G     C
+Aagora e na hora
+ F             G     F C
+Hora de nossa morte, amém`]
+
+export const aleluiaAlegriaMinhaGente = 
+[`C   Am       Dm          G7
+Aleluia, Alegria, minha gente,
+F   G        F  G   C (G7)
+Aleluia, Alelu..u..ia (2X)
+
+C     A7         Dm          G7
+O Senhor ressuscitou, minha gente
+F         G             F    G   C   (G7)
+Ele esta vivo em nosso meio, aleluia
+
+C   A7            Dm          G7
+O Sepulcro está vazio, minha gente
+F     G           F   G   C   (G7)
+O Senhor ressuscitou, aleluia`]
+
+export const ladainhaDosEmpobrecidos = 
+[`               D    E7             A
+Ave cheia de graça, Ave cheia de amor,
+F#m              Bm              E7                A (A7)
+Salve ó mãe de Jesus. A ti nosso canto e nosso louvor (2X)
+
+             D
+Mãe do redentor - rogai
+E7           A
+Mãe do salvador - rogai
+F#m       Bm       E7      A (A7)
+Do libertador - rogai por nós
+
+             D
+Mãe dos oprimidos - rogai
+E7            A
+Mãe dos perseguidos - rogai
+F#m      Bm        E7      A (A7)
+Dos desvalidos - rogai por nós
+
+               D    E7             A
+Ave cheia de graça, Ave cheia de amor,
+F#m              Bm              E7                A (A7)
+Salve ó mãe de Jesus. A ti nosso canto e nosso louvor (2X)
+
+              D
+Mãe do boia fria - rogai
+E7            A
+Causa da alegria - rogai
+F#m            Bm      E7       A (A7)
+Mãe das mães Maria - Rogai por nós
+
+              D
+Mãe dos humilhados - rogai
+E7          A
+Dos martirizados - rogai
+F#m      Bm        E7      A (A7)
+Marginalizados - Rogai por nós.
+
+               D    E7             A
+Ave cheia de graça, Ave cheia de amor,
+F#m              Bm              E7                A (A7)
+Salve ó mãe de Jesus. A ti nosso canto e nosso louvor (2X)
+
+              D
+Mãe dos despejados - rogai
+E7         A
+Dos abandonados - rogai
+F#m         Bm        E7       A (A7)
+Dos desempregados - rogai por nós
+
+              D
+Mãe dos pescadores - rogai
+E7          A
+Dos agricultores - rogai
+F#m         Bm         E7      A (A7)
+Santos e doutores - rogai por nós
+
+               D    E7             A
+Ave cheia de graça, Ave cheia de amor,
+F#m              Bm              E7                A (A7)
+Salve ó mãe de Jesus. A ti nosso canto e nosso louvor (2X)
+
+               D
+Mãe do céu clemente - rogai
+E7        A
+Mãe dos doentes - rogai
+F#m         Bm        E7      A (A7)
+Do menor carente - rogai por nós
+
+            D
+Mãe dos operários - rogai
+E7         A
+Dos presidiários - rogai
+F#m        Bm         E7      A (A7)
+Dos sem salários - rogai por nós.
+
+               D    E7             A
+Ave cheia de graça, Ave cheia de amor,
+F#m              Bm              E7                A
+Salve ó mãe de Jesus. A ti nosso canto e nosso louvor (2X)`]
+
+export const benditoSejaDeus = 
+[`
+   Am             Dm
+Bendito e louvado seja
+   G              C
+O pai, nosso criador
+  Am              Dm
+O pão que nós recebemos
+   E7           Am
+É prova do seu amor
+  A7             Dm
+O pão que nós recebemos
+       G           C
+Que é prova do seu amor
+      Am          Dm
+É o fruto de sua terra
+      E7       Am
+  Do povo trabalhador
+    A7          Dm
+O fruto de sua terra
+      G         C
+  Do povo trabalhador
+     Am          Dm
+Na missa é transformado
+
+     E7        Am
+No corpo do salvador
+
+ A7           Dm
+Bendito seja Deus
+ G            C
+Bendito o seu amor
+ Am          Dm            E7
+Bendito seja Deus, pai onipotente
+        A7
+Nosso criador
+
+ A7           Dm
+Bendito seja deus
+ G            C
+Bendito o seu amor
+ Am          Dm            E7
+Bendito seja deus, pai onipotente
+        Am
+Nosso criador
+
+  Am              Dm
+Bendito e louvado seja
+  G            C
+O pai, nosso criador
+  Am           Dm
+O vinho que recebemos
+    E7         Am
+É prova do seu amor
+   A7          Dm
+O vinho que recebemos
+   G           C
+É prova do seu amor
+     Am           Dm
+É o fruto de sua terra
+      E7       Am
+E do povo trabalhador
+    A7          Dm
+O fruto de sua terra
+    G        C
+Do povo trabalhador
+     Am        Dm
+Na missa é transformado
+     E7         Am
+No sangue do salvador`]
