@@ -1,5 +1,5 @@
 import { getLetra, getAcordes, getCifra } from "../assets/cifras"
-import { aAlegriaDoSenhor, aAlegriaEstaNoCoracao, alegresVamosACasaDoPai, aleluia, aleluiaAlegriaMinhaGente, amem, anjosDeDeus, aparecida, aveMaria, benditoSejasOReiDaGloria, canticoDeAdoracao, celebremosNossaPascoa, chuvaDeGraca, consagracaoANossaSenhora, cordeiroDeDeus, cristoEONossoAmem, dancaDaAmizade, euConfesso, euCreioNumMundoNovo, euNavegarei, euSouDoSenhor, gloriaADeusNasAlturas, gloriaADeusNosAltosCeus, ladainhaDosEmpobrecidos, mariaDeNazare, molimMolim, oCeuSeAbre, oSenhorERei, oSenhorRessurgiu, parabensPraVoce, passaFogo, passeioDeCarangueijo, pescadorDeCristo, pipoca, primeiraCrista, quemEEssaQueAvancaComoAurora, quemEEssaQueAvancaComoAurora_AEscolhida, regacoAcolhedor, ruah, salmo46, santo, todaTua, vemEEuMostrarei, vemVemVemEspiritoSanto } from "./letras"
+import { aAlegriaDoSenhor, aAlegriaEstaNoCoracao, alegresVamosACasaDoPai, aleluia, aleluiaAlegriaMinhaGente, amem, anjosDeDeus, aparecida, aveMaria, benditoSejasOReiDaGloria, canticoDeAdoracao, celebremosNossaPascoa, chuvaDeGraca, consagracaoANossaSenhora, cordeiroDeDeus, cristoEONossoAmem, dancaDaAmizade, euConfesso, euCreioNumMundoNovo, euNavegarei, euSouDoSenhor, gloriaADeusNasAlturas, gloriaADeusNosAltosCeus, ladainhaDosEmpobrecidos, mariaDeNazare, molimMolim, oCeuSeAbre, oPaoDaVidaComunhao, oSenhorERei, oSenhorRessurgiu, parabensPraVoce, passaFogo, passeioDeCarangueijo, pescadorDeCristo, pipoca, primeiraCrista, quemEEssaQueAvancaComoAurora, quemEEssaQueAvancaComoAurora_AEscolhida, regacoAcolhedor, ruah, salmo46, santo, todaTua, vemEEuMostrarei, vemVemVemEspiritoSanto } from "./letras"
 
 const acordes = {
     molimMolim: molimMolim.map(letra => getAcordes(letra, ['G', 'Em', 'C', 'D', '(D7)'])),
@@ -46,6 +46,7 @@ const acordes = {
     aveMaria: aveMaria.map(letra => getAcordes(letra, ['G', 'F', 'C', 'C7M', 'D/C'])),
     aleluiaAlegriaMinhaGente: aleluiaAlegriaMinhaGente.map(letra => getAcordes(letra, ['C', 'Am', 'Dm', '(G7)', 'F', 'G', 'G7', 'A7'])),
     ladainhaDosEmpobrecidos: ladainhaDosEmpobrecidos.map(letra => getAcordes(letra, ['D', 'E7', 'A', 'F#m', 'Bm', '(A7)'])),
+    oPaoDaVidaComunhao: oPaoDaVidaComunhao.map(letra => getAcordes(letra, ['C', 'Dm', '(G7)', 'F', '(C7)'])),
 }
 
 export const cifrasSemEstrutura = {
@@ -408,6 +409,15 @@ export const cifrasSemEstrutura = {
         letra: ladainhaDosEmpobrecidos.map((letra, index) => getLetra(letra, acordes.ladainhaDosEmpobrecidos[index])),
         acordes: acordes.ladainhaDosEmpobrecidos,
         isRelativa: false
+    },
+    oPaoDaVidaComunhao: {
+        titulo: 'O Pão Da Vida - Comunhao', 
+        autor: 'Músicas Católicas',
+        tomPadrao: 'C',
+        letra: oPaoDaVidaComunhao.map((letra, index) => getLetra(letra, acordes.oPaoDaVidaComunhao[index])),
+        acordes: acordes.oPaoDaVidaComunhao,
+        isRelativa: false,
+        preparacao: 'C'
     },
 }
 

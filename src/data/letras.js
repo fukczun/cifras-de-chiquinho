@@ -2258,6 +2258,14 @@ Ave cheia de graça, Ave cheia de amor,
 F#m              Bm              E7                A
 Salve ó mãe de Jesus. A ti nosso canto e nosso louvor (2X)`]
 
+export const oPaoDaVidaComunhao = 
+[`         Dm      (G7)  C            Dm       (G7)   C
+O pão da vida, a comunhão nos une a cristo e aos irmãos
+         F               C            Dm        (G7)   C  (C7)
+E nos ensina a abrir as mãos  para partir, repartir o pão
+         F               C            Dm        (G7)   C
+E nos ensina a abrir as mãos  para partir, repartir o pão`]
+
 export const benditoSejaDeus = 
 [`
    Am             Dm
