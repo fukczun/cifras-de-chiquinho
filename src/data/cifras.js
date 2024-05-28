@@ -1,5 +1,5 @@
 import { getLetra, getAcordes, getCifra } from "../assets/cifras"
-import { aAlegriaDoSenhor, aAlegriaEstaNoCoracao, alegresVamosACasaDoPai, aleluia, aleluiaAlegriaMinhaGente, amem, anjosDeDeus, aparecida, aveMaria, benditoSejasOReiDaGloria, canticoDeAdoracao, celebremosNossaPascoa, chuvaDeGraca, consagracaoANossaSenhora, cordeiroDeDeus, cristoEONossoAmem, dancaDaAmizade, euConfesso, euCreioNumMundoNovo, euNavegarei, euSouDoSenhor, gloriaADeusNasAlturas, gloriaADeusNosAltosCeus, ladainhaDosEmpobrecidos, mariaDeNazare, molimMolim, oCeuSeAbre, oPaoDaVidaComunhao, oSenhorERei, oSenhorRessurgiu, parabensPraVoce, passaFogo, passeioDeCarangueijo, pescadorDeCristo, pipoca, primeiraCrista, quemEEssaQueAvancaComoAurora, quemEEssaQueAvancaComoAurora_AEscolhida, regacoAcolhedor, ruah, salmo46, santo, todaTua, vemEEuMostrarei, vemVemVemEspiritoSanto } from "./letras"
+import { aAlegriaDoSenhor, aAlegriaEstaNoCoracao, alegresVamosACasaDoPai, aleluia, aleluiaAlegriaMinhaGente, amem, anjosDeDeus, aparecida, aveMaria, benditoSejasOReiDaGloria, canticoDeAdoracao, celebremosNossaPascoa, chuvaDeGraca, consagracaoANossaSenhora, cordeiroDeDeus, cristoEONossoAmem, dancaDaAmizade, emTuaPresenca, euConfesso, euCreioNumMundoNovo, euNavegarei, euSouDoSenhor, gloriaADeusNasAlturas, gloriaADeusNosAltosCeus, ladainhaDosEmpobrecidos, mariaDeNazare, molimMolim, oCeuSeAbre, oPaoDaVidaComunhao, oSenhorERei, oSenhorRessurgiu, parabensPraVoce, passaFogo, passeioDeCarangueijo, pescadorDeCristo, pipoca, povoDeDeusFoiAssim, primeiraCrista, quemEEssaQueAvancaComoAurora, quemEEssaQueAvancaComoAurora_AEscolhida, regacoAcolhedor, ruah, salmo46, santo, taoSublime, todaTua, vemEEuMostrarei, vemVemVemEspiritoSanto } from "./letras"
 
 const acordes = {
     molimMolim: molimMolim.map(letra => getAcordes(letra, ['G', 'Em', 'C', 'D', '(D7)'])),
@@ -47,6 +47,9 @@ const acordes = {
     aleluiaAlegriaMinhaGente: aleluiaAlegriaMinhaGente.map(letra => getAcordes(letra, ['C', 'Am', 'Dm', '(G7)', 'F', 'G', 'G7', 'A7'])),
     ladainhaDosEmpobrecidos: ladainhaDosEmpobrecidos.map(letra => getAcordes(letra, ['D', 'E7', 'A', 'F#m', 'Bm', '(A7)'])),
     oPaoDaVidaComunhao: oPaoDaVidaComunhao.map(letra => getAcordes(letra, ['C', 'Dm', '(G7)', 'F', '(C7)'])),
+    povoDeDeusFoiAssim: povoDeDeusFoiAssim.map(letra => getAcordes(letra, ['C', 'G', 'Am', 'Em', 'F', 'D7', 'G7', '(G7)', 'D'])),
+    emTuaPresenca: emTuaPresenca.map(letra => getAcordes(letra, ['C9', '(C#º)', 'Dm7', 'Em7', 'F9', 'G', 'C', 'G/B', 'Am', 'Am7', 'Dm', '(F)', 'Em', 'A4', 'A7'])),
+    taoSublime: taoSublime.map(letra => getAcordes(letra, ['C', 'G7', 'Am', 'Dm', 'F'])),
 }
 
 export const cifrasSemEstrutura = {
@@ -382,7 +385,8 @@ export const cifrasSemEstrutura = {
         tomPadrao: 'C',
         letra: primeiraCrista.map((letra, index) => getLetra(letra, acordes.primeiraCrista[index])),
         acordes: acordes.primeiraCrista,
-        isRelativa: false
+        isRelativa: false,
+        preparacao: 'C'
     },
     aveMaria: {
         titulo: 'Ave Maria', 
@@ -418,6 +422,32 @@ export const cifrasSemEstrutura = {
         acordes: acordes.oPaoDaVidaComunhao,
         isRelativa: false,
         preparacao: 'C'
+    },
+    povoDeDeusFoiAssim: {
+        titulo: 'Povo de Deus Foi Assim', 
+        autor: 'Músicas Católicas',
+        tomPadrao: 'C',
+        letra: povoDeDeusFoiAssim.map((letra, index) => getLetra(letra, acordes.povoDeDeusFoiAssim[index])),
+        acordes: acordes.povoDeDeusFoiAssim,
+        isRelativa: false,
+        preparacao: 'C'
+    },
+    emTuaPresenca: {
+        titulo: 'Em Tua Presença', 
+        autor: 'Padre Fábio de Melo',
+        tomPadrao: 'C',
+        letra: emTuaPresenca.map((letra, index) => getLetra(letra, acordes.emTuaPresenca[index])),
+        acordes: acordes.emTuaPresenca,
+        isRelativa: false,
+        preparacao: 'C'
+    },
+    taoSublime: {
+        titulo: 'Tão Sublime', 
+        autor: 'Músicas Católicas',
+        tomPadrao: 'C',
+        letra: taoSublime.map((letra, index) => getLetra(letra, acordes.taoSublime[index])),
+        acordes: acordes.taoSublime,
+        isRelativa: false
     },
 }
 

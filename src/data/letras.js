@@ -2049,7 +2049,7 @@ Em sua casa,  somos felizes:  participamos
 Da ceia do amor`]
 
 export const primeiraCrista = 
-[`              C           G
+[`                          G
 Primeira cristã Maria da luz
           Dm   G7             C (G7)
 Sabias, ó mãe,    amar teu Jesus
@@ -2179,8 +2179,14 @@ O Senhor ressuscitou, aleluia`]
 export const ladainhaDosEmpobrecidos = 
 [`               D    E7             A
 Ave cheia de graça, Ave cheia de amor,
-F#m              Bm              E7                A (A7)
-Salve ó mãe de Jesus. A ti nosso canto e nosso louvor (2X)
+F#m              Bm              E7    
+Salve ó mãe de Jesus. A ti nosso canto
+            A
+e nosso louvor
+F#m              Bm              E7    
+Salve ó mãe de Jesus. A ti nosso canto
+            A (A7)
+e nosso louvor
 
              D
 Mãe do redentor - rogai
@@ -2198,8 +2204,14 @@ Dos desvalidos - rogai por nós
 
                D    E7             A
 Ave cheia de graça, Ave cheia de amor,
-F#m              Bm              E7                A (A7)
-Salve ó mãe de Jesus. A ti nosso canto e nosso louvor (2X)
+F#m              Bm              E7    
+Salve ó mãe de Jesus. A ti nosso canto
+            A
+e nosso louvor
+F#m              Bm              E7    
+Salve ó mãe de Jesus. A ti nosso canto
+            A (A7)
+e nosso louvor
 
               D
 Mãe do boia fria - rogai
@@ -2217,8 +2229,14 @@ Marginalizados - Rogai por nós.
 
                D    E7             A
 Ave cheia de graça, Ave cheia de amor,
-F#m              Bm              E7                A (A7)
-Salve ó mãe de Jesus. A ti nosso canto e nosso louvor (2X)
+F#m              Bm              E7    
+Salve ó mãe de Jesus. A ti nosso canto
+            A
+e nosso louvor
+F#m              Bm              E7    
+Salve ó mãe de Jesus. A ti nosso canto
+            A (A7)
+e nosso louvor
 
               D
 Mãe dos despejados - rogai
@@ -2236,8 +2254,14 @@ Santos e doutores - rogai por nós
 
                D    E7             A
 Ave cheia de graça, Ave cheia de amor,
-F#m              Bm              E7                A (A7)
-Salve ó mãe de Jesus. A ti nosso canto e nosso louvor (2X)
+F#m              Bm              E7    
+Salve ó mãe de Jesus. A ti nosso canto
+            A
+e nosso louvor
+F#m              Bm              E7    
+Salve ó mãe de Jesus. A ti nosso canto
+            A (A7)
+e nosso louvor
 
                D
 Mãe do céu clemente - rogai
@@ -2255,16 +2279,242 @@ Dos sem salários - rogai por nós.
 
                D    E7             A
 Ave cheia de graça, Ave cheia de amor,
-F#m              Bm              E7                A
-Salve ó mãe de Jesus. A ti nosso canto e nosso louvor (2X)`]
+F#m              Bm              E7    
+Salve ó mãe de Jesus. A ti nosso canto
+            A
+e nosso louvor
+F#m              Bm              E7    
+Salve ó mãe de Jesus. A ti nosso canto
+            A
+e nosso louvor`]
 
 export const oPaoDaVidaComunhao = 
-[`         Dm      (G7)  C            Dm       (G7)   C
-O pão da vida, a comunhão nos une a cristo e aos irmãos
-         F               C            Dm        (G7)   C  (C7)
-E nos ensina a abrir as mãos  para partir, repartir o pão
-         F               C            Dm        (G7)   C
-E nos ensina a abrir as mãos  para partir, repartir o pão`]
+[`         Dm      (G7)  C   
+O pão da vida, a comunhão nos
+        Dm       (G7)   C
+une a cristo e aos irmãos
+         F               C    
+E nos ensina a abrir as mãos
+        Dm        (G7)   C  (C7)
+para partir, repartir o pão
+         F               C    
+E nos ensina a abrir as mãos
+        Dm        (G7)   C
+para partir, repartir o pão`]
+
+export const povoDeDeusFoiAssim = 
+[`
+ C                  G           Am  
+Povo de Deus foi assim Deus cumpriu
+              Em
+a palavra que diz
+     F               C           G 
+Uma virgem irá conceber e a visita
+   D7           G
+de Deus me fez mãe
+ C                   G         Am    
+Mãe do Senhor nossa mãe nós queremos 
+             Em
+contigo aprender
+        F                   C    
+A humildade, a confiança total e 
+    G7                   C (G7)
+escutar o teu filho que diz
+
+[Refrão]
+
+ C       G   Am      Em    F           C
+Senta comigo à minha mesa nutre a esperança
+   D7        G   (G7)
+ Reúne os irmãos
+  C         G      Am          Em     F
+Planta meu reino, transforma a terra mais que
+    C           D G7  C  (G7)
+ Coragem, tens minha mão!
+
+ C                  G         Am   
+Povo de Deus foi assim nem montanha
+                 Em
+ou distância qualquer
+        F                  C       G  
+Me impediu de servir e sorrir visitei
+         D7          G
+com meu Deus, fui irmã
+ C                    G         Am    
+Mãe do Senhor, nossa mãe nós queremos
+             Em
+contigo aprender
+     F                  C  
+Desapego, bondade, teu sim
+      G7                   C (G7)
+e acolher o teu filho que diz
+
+ [Refrão]
+
+ C       G   Am      Em    F           C
+Senta comigo à minha mesa nutre a esperança
+   D7        G   (G7)
+ Reúne os irmãos
+  C         G      Am          Em     F
+Planta meu reino, transforma a terra mais que
+    C           D G7  C  (G7)
+ Coragem, tens minha mão!
+
+ C                  G        Am   
+Povo de Deus foi assim meu menino
+               Em
+cresceu e entendeu
+          F                 C          G   
+Que a vontade do pai conta mais e a visita
+     D7            G
+foi Deus quem nos Fez
+ C                    G         Am   
+Mãe do Senhor, nossa mãe nós queremos
+             Em
+contigo aprender
+      F                  C  
+A justiça, a vontade do pai
+       G7                   C  (G7)
+e entender o teu filho que diz
+
+ [Refrão]
+
+ C       G   Am      Em    F           C
+Senta comigo à minha mesa nutre a esperança
+   D7        G   (G7)
+ Reúne os irmãos
+  C         G      Am          Em     F
+Planta meu reino, transforma a terra mais que
+    C           D G7  C  (G7)
+ Coragem, tens minha mão!
+
+ C                  G        Am   
+Povo de Deus foi assim da verdade 
+              Em
+jamais se afastou
+        F                   C  
+Veio a morte e ficou nosso pão
+     G          D7        G
+visitou-nos e espera por nós
+ C                    G         Am    
+Mãe do Senhor, nossa mãe nós queremos
+             Em
+contigo aprender
+      F                     C  
+A verdade, a firmeza, o perdão
+    G7                    C (G7)
+e seguir o teu filho que diz
+
+ [Refrão]
+
+ C       G   Am      Em    F           C
+Senta comigo à minha mesa nutre a esperança
+   D7        G   (G7)
+ Reúne os irmãos
+  C         G      Am          Em     F
+Planta meu reino, transforma a terra mais que
+    C           D G7  C  (G7)
+ Coragem, tens minha mão!
+
+ C       G   Am      Em    F           C
+Senta comigo à minha mesa nutre a esperança
+   D7        G   (G7)
+ Reúne os irmãos
+  C         G      Am          Em     F
+Planta meu reino, transforma a terra mais que
+    C           D G7  C
+ Coragem, tens minha mão!`]
+
+ export const emTuaPresenca = 
+ [`    C9            (C#º) Dm7
+ É teu este momento de adoração
+     Em7                        Dm7
+ Não tenho nem palavras para me expressar
+     C9                 (C#º)   Dm7
+ No brilho dessa luz que vem do teu olhar
+    F9           G          C
+ Encontro meu abrigo meu lugar
+ 
+   C9                   (C#º)  Dm7
+ E quando estamos juntos entre nós estás
+    Em7                        Dm7
+ Passando em nosso meio a nos abençoar
+   C9               (C#º)  Dm7
+ E tocas com ternura com a tua mão
+   F9            G          C
+ A cada um que  abre o coração
+ 
+[Refrão]
+
+         C   G/B     Am    Am7
+ Minhas mãos     se elevam
+       Dm  Dm7       G (F) G
+ minha voz       te louva
+        Em Em7     A4 A7 
+ O meu ser     se alegra
+           Dm  Dm7        G
+ quando estou  em tua presença
+    C9
+ Senhor`]
+
+export const taoSublime = 
+[`        C    G7   C     Am Dm    G7       C 
+Tão sublime Sacramento, adoremos neste altar
+G7        C   G7    C     Am     Dm   G7     C
+pois o Antigo Testamento, deu ao novo seu lugar
+G7       C  G7        C     F      C    
+Venha a Fé, por suplemento, os sentidos
+G7   F C
+completar
+
+G7   C    G7      C      Am  Dm     G7    C  
+Ao eterno Pai cantemos e a Jesus, o Salvador
+G7      C   G7   C     Am     Dm    G7      C
+ao Espírito exaltemos, na trindade eterno amor
+G7      C    G7       C    F      C  
+Ao Deus Uno, e trino demos a alegria 
+G7  F  C  
+do louvor
+G7 C   G7 C 
+Aamém, Aamém`]
+
+export const meuCoracaoEParaTi = 
+[`
+                    A
+Meu coração é para Ti, Senhor
+B7                  E
+Meu coração é para Ti, Senhor
+C#m                F#m
+Meu coração é para Ti, Senhor
+B7               E   (E7)
+Meu coração é para Ti
+
+        A             B7            G#m                 C#m
+Porque Tu me deste a vida, por que Tu me deste o existir
+     F#m             B7                 E     E7
+Porque Tu me deste o carinho, me deste o amor
+     A             B7            G#m                C#m
+Porque Tu me deste a vida, por que Tu me deste o existir
+     F#m             B7                 E     E7
+Porque Tu me deste o carinho, me deste o amor
+
+E                    A
+Pão e vinho são para Ti,Senhor
+B7                  E
+Pão e vinho são para Ti,Senhor
+C#m                 F#m
+Pão e vinho são para Ti,Senhor
+B7                  E       E7
+Pão e vinho são para Ti
+
+     A             B7            G#m                C#m
+Porque Tu me deste a vida, por que Tu me deste o existir
+     F#m             B7                 E     E7
+Porque Tu me deste o carinho, me deste o amor
+     A             B7            G#m                C#m
+Porque Tu me deste a vida, por que Tu me deste o existir
+     F#m             B7                 E     E7
+Porque Tu me deste o carinho, me deste o amor`]
 
 export const benditoSejaDeus = 
 [`

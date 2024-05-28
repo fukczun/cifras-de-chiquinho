@@ -11,6 +11,10 @@ export const repertorios = {
             aleluiaAlegriaMinhaGente: getCifra(Object.assign({}, cifrasSemEstrutura.aleluiaAlegriaMinhaGente), 'novena', 'aleluiaAlegriaMinhaGente'),
             ladainhaDosEmpobrecidos: getCifra(Object.assign({}, cifrasSemEstrutura.ladainhaDosEmpobrecidos), 'novena', 'ladainhaDosEmpobrecidos'),
             oPaoDaVidaComunhao: getCifra(Object.assign({}, cifrasSemEstrutura.oPaoDaVidaComunhao), 'novena', 'oPaoDaVidaComunhao'),
+            povoDeDeusFoiAssim: getCifra(Object.assign({}, cifrasSemEstrutura.povoDeDeusFoiAssim), 'novena', 'povoDeDeusFoiAssim'),
+            emTuaPresenca: getCifra(Object.assign({}, cifrasSemEstrutura.emTuaPresenca), 'novena', 'emTuaPresenca'),
+            taoSublime: getCifra(Object.assign({}, cifrasSemEstrutura.taoSublime), 'novena', 'taoSublime'),
+            consagracaoANossaSenhora: getCifra(Object.assign({}, cifrasSemEstrutura.consagracaoANossaSenhora), 'novena', 'consagracaoANossaSenhora'),
             quemEEssaQueAvancaComoAurora_AEscolhida: getCifra(Object.assign({}, cifrasSemEstrutura.quemEEssaQueAvancaComoAurora_AEscolhida), 'novena', 'quemEEssaQueAvancaComoAurora_AEscolhida')
         }
     },
