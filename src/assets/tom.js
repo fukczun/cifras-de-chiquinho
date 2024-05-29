@@ -65,10 +65,18 @@ function alterarAcordesLetra(letra, acordes, novosAcordes) {
         }
 
         if (contemAcordes) {
-            linha = linha.map(palavra => {
+            linha = linha.map((palavra, index) => {
                 const acordeIndex = acordes.indexOf(palavra)
                 if (acordeIndex !== -1) {
-                    return novosAcordes[acordeIndex];
+                    const novoAcorde = novosAcordes[acordeIndex]
+                    const acordeAtual = acordes[acordeIndex]
+
+                    const diff = novoAcorde.length - acordeAtual.length
+                    if (linha[index + 1] !== undefined) {
+                       if (linha[index + 1].length > 1) linha[index + 1] = " ".repeat(linha[index + 1].length - diff)
+                    }
+
+                    return novoAcorde
                 }
                 return palavra
             })
@@ -286,7 +294,7 @@ export function mudarTom(tomAtual, tomAtualComCapo, novoTom, setTom, novoTomComC
 
     if (diferenca > 0 || diferencaComCapo > 0) { aumentarTons(tomAtual, setTom, novoTomComCapo, setTomComCapo, acordes, setAcordes, letra, setLetra, setLetraComCapo, diferenca) }
     else if (diferenca < 0 || diferencaComCapo < 0) { baixarTons(tomAtual, setTom, novoTomComCapo, setTomComCapo, acordes, setAcordes, letra, setLetra, setLetraComCapo, Math.abs(diferenca)) }
-    else if (tomAtualComCapo !== tomAtual){
+    else if (tomAtualComCapo !== tomAtual) {
         setTomComCapo(tomAtual)
         setLetraComCapo(letra)
         setAcordes(acordes)
