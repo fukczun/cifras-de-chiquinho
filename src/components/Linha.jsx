@@ -9,7 +9,7 @@ function Linha(props) {
     return (
         <li>
             <main className={`flex w-[23vw] max-lg:w-[80vw] justify-between ${props.margim} h-[2rem]`}>
-                <p className="text-white hover:text-gray-400 cursor-pointer shrink max-w-[15rem] mr-5 max-sm:w-[12rem] flex-auto overflow-hidden whitespace-nowrap text-ellipsis" onClick={() => props.trocarPagina(<CifraPage chave={props.chave} trocarPagina={props.trocarPagina} estrutura={props.estrutura} />)}>
+                <p className="text-white hover:text-gray-400 cursor-pointer shrink mr-5 flex-auto overflow-hidden whitespace-nowrap text-ellipsis" onClick={() => props.trocarPagina(<CifraPage chave={props.chave} trocarPagina={props.trocarPagina} estrutura={props.estrutura} />)}>
                     <u>{props.titulo}</u>
                 </p> 
                 <div className="shrink-0">
