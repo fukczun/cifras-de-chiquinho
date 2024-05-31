@@ -9,7 +9,8 @@ export const repertorios = {
             passaFogo: getCifra(Object.assign({}, cifrasSemEstrutura.passaFogo), 'crisma', 'passaFogo'), 
             pescadorDeCristo: getCifra(Object.assign({}, cifrasSemEstrutura.pescadorDeCristo), 'crisma', 'pescadorDeCristo'),
             pipoca: getCifra(Object.assign({}, cifrasSemEstrutura.pipoca), 'crisma', 'pipoca'),
-            refrigeraMinhaAlma_SopraEmNos: getCifra(Object.assign({}, cifrasSemEstrutura.refrigeraMinhaAlma_SopraEmNos), 'crisma', 'refrigeraMinhaAlma_SopraEmNos')
+            refrigeraMinhaAlma_SopraEmNos: getCifra(Object.assign({}, cifrasSemEstrutura.refrigeraMinhaAlma_SopraEmNos), 'crisma', 'refrigeraMinhaAlma_SopraEmNos'),
+            euNavegarei: getCifra(Object.assign({}, cifrasSemEstrutura.euNavegarei), 'crisma', 'euNavegarei'),
         }
     },
     missaTempoComum: {

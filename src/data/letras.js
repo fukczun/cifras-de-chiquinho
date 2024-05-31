@@ -2886,6 +2886,9 @@ Je....eeeee.....eeeesus!`]
 export const refrigeraMinhaAlma_SopraEmNos = 
 [`[Refrigera Minh'alma]
 
+[Intro]
+E E7M A9 (F#m7) (B9)
+
  E             E7M            A9  (F#m7) (B9)
 Sopra Espírito Santo, sobre nóóóÓóÓós
  E             E7M            A9  (F#m7) (B9)
@@ -2937,76 +2940,127 @@ Rasgue o céu, oh meu Pai
             C#m
 Sopra hoje aqui
              A9      B
-Vem Espírito Santo, vem`]
+Vem Espírito Santo, vem
 
+         C#m
+Sopra em nós
+      B
+Sopra em nós
+           A9
+Somos teus filhos, oh Pai
+           B4              B7
+Estamos reunidos em teu nome`]
 
 export const benditoSejaDeus = 
-[`
-Am             Dm
+[`   Am             Dm
 Bendito e louvado seja
-G              C
+   G              C
 O pai, nosso criador
   Am              Dm
 O pão que nós recebemos
    E7           Am
 É prova do seu amor
-  A7             Dm
-O pão que nós recebemos
-       G           C
-Que é prova do seu amor
-      Am          Dm
-É o fruto de sua terra
-      E7       Am
-  Do povo trabalhador
-    A7          Dm
+   A7          Dm
 O fruto de sua terra
-      G         C
-  Do povo trabalhador
-     Am          Dm
+    G            C
+Do povo trabalhador
+   Am              Dm
 Na missa é transformado
-
-     E7        Am
+   E7            Am A7
 No corpo do salvador
 
- A7           Dm
+             Dm  G
 Bendito seja Deus
- G            C
+                C Am
 Bendito o seu amor
- Am          Dm            E7
+             Dm             E7
 Bendito seja Deus, pai onipotente
-        A7
+          Am (A7)
 Nosso criador
 
- A7           Dm
-Bendito seja deus
- G            C
+             Dm  G
+Bendito seja Deus
+                C Am
 Bendito o seu amor
- Am          Dm            E7
-Bendito seja deus, pai onipotente
-        Am
-Nosso criador
+             Dm             E7
+Bendito seja Deus, pai onipotente
+          Am
+Nosso criador`]
 
-  Am              Dm
-Bendito e louvado seja
-  G            C
-O pai, nosso criador
-  Am           Dm
-O vinho que recebemos
-    E7         Am
-É prova do seu amor
-   A7          Dm
-O vinho que recebemos
-   G           C
-É prova do seu amor
-     Am           Dm
-É o fruto de sua terra
-      E7       Am
-E do povo trabalhador
-    A7          Dm
-O fruto de sua terra
-    G        C
-Do povo trabalhador
-     Am        Dm
-Na missa é transformado
-     E7         Am
-No sangue do salvador`]
+export const perfeitoEQuemTeCriou = 
+[`[Primeira Parte]
+
+       F               F7M
+Se um dia um anjo declarou
+    Gm
+Que tu eras cheia de Deus
+ Am                  Dm
+Agora penso quem sou eu
+         Gm            C
+Para não te dizer, também
+
+[Refrão 1]
+
+         F7M   C/E   Dm
+Cheia de graça,  oh  Mãe
+         Gm        C         F   C#7M
+Cheia de graça oh Mãe, agraciada
+
+[Segunda Parte]
+
+   F             F7M            
+Se a palavra ensinou
+    Gm
+Que todos hão de concordar
+     Am                Dm
+E as gerações te proclamar
+      Gm           C
+Agora eu também direi
+
+[Refrão 2]
+
+         F7M  C/E   Dm
+Tu és bendita,  oh  Mãe
+         Gm       C
+Tu és bendita, ó Mãe
+          Dm
+Bem-aventurada
+
+[Ponte]
+
+   C#              G#
+Surgiu um grande sinal no céu
+ D#             Bbm     G#
+Uma mulher revestida de sol
+  C#          G#
+A lua debaixo de seus pés
+  Bb          C      (C7)
+E na cabeça uma coroa
+
+[Terceira Parte]
+
+     F                 F7M
+Não há com que se comparar
+   Gm
+Perfeito é quem te criou
+      Am            Dm
+Se o criador te coroou
+
+[Refrão 3]
+
+       Gm       C  
+Te coroamos oh Mãe
+      F7M   C/E   Dm
+Te coroamos,  oh  Mãe
+       Gm       C  
+Te coroamos oh Mãe
+        F
+Nossa rainha 
+       Gm       C  
+Te coroamos oh Mãe
+      F7M   C/E   Dm
+Te coroamos,  oh  Mãe
+       Gm       C  
+Te coroamos oh Mãe
+        Bbm Cm F
+Nossa rainha`]
