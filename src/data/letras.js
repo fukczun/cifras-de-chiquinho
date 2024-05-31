@@ -1017,7 +1017,6 @@ Nossa mãe sempre será
 
 G         A        D (A) (Bm) 
 Nossa mãe sempre seráááÁááááá
-
 G         A        D 
 Nossa mãe sempre será`]
 
@@ -2441,19 +2440,19 @@ Planta meu reino, transforma a terra mais que
  Passando em nosso meio a nos abençoar
    C9               (C#º)  Dm7
  E tocas com ternura com a tua mão
-   F9            G          C
+   F9            G          C (G)
  A cada um que  abre o coração
  
 [Refrão]
 
          C   G/B     Am    Am7
  Minhas mãos     se elevam
-       Dm  Dm7       G (F) G
- minha voz       te louva
+       Dm  F     G (F) G
+ minha voz   te louva
         Em Em7     A4 A7 
  O meu ser     se alegra
-           Dm  Dm7        G
- quando estou  em tua presença
+           Dm F          G
+ quando estou em tua presença
     C9
  Senhor`]
 
@@ -2479,48 +2478,473 @@ G7 C   G7 C
 Aamém, Aamém`]
 
 export const meuCoracaoEParaTi = 
-[`
-                    A
+[`                    A        B7
 Meu coração é para Ti, Senhor
-B7                  E
+                    E        C#m
 Meu coração é para Ti, Senhor
-C#m                F#m
+                   F#m        B7
 Meu coração é para Ti, Senhor
-B7               E   (E7)
+                 E   (E7)
 Meu coração é para Ti
 
-        A             B7            G#m                 C#m
-Porque Tu me deste a vida, por que Tu me deste o existir
-     F#m             B7                 E     E7
+        A             B7           G#m
+Porque Tu me deste a vida, por que Tu
+               C#m
+me deste o existir
+       F#m             B7                  E (E7)
 Porque Tu me deste o carinho, me deste o amor
-     A             B7            G#m                C#m
-Porque Tu me deste a vida, por que Tu me deste o existir
-     F#m             B7                 E     E7
+        A             B7           G#m
+Porque Tu me deste a vida, por que Tu
+               C#m
+me deste o existir
+       F#m             B7                  E (E7)
 Porque Tu me deste o carinho, me deste o amor
 
-E                    A
+                      A       B7
 Pão e vinho são para Ti,Senhor
-B7                  E
+                      E       C#m
 Pão e vinho são para Ti,Senhor
-C#m                 F#m
+                     F#m      B7
 Pão e vinho são para Ti,Senhor
-B7                  E       E7
+                   E   (E7)
 Pão e vinho são para Ti
 
-     A             B7            G#m                C#m
-Porque Tu me deste a vida, por que Tu me deste o existir
-     F#m             B7                 E     E7
+A             B7           G#m
+Porque Tu me deste a vida, por que Tu
+               C#m
+me deste o existir
+       F#m             B7                  E (E7)
 Porque Tu me deste o carinho, me deste o amor
-     A             B7            G#m                C#m
-Porque Tu me deste a vida, por que Tu me deste o existir
-     F#m             B7                 E     E7
+        A             B7           G#m
+Porque Tu me deste a vida, por que Tu
+               C#m
+me deste o existir
+       F#m             B7                  E (E7)
 Porque Tu me deste o carinho, me deste o amor`]
+
+export const eisMeAquiSenhor = 
+[`[Refrão]
+
+D
+Eis-me aqui, Senhor!
+G                D  A
+Eis-me aqui, SenhooOOr!
+D    D7         G
+Pra fazer tua vontade
+                   A
+Pra viver no Teu amor
+                  G
+Pra fazer tua vontade
+                   A
+Pra viver no Teu amor
+                 D  (D7)
+Eis-me aqui, Senhor!
+
+[Primeira Parte]
+
+G             A/G
+O Senhor é o Pastor que me conduz
+D      F#7   Bm
+Por caminhos nunca vistos me enviou
+Em          A
+Sou chamado a ser fermento sal e luz
+                  Bm   G     A
+E por isso respondi: aqui estou!`]
+
+export const sabesSenhor = 
+[` C        Dm
+Sabes, senhor
+       G                     C
+O que temos é tão pouco pra dar
+Gm  C     F             G
+Mas esse pouco, nós queremos
+         (F)            C
+Com os irmãos compartilhar
+
+[Primeira parte]
+
+    F          Dm      G           Gm
+Queremos nesta hora, diante dos irmãos
+     A        Dm        G         C
+Comprometer a vida, buscando a união
+
+[Refrão]
+
+ C        Dm
+Sabes, senhor
+       G                     C
+O que temos é tão pouco pra dar
+Gm  C     F             G
+Mas esse pouco, nós queremos
+         (F)            C
+Com os irmãos compartilhar
+
+[Segunda parte]
+
+   F            Dm         G            Gm
+Sabemos que é difícil, os bens compartilhar
+     A         Dm        G             C
+Mas com a tua graça, senhor, queremos dar
+
+[Refrão]
+
+ C        Dm
+Sabes, senhor
+       G                     C
+O que temos é tão pouco pra dar
+Gm  C     F             G
+Mas esse pouco, nós queremos
+         (F)            C
+Com os irmãos compartilhar
+
+[Terceira parte]
+
+   F           Dm          G           Gm
+Olhando o teu exemplo, senhor, vamos seguir
+   A            Dm          G       C
+Fazendo o bem a todos, sem nada exigir
+
+[Refrão]
+
+ C        Dm
+Sabes, senhor
+       G                     C
+O que temos é tão pouco pra dar
+Gm  C     F             G
+Mas esse pouco, nós queremos
+         (F)            C
+Com os irmãos compartilhar`]
+
+export const cantarABelezaDaVida = 
+[`[Primeira Parte] 
+
+    C               G  
+Cantar a beleza da vida
+   Am                 Em
+Presente do amor sem igual
+    F          G         C  Am
+Missão do Teu povo escolhiiido! 
+   D7                     G7
+Senhor, vem livrar-nos do mal
+
+[Refrão] 
+
+     C                     G   
+Vem dar-nos Teu Filho, Senhor
+   Am                Em
+Sustento no pão e no vinho
+     F          G      C   Am 
+E a força do Espírito Saaanto
+  D        G7        C    G
+Unindo Teu povo a caminho
+
+[Segunda Parte] 
+
+   C                     G  
+Falar do Teu filho às nações
+  Am               Em
+Vivendo como Ele viveu
+    F          G         C  Am
+Missão do Teu povo escolhiiido! 
+   D7                       G7
+Senhor, vem cuidar do que é Teu
+
+[Refrão] 
+
+     C                     G   
+Vem dar-nos Teu Filho, Senhor
+   Am                Em
+Sustento no pão e no vinho
+     F          G      C   Am 
+E a força do Espírito Saaanto
+  D        G7        C    G
+Unindo Teu povo a caminho
+
+[Terceira Parte] 
+
+   C                  G  
+Viver o perdão sem medida
+   Am                  Em
+Servir sem jamais condenar
+    F          G         C  Am
+Missão do Teu povo escolhiiido!
+   D7                 G7
+Senhor, vem conosco ficar
+
+[Refrão] 
+
+     C                     G   
+Vem dar-nos Teu Filho, Senhor
+   Am                Em
+Sustento no pão e no vinho
+     F          G      C   Am 
+E a força do Espírito Saaanto
+  D        G7        C    G
+Unindo Teu povo a caminho
+
+[Quarta Parte] 
+
+    C                     G     
+Erguer os que estão humilhados
+ Am                       Em
+Doar-se aos pequenos, aos pobres
+    F          G         C  Am
+Missão do Teu povo escolhiiido!
+   D7                   G7
+Senhor, nossas forças redobre
+
+[Refrão] 
+
+     C                     G   
+Vem dar-nos Teu Filho, Senhor
+   Am                Em
+Sustento no pão e no vinho
+     F          G      C   Am 
+E a força do Espírito Saaanto
+  D        G7        C    G
+Unindo Teu povo a caminho
+
+[Quinta Parte] 
+
+    C                   G   
+Buscar a verdade, a justiça
+     Am                   Em
+Nas trevas brilhar como a luz
+    F          G         C  Am
+Missão do Teu povo escolhiiido!
+   D7                   G7
+Senhor nossos passos conduz
+
+[Refrão] 
+
+     C                     G   
+Vem dar-nos Teu Filho, Senhor
+   Am                Em
+Sustento no pão e no vinho
+     F          G      C   Am 
+E a força do Espírito Saaanto
+  D        G7        C    G
+Unindo Teu povo a caminho
+
+[Sexta Parte] 
+
+   C                  G   
+Andar os caminhos do mundo
+    Am                 Em
+Plantando Teu Reino de paz
+    F          G         C  Am
+Missão do Teu povo escolhiiido!
+   D7                   G7
+Senhor, nossos passos refaz
+
+[Refrão] 
+
+     C                     G   
+Vem dar-nos Teu Filho, Senhor
+   Am                Em
+Sustento no pão e no vinho
+     F          G      C   Am 
+E a força do Espírito Saaanto
+  D        G7        C    G
+Unindo Teu povo a caminho
+
+[Sétima Parte] 
+
+   C                     G
+Fazer deste mundo um só povo
+   Am                  Em
+Fraterno, a serviço da vida
+    F          G         C  Am
+Missão do Teu povo escolhiiido!
+   D7                    G7
+Senhor, vem nutrir nossa lida
+
+[Refrão] 
+
+     C                     G   
+Vem dar-nos Teu Filho, Senhor
+   Am                Em
+Sustento no pão e no vinho
+     F          G      C   Am 
+E a força do Espírito Saaanto
+  D        G7        C
+Unindo Teu povo a caminho`]
+
+export const vemODeusDaVida = 
+[`               G            A   D
+Vem ó Deus da vida, vem nos ajudar! (2X)
+                  G           A    D
+Vem, não demores mais em nos libertar! (2x)
+                   G          A       D
+Glória ao Pai, ao Filho e ao Santo Espírito! (2x)
+                   G                A       D
+Glória à trindade Santa, glória ao Deus bendito (2x)
+           G       A      D
+Aleluia irmãs! aleluia irmãos! (2x)
+                 G            A    D
+Com a Mãe do Senhor, a nossa louvação (2x)
+             G             A   D
+Todas essas coisas em Seu coração (2x)`]
+
+export const aEleAGloria = 
+[`C     Em         Am      Am/G
+Alfa, ômega, princípio e fim 
+        F   C         Dm  G7
+Sim ele é...  Sim ele é...
+C     Em         Am      Am/G
+Alfa, ômega, princípio e fim 
+        F   C         Dm  G7
+Sim ele é...  Sim ele é...
+ 
+          C   Em         Am   Am/G
+A ele a glória, a ele o louvor 
+           F    Dm
+A ele o domínio 
+           Bb  G4
+Ele é o senhor 
+  G       C   Em         Am   Am/G
+A ele a glória, a ele o louvor 
+           F    Dm
+A ele o domínio 
+    G7      C
+Ele é o senhor`]
+
+export const forcaEVitoria = 
+[`      F#m           B9
+Todo joelho se dobrará
+        E        B/D# C#m
+E toda língua proclamará
+      F#m        G#     C#m
+Que Jesus cristo é o senhor
+
+      F#m           B9
+Todo joelho se dobrará
+        E        B/D# C#m
+E toda língua proclamará
+      F#m        G#     C#m (C#7)
+Que Jesus cristo é o senhor
+
+         F#m       B9
+Nada poderá me abalar
+          E      B/D# C#m
+Nada poderá me deeerrotar
+           F#m       G#
+Pois minha força e vitória
+        C#m B9   C#7
+Tem um nome é Jesus
+
+         F#m       B9
+Nada poderá me abalar
+          E      B/D# C#m
+Nada poderá me deeerrotar
+           F#m       G#
+Pois minha força e vitória
+    C#m
+É Jesus
+
+        F#m       B9
+Quero viver tua palavra
+            E      B/D#  C#m
+Quero ser cheio do teu espírito
+          F#m   G#          C#m
+Mas só te peço, livra-me do mal
+
+      F#m       B9
+Quero viver tua palavra
+            E      B/D#  C#m
+Quero ser cheio do teu espírito
+          F#m   G#          C#m (C#7)
+Mas só te peço, livra-me do mal
+
+         F#m       B9
+Nada poderá me abalar
+          E      B/D# C#m
+Nada poderá me deeerrotar
+           F#m       G#
+Pois minha força e vitória
+        C#m B9   C#7
+Tem um nome é Jesus
+
+         F#m       B9
+Nada poderá me abalar
+          E      B/D# C#m
+Nada poderá me deeerrotar
+           F#m       G#
+Pois minha força e vitória
+    C#m
+É Jesus
+
+F#m     B9          C#m
+Je....eeeee.....eeeesus!
+F#m     B9          C#m
+Je....eeeee.....eeeesus!
+F#m     B9          C#m
+Je....eeeee.....eeeesus!
+F#m     B9          C#m
+Je....eeeee.....eeeesus!`]
+
+export const refrigeraMinhaAlma_SopraEmNos = 
+[`[Refrigera Minh'alma]
+
+ E             E7M            A9  (F#m7) (B9)
+Sopra Espírito Santo, sobre nóóóÓóÓós
+ E             E7M            A9  (F#m7) (B9)
+Sopra Espírito Santo, sobre nóóóÓóÓós
+ E             E7M            A9  (F#m7) (B9)
+Sopra Espírito Santo, sobre nóóóÓóÓós
+ E             E7M            A9  (F#m7) (B9)
+Sopra Espírito Santo, sobre nóóóÓóÓós
+
+      C#m             B9           A9 (F#m7) (B9)
+Refrigera minhalma e faz-me fiel a Ti
+      C#m             B9           A9 (F#m7) (B9)
+Refrigera minhalma e faz-me fiel a Ti
+      C#m             B9           A9 (F#m7) (B9)
+Refrigera minhalma e faz-me fiel a Ti
+      C#m             B9           A9 (F#m7) (B9)
+Refrigera minhalma e faz-me fiel a Ti
+
+[Sopra em Nós]
+
+         C#m
+Sopra em nós
+      B
+Sopra em nós
+           A9
+Somos teus filhos, oh Pai
+           B4              B
+Estamos reunidos em teu nome
+
+         C#m
+Sopra em nós
+      B
+Sopra em nós
+           A9
+Somos teus filhos, oh Pai
+           B4              B7
+Estamos reunidos em teu nome
+
+E             B/D#
+Oh vento impetuoso
+            C#m
+Vem nesse lugar
+                E   A9
+Fortalece o que é  fraco
+             E
+Com o teu poder
+                      B
+Rasgue o céu, oh meu Pai
+            C#m
+Sopra hoje aqui
+             A9      B
+Vem Espírito Santo, vem`]
+
 
 export const benditoSejaDeus = 
 [`
-   Am             Dm
+Am             Dm
 Bendito e louvado seja
-   G              C
+G              C
 O pai, nosso criador
   Am              Dm
 O pão que nós recebemos

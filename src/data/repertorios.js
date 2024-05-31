@@ -2,20 +2,14 @@ import { getCifra } from "../assets/cifras"
 import { cifrasSemEstrutura } from "./cifras"
 
 export const repertorios = {
-    novena: {
-        titulo: 'Novena',
+    crisma: {
+        titulo: 'Crisma',
         cifras: {
-            alegresVamosACasaDoPai: getCifra(Object.assign({}, cifrasSemEstrutura.alegresVamosACasaDoPai), 'novena', 'alegresVamosACasaDoPai'),
-            primeiraCrista: getCifra(Object.assign({}, cifrasSemEstrutura.primeiraCrista), 'novena', 'primeiraCrista'),
-            aveMaria: getCifra(Object.assign({}, cifrasSemEstrutura.aveMaria), 'novena', 'aveMaria'),
-            aleluiaAlegriaMinhaGente: getCifra(Object.assign({}, cifrasSemEstrutura.aleluiaAlegriaMinhaGente), 'novena', 'aleluiaAlegriaMinhaGente'),
-            ladainhaDosEmpobrecidos: getCifra(Object.assign({}, cifrasSemEstrutura.ladainhaDosEmpobrecidos), 'novena', 'ladainhaDosEmpobrecidos'),
-            oPaoDaVidaComunhao: getCifra(Object.assign({}, cifrasSemEstrutura.oPaoDaVidaComunhao), 'novena', 'oPaoDaVidaComunhao'),
-            povoDeDeusFoiAssim: getCifra(Object.assign({}, cifrasSemEstrutura.povoDeDeusFoiAssim), 'novena', 'povoDeDeusFoiAssim'),
-            emTuaPresenca: getCifra(Object.assign({}, cifrasSemEstrutura.emTuaPresenca), 'novena', 'emTuaPresenca'),
-            taoSublime: getCifra(Object.assign({}, cifrasSemEstrutura.taoSublime), 'novena', 'taoSublime'),
-            consagracaoANossaSenhora: getCifra(Object.assign({}, cifrasSemEstrutura.consagracaoANossaSenhora), 'novena', 'consagracaoANossaSenhora'),
-            quemEEssaQueAvancaComoAurora_AEscolhida: getCifra(Object.assign({}, cifrasSemEstrutura.quemEEssaQueAvancaComoAurora_AEscolhida), 'novena', 'quemEEssaQueAvancaComoAurora_AEscolhida')
+            molimMolim: getCifra(Object.assign({}, cifrasSemEstrutura.molimMolim), 'crisma', 'molimMolim'), 
+            passaFogo: getCifra(Object.assign({}, cifrasSemEstrutura.passaFogo), 'crisma', 'passaFogo'), 
+            pescadorDeCristo: getCifra(Object.assign({}, cifrasSemEstrutura.pescadorDeCristo), 'crisma', 'pescadorDeCristo'),
+            pipoca: getCifra(Object.assign({}, cifrasSemEstrutura.pipoca), 'crisma', 'pipoca'),
+            refrigeraMinhaAlma_SopraEmNos: getCifra(Object.assign({}, cifrasSemEstrutura.refrigeraMinhaAlma_SopraEmNos), 'crisma', 'refrigeraMinhaAlma_SopraEmNos')
         }
     },
     missaTempoComum: {
@@ -53,15 +47,6 @@ export const repertorios = {
             quemEEssaQueAvancaComoAurora_AEscolhida: getCifra(Object.assign({}, cifrasSemEstrutura.quemEEssaQueAvancaComoAurora_AEscolhida), 'missaPascoa', 'quemEEssaQueAvancaComoAurora_AEscolhida')
         }
     },
-    crisma: {
-        titulo: 'Crisma',
-        cifras: {
-            molimMolim: getCifra(Object.assign({}, cifrasSemEstrutura.molimMolim), 'crisma', 'molimMolim'), 
-            passaFogo: getCifra(Object.assign({}, cifrasSemEstrutura.passaFogo), 'crisma', 'passaFogo'), 
-            pescadorDeCristo: getCifra(Object.assign({}, cifrasSemEstrutura.pescadorDeCristo), 'crisma', 'pescadorDeCristo'),
-            pipoca: getCifra(Object.assign({}, cifrasSemEstrutura.pipoca), 'crisma', 'pipoca')
-        }
-    },
     animacaoJantar: {
         titulo: 'Animação Jantar',
         cifras: {
@@ -77,6 +62,25 @@ export const repertorios = {
             euSouDoSenhor: getCifra(Object.assign({}, cifrasSemEstrutura.euSouDoSenhor), 'animacaoJantar', 'euSouDoSenhor'),
             chuvaDeGraca: getCifra(Object.assign({}, cifrasSemEstrutura.chuvaDeGraca), 'animacaoJantar', 'chuvaDeGraca'),
             aAlegriaDoSenhor: getCifra(Object.assign({}, cifrasSemEstrutura.aAlegriaDoSenhor), 'animacaoJantar', 'aAlegriaDoSenhor')
+        }
+    },
+    novena: {
+        titulo: 'Novena',
+        cifras: {
+            alegresVamosACasaDoPai: getCifra(Object.assign({}, cifrasSemEstrutura.alegresVamosACasaDoPai), 'novena', 'alegresVamosACasaDoPai'),
+            vemODeusDaVida: getCifra(Object.assign({}, cifrasSemEstrutura.vemODeusDaVida), 'novena', 'vemODeusDaVida'),
+            primeiraCrista: getCifra(Object.assign({}, cifrasSemEstrutura.primeiraCrista), 'novena', 'primeiraCrista'),
+            aveMaria: getCifra(Object.assign({}, cifrasSemEstrutura.aveMaria), 'novena', 'aveMaria'),
+            aleluiaAlegriaMinhaGente: getCifra(Object.assign({}, cifrasSemEstrutura.aleluiaAlegriaMinhaGente), 'novena', 'aleluiaAlegriaMinhaGente'),
+            ladainhaDosEmpobrecidos: getCifra(Object.assign({}, cifrasSemEstrutura.ladainhaDosEmpobrecidos), 'novena', 'ladainhaDosEmpobrecidos'),
+            oPaoDaVidaComunhao: getCifra(Object.assign({}, cifrasSemEstrutura.oPaoDaVidaComunhao), 'novena', 'oPaoDaVidaComunhao'),
+            povoDeDeusFoiAssim: getCifra(Object.assign({}, cifrasSemEstrutura.povoDeDeusFoiAssim), 'novena', 'povoDeDeusFoiAssim'),
+            emTuaPresenca: getCifra(Object.assign({}, cifrasSemEstrutura.emTuaPresenca), 'novena', 'emTuaPresenca'),
+            taoSublime: getCifra(Object.assign({}, cifrasSemEstrutura.taoSublime), 'novena', 'taoSublime'),
+            aEleAGloria: getCifra(Object.assign({}, cifrasSemEstrutura.aEleAGloria), 'novena', 'aEleAGloria'),
+            meuCoracaoEParaTi: getCifra(Object.assign({}, cifrasSemEstrutura.meuCoracaoEParaTi), 'novena', 'meuCoracaoEParaTi'),
+            consagracaoANossaSenhora: getCifra(Object.assign({}, cifrasSemEstrutura.consagracaoANossaSenhora), 'novena', 'consagracaoANossaSenhora'),
+            quemEEssaQueAvancaComoAurora_AEscolhida: getCifra(Object.assign({}, cifrasSemEstrutura.quemEEssaQueAvancaComoAurora_AEscolhida), 'novena', 'quemEEssaQueAvancaComoAurora_AEscolhida')
         }
     }
 }

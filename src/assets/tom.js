@@ -116,8 +116,8 @@ export function aumentarTons(tomAtual, setTom, tomComCapo, setTomComCapo, acorde
             acorde = tirarAspas(acorde)
             let [tom, resto] = tomResto(acorde, tons)
             if (tons.includes(resto)) {
-                let tonsAcorde = [tomResto(tom)[0], tomResto(resto)[0]]
-                let restosAcorde = [tomResto(tom)[1], tomResto(resto)[1]]
+                let tonsAcorde = [tomResto(tom, tons)[0], tomResto(resto, tons)[0]]
+                let restosAcorde = [tomResto(tom, tons)[1], tomResto(resto, tons)[1]]
 
                 const indexes = [tons.indexOf(tonsAcorde[0]), tons.indexOf(tonsAcorde[1])]
 
@@ -128,8 +128,8 @@ export function aumentarTons(tomAtual, setTom, tomComCapo, setTomComCapo, acorde
         }
         let [tom, resto] = tomResto(acorde, tons)
         if (tons.includes(resto)) {
-            let tonsAcorde = [tomResto(tom)[0], tomResto(resto)[0]]
-            let restosAcorde = [tomResto(tom)[1], tomResto(resto)[1]]
+            let tonsAcorde = [tomResto(tom, tons)[0], tomResto(resto, tons)[0]]
+            let restosAcorde = [tomResto(tom, tons)[1], tomResto(resto, tons)[1]]
 
             const indexes = [tons.indexOf(tonsAcorde[0]), tons.indexOf(tonsAcorde[1])]
 
@@ -156,8 +156,8 @@ export function aumentarTons(tomAtual, setTom, tomComCapo, setTomComCapo, acorde
             acorde = tirarAspas(acorde)
             let [tom, resto] = tomResto(acorde, tons)
             if (tons.includes(resto)) {
-                let tonsAcorde = [tomResto(tom)[0], tomResto(resto)[0]]
-                let restosAcorde = [tomResto(tom)[1], tomResto(resto)[1]]
+                let tonsAcorde = [tomResto(tom, tons)[0], tomResto(resto, tons)[0]]
+                let restosAcorde = [tomResto(tom, tons)[1], tomResto(resto, tons)[1]]
 
                 const indexes = [tons.indexOf(tonsAcorde[0]), tons.indexOf(tonsAcorde[1])]
 
@@ -168,8 +168,8 @@ export function aumentarTons(tomAtual, setTom, tomComCapo, setTomComCapo, acorde
         }
         let [tom, resto] = tomResto(acorde, tons)
         if (tons.includes(resto)) {
-            let tonsAcorde = [tomResto(tom)[0], tomResto(resto)[0]]
-            let restosAcorde = [tomResto(tom)[1], tomResto(resto)[1]]
+            let tonsAcorde = [tomResto(tom, tons)[0], tomResto(resto, tons)[0]]
+            let restosAcorde = [tomResto(tom, tons)[1], tomResto(resto, tons)[1]]
 
             const indexes = [tons.indexOf(tonsAcorde[0]), tons.indexOf(tonsAcorde[1])]
 
@@ -196,8 +196,8 @@ export function baixarTons(tomAtual, setTom, tomComCapo, setTomComCapo, acordes,
             acorde = tirarAspas(acorde)
             let [tom, resto] = tomResto(acorde, tons)
             if (tons.includes(resto)) {
-                let tonsAcorde = [tomResto(tom)[0], tomResto(resto)[0]]
-                let restosAcorde = [tomResto(tom)[1], tomResto(resto)[1]]
+                let tonsAcorde = [tomResto(tom, tons)[0], tomResto(resto, tons)[0]]
+                let restosAcorde = [tomResto(tom, tons)[1], tomResto(resto, tons)[1]]
 
                 const indexes = [tons.indexOf(tonsAcorde[0]), tons.indexOf(tonsAcorde[1])]
 
@@ -208,8 +208,8 @@ export function baixarTons(tomAtual, setTom, tomComCapo, setTomComCapo, acordes,
         }
         let [tom, resto] = tomResto(acorde, tons)
         if (tons.includes(resto)) {
-            let tonsAcorde = [tomResto(tom)[0], tomResto(resto)[0]]
-            let restosAcorde = [tomResto(tom)[1], tomResto(resto)[1]]
+            let tonsAcorde = [tomResto(tom, tons)[0], tomResto(resto, tons)[0]]
+            let restosAcorde = [tomResto(tom, tons)[1], tomResto(resto, tons)[1]]
 
             const indexes = [tons.indexOf(tonsAcorde[0]), tons.indexOf(tonsAcorde[1])]
 
@@ -236,8 +236,8 @@ export function baixarTons(tomAtual, setTom, tomComCapo, setTomComCapo, acordes,
             acorde = tirarAspas(acorde)
             let [tom, resto] = tomResto(acorde, tons)
             if (tons.includes(resto)) {
-                let tonsAcorde = [tomResto(tom)[0], tomResto(resto)[0]]
-                let restosAcorde = [tomResto(tom)[1], tomResto(resto)[1]]
+                let tonsAcorde = [tomResto(tom, tons)[0], tomResto(resto, tons)[0]]
+                let restosAcorde = [tomResto(tom, tons)[1], tomResto(resto, tons)[1]]
 
                 const indexes = [tons.indexOf(tonsAcorde[0]), tons.indexOf(tonsAcorde[1])]
 
@@ -248,8 +248,8 @@ export function baixarTons(tomAtual, setTom, tomComCapo, setTomComCapo, acordes,
         }
         let [tom, resto] = tomResto(acorde, tons)
         if (tons.includes(resto)) {
-            let tonsAcorde = [tomResto(tom)[0], tomResto(resto)[0]]
-            let restosAcorde = [tomResto(tom)[1], tomResto(resto)[1]]
+            let tonsAcorde = [tomResto(tom, tons)[0], tomResto(resto, tons)[0]]
+            let restosAcorde = [tomResto(tom, tons)[1], tomResto(resto, tons)[1]]
 
             const indexes = [tons.indexOf(tonsAcorde[0]), tons.indexOf(tonsAcorde[1])]
 

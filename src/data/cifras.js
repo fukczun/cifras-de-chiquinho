@@ -1,5 +1,5 @@
 import { getLetra, getAcordes, getCifra } from "../assets/cifras"
-import { aAlegriaDoSenhor, aAlegriaEstaNoCoracao, alegresVamosACasaDoPai, aleluia, aleluiaAlegriaMinhaGente, amem, anjosDeDeus, aparecida, aveMaria, benditoSejasOReiDaGloria, canticoDeAdoracao, celebremosNossaPascoa, chuvaDeGraca, consagracaoANossaSenhora, cordeiroDeDeus, cristoEONossoAmem, dancaDaAmizade, emTuaPresenca, euConfesso, euCreioNumMundoNovo, euNavegarei, euSouDoSenhor, gloriaADeusNasAlturas, gloriaADeusNosAltosCeus, ladainhaDosEmpobrecidos, mariaDeNazare, molimMolim, oCeuSeAbre, oPaoDaVidaComunhao, oSenhorERei, oSenhorRessurgiu, parabensPraVoce, passaFogo, passeioDeCarangueijo, pescadorDeCristo, pipoca, povoDeDeusFoiAssim, primeiraCrista, quemEEssaQueAvancaComoAurora, quemEEssaQueAvancaComoAurora_AEscolhida, regacoAcolhedor, ruah, salmo46, santo, taoSublime, todaTua, vemEEuMostrarei, vemVemVemEspiritoSanto } from "./letras"
+import { aAlegriaDoSenhor, aAlegriaEstaNoCoracao, aEleAGloria, alegresVamosACasaDoPai, aleluia, aleluiaAlegriaMinhaGente, amem, anjosDeDeus, aparecida, aveMaria, benditoSejasOReiDaGloria, cantarABelezaDaVida, canticoDeAdoracao, celebremosNossaPascoa, chuvaDeGraca, consagracaoANossaSenhora, cordeiroDeDeus, cristoEONossoAmem, dancaDaAmizade, eisMeAquiSenhor, emTuaPresenca, euConfesso, euCreioNumMundoNovo, euNavegarei, euSouDoSenhor, forcaEVitoria, gloriaADeusNasAlturas, gloriaADeusNosAltosCeus, ladainhaDosEmpobrecidos, mariaDeNazare, meuCoracaoEParaTi, molimMolim, oCeuSeAbre, oPaoDaVidaComunhao, oSenhorERei, oSenhorRessurgiu, parabensPraVoce, passaFogo, passeioDeCarangueijo, pescadorDeCristo, pipoca, povoDeDeusFoiAssim, primeiraCrista, quemEEssaQueAvancaComoAurora, quemEEssaQueAvancaComoAurora_AEscolhida, refrigeraMinhaAlma_SopraEmNos, regacoAcolhedor, ruah, sabesSenhor, salmo46, santo, taoSublime, todaTua, vemEEuMostrarei, vemODeusDaVida, vemVemVemEspiritoSanto } from "./letras"
 
 const acordes = {
     molimMolim: molimMolim.map(letra => getAcordes(letra, ['G', 'Em', 'C', 'D', '(D7)'])),
@@ -48,8 +48,16 @@ const acordes = {
     ladainhaDosEmpobrecidos: ladainhaDosEmpobrecidos.map(letra => getAcordes(letra, ['D', 'E7', 'A', 'F#m', 'Bm', '(A7)'])),
     oPaoDaVidaComunhao: oPaoDaVidaComunhao.map(letra => getAcordes(letra, ['C', 'Dm', '(G7)', 'F', '(C7)'])),
     povoDeDeusFoiAssim: povoDeDeusFoiAssim.map(letra => getAcordes(letra, ['C', 'G', 'Am', 'Em', 'F', 'D7', 'G7', '(G7)', 'D'])),
-    emTuaPresenca: emTuaPresenca.map(letra => getAcordes(letra, ['C9', '(C#º)', 'Dm7', 'Em7', 'F9', 'G', 'C', 'G/B', 'Am', 'Am7', 'Dm', '(F)', 'Em', 'A4', 'A7'])),
+    emTuaPresenca: emTuaPresenca.map(letra => getAcordes(letra, ['C9', '(C#º)', 'Dm7', 'Em7', 'F9', 'G', 'C', '(G)', 'G/B', 'Am', 'Am7', 'Dm', 'F', '(F)', 'Em', 'A4', 'A7'])),
     taoSublime: taoSublime.map(letra => getAcordes(letra, ['C', 'G7', 'Am', 'Dm', 'F'])),
+    meuCoracaoEParaTi: meuCoracaoEParaTi.map(letra => getAcordes(letra, ['A', 'B7', 'E', 'C#m', 'F#m', '(E7)', 'G#m'])),
+    eisMeAquiSenhor: eisMeAquiSenhor.map(letra => getAcordes(letra, ['D', 'G', 'A', 'D7', '(D7)', 'A/G', 'F#7', 'Bm', 'Em'])),
+    sabesSenhor: sabesSenhor.map(letra => getAcordes(letra, ['C', 'Dm', 'G', 'Gm', 'F', '(F)', 'A'])),
+    cantarABelezaDaVida: cantarABelezaDaVida.map(letra => getAcordes(letra, ['C', 'G', 'Am', 'Em', 'F', 'D7', 'G7', 'D'])),
+    vemODeusDaVida: vemODeusDaVida.map(letra => getAcordes(letra, ['G', 'A', 'D'])),
+    aEleAGloria: aEleAGloria.map(letra => getAcordes(letra, ['C', 'Em', 'Am', 'Am/G', 'F', 'Dm', 'G7', 'Bb', 'G4', 'G'])),
+    forcaEVitoria: forcaEVitoria.map(letra => getAcordes(letra, ['F#m', 'B9', 'E', 'B/D#', 'C#m', '(C#7)', 'G#', 'C#7'])),
+    refrigeraMinhaAlma_SopraEmNos: refrigeraMinhaAlma_SopraEmNos.map(letra => getAcordes(letra, ['E', 'E7M', 'A9', '(F#m7)', '(B9)', 'C#m', 'B9', 'B', 'B4', 'B7', 'B/D#'])),
 }
 
 export const cifrasSemEstrutura = {
@@ -253,7 +261,8 @@ export const cifrasSemEstrutura = {
         tomPadrao: 'G',
         letra: consagracaoANossaSenhora.map((letra, index) => getLetra(letra, acordes.consagracaoANossaSenhora[index])),
         acordes: acordes.consagracaoANossaSenhora,
-        isRelativa: false
+        isRelativa: false,
+        preparacao: 'G'
     },
     anjosDeDeus: {
         titulo: 'Anjos de Deus',
@@ -448,6 +457,73 @@ export const cifrasSemEstrutura = {
         letra: taoSublime.map((letra, index) => getLetra(letra, acordes.taoSublime[index])),
         acordes: acordes.taoSublime,
         isRelativa: false
+    },
+    meuCoracaoEParaTi: {
+        titulo: 'Meu Coração é Para Ti', 
+        autor: 'Padre Zeca',
+        tomPadrao: 'E',
+        letra: meuCoracaoEParaTi.map((letra, index) => getLetra(letra, acordes.meuCoracaoEParaTi[index])),
+        acordes: acordes.meuCoracaoEParaTi,
+        isRelativa: false
+    },
+    eisMeAquiSenhor: {
+        titulo: 'Eis-me Aqui Senhor', 
+        autor: 'Músicas Católicas',
+        tomPadrao: 'D',
+        letra: eisMeAquiSenhor.map((letra, index) => getLetra(letra, acordes.eisMeAquiSenhor[index])),
+        acordes: acordes.eisMeAquiSenhor,
+        isRelativa: false
+    },
+    sabesSenhor: {
+        titulo: 'Sabes Senhor', 
+        autor: 'Músicas Católicas',
+        tomPadrao: 'C',
+        letra: sabesSenhor.map((letra, index) => getLetra(letra, acordes.sabesSenhor[index])),
+        acordes: acordes.sabesSenhor,
+        isRelativa: false,
+        preparacao: 'C'
+    },
+    cantarABelezaDaVida: {
+        titulo: 'Cantar a Beleza da Vida', 
+        autor: 'Músicas Católicas',
+        tomPadrao: 'C',
+        letra: cantarABelezaDaVida.map((letra, index) => getLetra(letra, acordes.cantarABelezaDaVida[index])),
+        acordes: acordes.cantarABelezaDaVida,
+        isRelativa: false
+    },
+    vemODeusDaVida: {
+        titulo: 'Vem ó Deus da Vida', 
+        autor: 'CNBB',
+        tomPadrao: 'D',
+        letra: vemODeusDaVida.map((letra, index) => getLetra(letra, acordes.vemODeusDaVida[index])),
+        acordes: acordes.vemODeusDaVida,
+        isRelativa: false
+    },
+    aEleAGloria: {
+        titulo: 'A Ele a Glória', 
+        autor: 'Músicas Católicas',
+        tomPadrao: 'C',
+        letra: aEleAGloria.map((letra, index) => getLetra(letra, acordes.aEleAGloria[index])),
+        acordes: acordes.aEleAGloria,
+        isRelativa: false,
+        preparacao: 'C'
+    },
+    forcaEVitoria: {
+        titulo: 'Força e Vitória', 
+        autor: 'Eliana Ribeiro',
+        tomPadrao: 'C#m',
+        letra: forcaEVitoria.map((letra, index) => getLetra(letra, acordes.forcaEVitoria[index])),
+        acordes: acordes.forcaEVitoria,
+        isRelativa: true
+    },
+    refrigeraMinhaAlma_SopraEmNos: {
+        titulo: 'Refrigera Minh`alma/ Sopra Em Nos (pout-porri)', 
+        autor: 'Músicas de Chiquinho',
+        tomPadrao: 'E',
+        letra: refrigeraMinhaAlma_SopraEmNos.map((letra, index) => getLetra(letra, acordes.refrigeraMinhaAlma_SopraEmNos[index])),
+        acordes: acordes.refrigeraMinhaAlma_SopraEmNos,
+        isRelativa: false,
+        preparacao: 'E'
     },
 }
 
