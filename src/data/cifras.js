@@ -526,7 +526,7 @@ export const cifrasSemEstrutura = {
         letra: refrigeraMinhaAlma_SopraEmNos.map((letra, index) => getLetra(letra, acordes.refrigeraMinhaAlma_SopraEmNos[index])),
         acordes: acordes.refrigeraMinhaAlma_SopraEmNos,
         isRelativa: false,
-        preparacao: 'E'
+        preparacao: 'B9'
     },
     benditoSejaDeus: {
         titulo: 'Bendito Seja Deus', 

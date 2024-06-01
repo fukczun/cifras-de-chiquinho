@@ -34,9 +34,10 @@ export function getPreparacao(primeiroAcorde, preparacao, tomAtual, novoTom, isR
         const novoTomIndex = tons.indexOf(tomNovoTom)
         const diferenca = novoTomIndex - tomAtualIndex
 
-        const [tom, m] = removeMenor(preparacao)
+        const [tomGeral, resto] = tomResto(preparacao)
+        const [tom, m] = removeMenor(tomGeral)
         const preparacaoIndex = tonsSemRelativa.indexOf(tom)
-        return tonsSemRelativa[((preparacaoIndex + diferenca) % quantTons) % quantTons] + m
+        return tonsSemRelativa[((preparacaoIndex + diferenca) % quantTons) % quantTons] + m + resto
     }
     const tom = tomResto(removeMenor(primeiroAcorde)[0])[0]
     const primeiroAcordeIndex = tonsSemRelativa.indexOf(tom)
