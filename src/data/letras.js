@@ -3064,3 +3064,66 @@ Te coroamos,  oh  Mãe
 Te coroamos oh Mãe
         Bbm Cm F
 Nossa rainha`]
+
+export const todoTeu = 
+[`         C9            G9
+Em cada passo, em cada prece
+         Am            F
+No menor gesto lá estarás
+          C9              G9
+No meu silêncio, no meu falar
+           Am             F
+Mãe, vem comigo sempre estar
+           C9          G9
+Nas minhas dores e alegrias
+        Am            F
+Todo momento, lá estarás
+        C9              G9
+No pensamento, no meu olhar
+          Am             F
+Mãe vem comigo sempre estar
+
+         C9      G9
+Sou todo teu, oh Mãe
+         Am       F
+Sou todo teu, Maria
+         Am
+Sou todo teu
+           G9          F
+Guarda no céu o meu lugar (2x)
+
+             Dm           F
+Tu serás, oh Mãe, minha rainha
+        C/E          G9
+E O teu Filho, O meu Rei
+          Dm             F
+Essa vida não será mais minha
+           C/E            G
+Um livre escravo, teu, serei
+
+Dm           F
+Tu serás, oh Mãe, minha rainha
+        C/E          G9
+E O teu Filho, O meu Rei
+          Dm             F
+Essa vida não será mais minha
+           C/E            G  (A)
+Um livre escravo, teu, serei
+
+[Sobe um tom]
+
+         D9      A9
+Sou todo teu, oh Mãe
+         Bm       G
+Sou todo teu, Maria
+         Bm
+Sou todo teu
+           A9          G
+Guarda no céu o meu lugar
+
+         D9      A9
+Sou todo teu, oh Mãe
+         Bm       G
+Sou todo teu, Maria
+         Bm A       D
+Sou todo teu minha mãe`]
