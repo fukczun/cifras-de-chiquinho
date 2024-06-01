@@ -11,6 +11,7 @@ export const repertorios = {
             pipoca: getCifra(Object.assign({}, cifrasSemEstrutura.pipoca), 'crisma', 'pipoca'),
             refrigeraMinhaAlma_SopraEmNos: getCifra(Object.assign({}, cifrasSemEstrutura.refrigeraMinhaAlma_SopraEmNos), 'crisma', 'refrigeraMinhaAlma_SopraEmNos'),
             euNavegarei: getCifra(Object.assign({}, cifrasSemEstrutura.euNavegarei), 'crisma', 'euNavegarei'),
+            vemVemVemEspiritoSanto: getCifra(Object.assign({}, cifrasSemEstrutura.vemVemVemEspiritoSanto), 'crisma', 'vemVemVemEspiritoSanto'),
         }
     },
     missaTempoComum: {
