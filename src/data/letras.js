@@ -3127,3 +3127,30 @@ Sou todo teu, oh Mãe
 Sou todo teu, Maria
          Bm A       D
 Sou todo teu minha mãe`]
+
+export const cordeiroDeDeus2 = 
+[`    E                  G#m               A    B7       
+Cordeiro de Deus que tirais o pecado do mundo,tende piedade
+    E                  G#m               A    B7       
+Cordeiro de Deus que tirais o pecado do mundo,tende piedade
+   C#m                 G#m               A   B7
+Cordeiro de Deus que tirais o pecado do mundo
+
+           E    G#m               A
+Dai-nos a pa_______z,  dai-nos a paz
+B7        Am G#m F#m             E
+Dai-nos a voossa paz, dai-nos a paz`]
+
+export const cordeiroDeDeus3 = 
+[`             E         G#m7              A9
+Cordeiro de Deus que tirais o pecado do mundo
+         F#m7     B7       E B7
+Tende piedade, piedade de nós
+             E         G#m7              A9
+Cordeiro de Deus que tirais o pecado do mundo
+         F#m7     B7       E B7
+Tende piedade, piedade de nós
+             E         G#m7              A9
+Cordeiro de Deus que tirais o pecado do mundo
+          F#m7    B B7  A B7 E
+Dai-nos a paz, a vossa paz`]
