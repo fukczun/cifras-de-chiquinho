@@ -1,6 +1,5 @@
 import { getCifra } from "../assets/cifras"
 import { cifrasSemEstrutura } from "./cifras"
-
 export const repertorios = {
     crisma: {
         titulo: 'Crisma',
@@ -19,17 +18,17 @@ export const repertorios = {
     missaTempoComum: {
         titulo: 'Missa (Tempo Comum)',
         cifras: {
+            alegresVamosACasaDoPai: getCifra(Object.assign({}, cifrasSemEstrutura.alegresVamosACasaDoPai), 'missaTempoComum', 'alegresVamosACasaDoPai'),
             euConfesso: getCifra(Object.assign({}, cifrasSemEstrutura.euConfesso), 'missaTempoComum', 'euConfesso'),
             gloriaADeusNasAlturas: getCifra(Object.assign({}, cifrasSemEstrutura.gloriaADeusNasAlturas), 'missaTempoComum', 'gloriaADeusNasAlturas'),
             aleluia: getCifra(Object.assign({}, cifrasSemEstrutura.aleluia), 'missaTempoComum', 'aleluia'),
+            benditoSejaDeus: getCifra(Object.assign({}, cifrasSemEstrutura.benditoSejaDeus), 'missaTempoComum', 'benditoSejaDeus'),
             santo: getCifra(Object.assign({}, cifrasSemEstrutura.santo), 'missaTempoComum', 'santo'),
             cristoEONossoAmem: getCifra(Object.assign({}, cifrasSemEstrutura.cristoEONossoAmem), 'missaTempoComum', 'cristoEONossoAmem'),
-            anjosDeDeus: getCifra(Object.assign({}, cifrasSemEstrutura.anjosDeDeus), 'missaTempoComum', 'anjosDeDeus'),
             cordeiroDeDeus: getCifra(Object.assign({}, cifrasSemEstrutura.cordeiroDeDeus), 'missaTempoComum', 'cordeiroDeDeus'),
             vemEEuMostrarei: getCifra(Object.assign({}, cifrasSemEstrutura.vemEEuMostrarei), 'missaTempoComum', 'vemEEuMostrarei'),
-            consagracaoANossaSenhora: getCifra(Object.assign({}, cifrasSemEstrutura.consagracaoANossaSenhora), 'missaTempoComum', 'consagracaoANossaSenhora'),
             parabensPraVoce: getCifra(Object.assign({}, cifrasSemEstrutura.parabensPraVoce), 'missaTempoComum', 'parabensPraVoce'),
-            quemEEssaQueAvancaComoAurora_AEscolhida: getCifra(Object.assign({}, cifrasSemEstrutura.quemEEssaQueAvancaComoAurora_AEscolhida), 'missaPascoa', 'quemEEssaQueAvancaComoAurora_AEscolhida')
+            todoTeu: getCifra(Object.assign({}, cifrasSemEstrutura.todoTeu), 'missaTempoComum', 'todoTeu')
         }
     },
     missaPascoa: {

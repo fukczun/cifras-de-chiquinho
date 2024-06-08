@@ -621,7 +621,7 @@ Senhor Jesus Cristo, Filho Unigênito
 Senhor Deus, Cordeiro de Deus, Filho de Deus Pai
 Gm                (A7)             Bb
 Vós que tirais o pecado do mundo, tende
-            A
+   A       Dm
 Piedade de nós
 Gm                 (A7)               Bb
 Vós que tirais o pecado do mundo, acolhei a
@@ -1992,6 +1992,10 @@ e na alegria
 Cantar seu louvor
        Dm   G7         C    Am       Dm       
 Em sua casa,  somos felizes:  participamos
+   G7        C (A7)
+Da ceia do amor
+       Dm   G7         C    Am       Dm       
+Em sua casa,  somos felizes:  participamos
    G7        C
 Da ceia do amor
 
@@ -2014,6 +2018,10 @@ Alegres vamos à casa do Pai
 e na alegria
    G7          C (A7)
 Cantar seu louvor
+       Dm   G7         C    Am       Dm       
+Em sua casa,  somos felizes:  participamos
+   G7        C (A7)
+Da ceia do amor
        Dm   G7         C    Am       Dm       
 Em sua casa,  somos felizes:  participamos
    G7        C
@@ -2040,6 +2048,10 @@ e na alegria
 Cantar seu louvor
        Dm   G7         C    Am       Dm       
 Em sua casa,  somos felizes:  participamos
+   G7        C (A7)
+Da ceia do amor
+       Dm   G7         C    Am       Dm       
+Em sua casa,  somos felizes:  participamos
    G7        C
 Da ceia do amor
 
@@ -2062,6 +2074,10 @@ Alegres vamos à casa do Pai
 e na alegria
    G7          C (A7)
 Cantar seu louvor
+       Dm   G7         C    Am       Dm       
+Em sua casa,  somos felizes:  participamos
+   G7        C (A7)
+Da ceia do amor
        Dm   G7         C    Am       Dm       
 Em sua casa,  somos felizes:  participamos
    G7        C
@@ -3122,7 +3138,7 @@ Essa vida não será mais minha
            C/E            G
 Um livre escravo, teu, serei
 
-Dm           F
+             Dm           F
 Tu serás, oh Mãe, minha rainha
         C/E          G9
 E O teu Filho, O meu Rei
@@ -3146,14 +3162,20 @@ Guarda no céu o meu lugar
 Sou todo teu, oh Mãe
          Bm       G
 Sou todo teu, Maria
-         Bm A       D
-Sou todo teu minha mãe`]
+         Bm
+Sou todo teu
+           A9          Gm A7 D
+Guarda no céu o meu lugar`]
 
 export const cordeiroDeDeus2 = 
-[`    E                  G#m               A    B7       
-Cordeiro de Deus que tirais o pecado do mundo,tende piedade
-    E                  G#m               A    B7       
-Cordeiro de Deus que tirais o pecado do mundo,tende piedade
+[`    E                  G#m               A  
+Cordeiro de Deus que tirais o pecado do mundo
+  B7       
+tende piedade
+    E                  G#m               A   
+Cordeiro de Deus que tirais o pecado do mundo
+  B7       
+tende piedade
    C#m                 G#m               A   B7
 Cordeiro de Deus que tirais o pecado do mundo
 
