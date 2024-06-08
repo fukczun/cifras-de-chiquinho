@@ -610,7 +610,7 @@ Dm                          C
 Senhor Deus, Rei dos céus, Deus Pai Todo Poderoso:
  F
 nós vos louvamos, vos bendizemos
-Gm            A7                (Bb)
+Gm            (A7)              (Bb)
 Vos adoramos, vos glorificamos, nós vos
 (A7)   Dm         Gm           A7  Dm (A7)
 Damos graças por vossa imensa glória
@@ -619,15 +619,15 @@ Damos graças por vossa imensa glória
 Senhor Jesus Cristo, Filho Unigênito
  C                              F
 Senhor Deus, Cordeiro de Deus, Filho de Deus Pai
-Gm                 A7              Bb
+Gm                (A7)             Bb
 Vós que tirais o pecado do mundo, tende
             A
 Piedade de nós
-Gm                  A7                Bb
+Gm                 (A7)               Bb
 Vós que tirais o pecado do mundo, acolhei a
  C     F
 Nossa súplica
-Gm                  A7            Bb
+Gm                 (A7)           Bb
 Vós que estais à direita do Pai, tende
     A7      Dm  (A7)
 Piedade de nós
@@ -636,7 +636,7 @@ Piedade de nós
 Só Vós sois o Santo, só Vós o Senhor, só
  C                             F
 Vós o Altíssimo Jesus Cristo, com o Espírito Santo
-    Gm            A7
+    Gm           (A7)
 Na glória de Deus Pai
     Bb    A7       Dm (A7)
 Na glória de Deus Pai
@@ -1021,71 +1021,91 @@ G         A        D
 Nossa mãe sempre será`]
 
 export const benditoSejasOReiDaGloria = 
-[`   Dm      A7    Dm  Bb      A7
-1-Bendito sejas, ó  Rei da glória
+[` Dm      A7    Dm  Bb      A7
+Bendito sejas, ó  Rei da glória
  F      Gm    C7          F  (C)
 Ressuscitado, Senhor da Igreja
 Dm      Gm                Bb  A7  Dm  (A7)
 Aqui trazemos as nossas ofer.....tas
 
+[Refrão]
+
  D          G      D        E7      A7
 Vê com bons olhos nossas humildes ofertas
  D         G  Gm    D       A7        Dm
 Tudo o que te.mos, seja pra Ti, ó Senhor
 
-   Dm          A7     Dm   Bb     A7
-2- Vidas se encontram no altar de Deus
+[Segunda parte]
+
+Dm          A7     Dm   Bb     A7
+Vidas se encontram no altar de Deus
 F        Gm    C7          F  (C)
 Gente se doa, Dom que se imola
 Dm      Gm                Bb  A7  Dm  (A7)
 Aqui trazemos as nossas ofer.....tas
 
+[Refrão]
+
  D          G      D        E7      A7
 Vê com bons olhos nossas humildes ofertas
  D         G  Gm    D       A7        Dm
 Tudo o que te.mos, seja pra Ti, ó Senhor
 
-  Dm        A7     Dm  Bb     A7
-3-Irmãos da terra, irmãos do céu
+[Terceira parte]
+
+Dm        A7     Dm  Bb     A7
+Irmãos da terra, irmãos do céu
  F        Gm     C7           F  (C)
 Juntos cantemos glória ao Senhor
 Dm      Gm                Bb  A7  Dm  (A7)
 Aqui trazemos as nossas ofer.....tas
 
+[Refrão]
+
  D          G      D        E7      A7
 Vê com bons olhos nossas humildes ofertas
  D         G  Gm    D       A7        Dm
 Tudo o que te.mos, seja pra Ti, ó Senhor`,
-`   Dm      A     Dm          A
-1-Bendito sejas, ó  Rei da glória
+` Dm      A     Dm          A
+Bendito sejas, ó  Rei da glória
  F      Gm     C          F
 Ressuscitado, Senhor da Igreja
 Dm      Gm                A       D
 Aqui trazemos as nossas ofer.....tas
 
+[Refrão]
+
  D          G      D                A
 Vê com bons olhos nossas humildes ofertas
  D          G       D        A        Dm
 Tudo o que te.mos, seja pra Ti, ó Senhor
 
-    Dm         A      Dm          A
-2- Vidas se encontram no altar de Deus
+[Segunda parte]
+
+Dm          A      Dm           A
+Vidas se encontram no altar de Deus
  F       Gm    C           F
 Gente se doa, Dom que se imola
 Dm      Gm                A       D
 Aqui trazemos as nossas ofer.....tas
 
+[Refrão]
+
  D          G      D                A
 Vê com bons olhos nossas humildes ofertas
  D          G       D        A        Dm
 Tudo o que te.mos, seja pra Ti, ó Senhor
 
-  Dm         A     Dm         A
-3-Irmãos da terra, irmãos do céu
+[Terceira parte]
+
+Dm         A     Dm         A
+Irmãos da terra, irmãos do céu
  F        Gm      C           F
 Juntos cantemos glória ao Senhor
 Dm      Gm                A       D
 Aqui trazemos as nossas ofer.....tas
+
+[Refrão]
 
  D          G      D                A
 Vê com bons olhos nossas humildes ofertas
@@ -2969,6 +2989,8 @@ Na missa é transformado
    E7            Am A7
 No corpo do salvador
 
+[Refrão]
+
              Dm  G
 Bendito seja Deus
                 C Am
@@ -2977,7 +2999,6 @@ Bendito o seu amor
 Bendito seja Deus, pai onipotente
           Am (A7)
 Nosso criador
-
              Dm  G
 Bendito seja Deus
                 C Am
@@ -3154,3 +3175,70 @@ Tende piedade, piedade de nós
 Cordeiro de Deus que tirais o pecado do mundo
           F#m7    B B7  A B7 E
 Dai-nos a paz, a vossa paz`]
+
+export const conhecoUmCoracao = 
+[`    C          Em               Dm         G
+Conheço um coração tão manso, humilde e sereno
+     C               Em          Dm           G
+Que louva ao pai por revelar seu nome aos pequenos
+     F             G
+Que tem o dom de amar
+    Em (E7)    Am
+Que sabe perdoar
+    Dm          F           G (G4) (G7)
+Que deu a vida para nos salvar
+
+[Refrão]
+
+ F    G   C    G/B   Am
+Je...sus manda teu espírito
+ F   (F) (C) Dm           G (G4) (G7)
+Para transformar meu coração
+ F    G   C    G/B   Am
+Je...sus manda teu espírito
+ F   (F) (C) Dm           C (G7)
+Para transformar meu coração
+
+[Segunda parte]
+
+    C           Em             Dm          G
+As vezes no meu peito, bate um coração de pedra
+    C              Em         Dm              G
+Magoado, frio, sem vida, aqui dentro ele me aperta
+      F             G       Em (E7)    Am
+Não quer saber de amar, nem sabe perdoar
+     Dm          F          G (G4) (G7)
+Quer tudo e não sabe partilhar
+
+[Refrão]
+
+ F    G   C    G/B   Am
+Je...sus manda teu espírito
+ F   (F) (C) Dm           G (G4) (G7)
+Para transformar meu coração
+ F    G   C    G/B   Am
+Je...sus manda teu espírito
+ F   (F) (C) Dm           C (G7)
+Para transformar meu coração
+
+[Terceira parte]
+
+ C        Em        Dm           G
+Lava, purifica e restaura-me de novo
+   C          Em           Dm           G
+Serás o nosso Deus e nós seremos o teu povo
+    F          G     Em   (E7)    Am
+Derrama sobre nós, a á...gua do amor
+    Dm         F             G (G4) (G7)
+O espírito de Deus nosso senhor
+
+[Refrão]
+
+ F    G   C    G/B   Am
+Je...sus manda teu espírito
+ F   (F) (C) Dm           G (G4) (G7)
+Para transformar meu coração
+ F    G   C    G/B   Am
+Je...sus manda teu espírito
+ F   (F) (C) Dm           C (G7)
+Para transformar meu coração (2X)`]

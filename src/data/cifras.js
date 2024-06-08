@@ -1,5 +1,5 @@
 import { getLetra, getAcordes, getCifra } from "../assets/cifras"
-import { aAlegriaDoSenhor, aAlegriaEstaNoCoracao, aEleAGloria, alegresVamosACasaDoPai, aleluia, aleluiaAlegriaMinhaGente, amem, anjosDeDeus, aparecida, aveMaria, benditoSejaDeus, benditoSejasOReiDaGloria, cantarABelezaDaVida, canticoDeAdoracao, celebremosNossaPascoa, chuvaDeGraca, consagracaoANossaSenhora, cordeiroDeDeus, cordeiroDeDeus2, cordeiroDeDeus3, cristoEONossoAmem, dancaDaAmizade, eisMeAquiSenhor, emTuaPresenca, euConfesso, euCreioNumMundoNovo, euNavegarei, euSouDoSenhor, forcaEVitoria, gloriaADeusNasAlturas, gloriaADeusNosAltosCeus, ladainhaDosEmpobrecidos, mariaDeNazare, meuCoracaoEParaTi, molimMolim, oCeuSeAbre, oPaoDaVidaComunhao, oSenhorERei, oSenhorRessurgiu, parabensPraVoce, passaFogo, passeioDeCarangueijo, perfeitoEQuemTeCriou, pescadorDeCristo, pipoca, povoDeDeusFoiAssim, primeiraCrista, quemEEssaQueAvancaComoAurora, quemEEssaQueAvancaComoAurora_AEscolhida, refrigeraMinhaAlma_SopraEmNos, regacoAcolhedor, ruah, sabesSenhor, salmo46, santo, taoSublime, todaTua, todoTeu, vemEEuMostrarei, vemODeusDaVida, vemVemVemEspiritoSanto } from "./letras"
+import { aAlegriaDoSenhor, aAlegriaEstaNoCoracao, aEleAGloria, alegresVamosACasaDoPai, aleluia, aleluiaAlegriaMinhaGente, amem, anjosDeDeus, aparecida, aveMaria, benditoSejaDeus, benditoSejasOReiDaGloria, cantarABelezaDaVida, canticoDeAdoracao, celebremosNossaPascoa, chuvaDeGraca, conhecoUmCoracao, consagracaoANossaSenhora, cordeiroDeDeus, cordeiroDeDeus2, cordeiroDeDeus3, cristoEONossoAmem, dancaDaAmizade, eisMeAquiSenhor, emTuaPresenca, euConfesso, euCreioNumMundoNovo, euNavegarei, euSouDoSenhor, forcaEVitoria, gloriaADeusNasAlturas, gloriaADeusNosAltosCeus, ladainhaDosEmpobrecidos, mariaDeNazare, meuCoracaoEParaTi, molimMolim, oCeuSeAbre, oPaoDaVidaComunhao, oSenhorERei, oSenhorRessurgiu, parabensPraVoce, passaFogo, passeioDeCarangueijo, perfeitoEQuemTeCriou, pescadorDeCristo, pipoca, povoDeDeusFoiAssim, primeiraCrista, quemEEssaQueAvancaComoAurora, quemEEssaQueAvancaComoAurora_AEscolhida, refrigeraMinhaAlma_SopraEmNos, regacoAcolhedor, ruah, sabesSenhor, salmo46, santo, taoSublime, todaTua, todoTeu, vemEEuMostrarei, vemODeusDaVida, vemVemVemEspiritoSanto } from "./letras"
 
 const acordes = {
     molimMolim: molimMolim.map(letra => getAcordes(letra, ['G', 'Em', 'C', 'D', '(D7)'])),
@@ -63,6 +63,7 @@ const acordes = {
     todoTeu: todoTeu.map(letra => getAcordes(letra, ['C9', 'G9', 'Am', 'F', 'Dm', 'C/E', 'G', '(A)', 'D9', 'A9', 'Bm', 'A', 'D'])),
     cordeiroDeDeus2: cordeiroDeDeus2.map(letra => getAcordes(letra, ['E', 'G#m', 'A', 'B7', 'C#m', 'Am', 'F#m'])),
     cordeiroDeDeus3: cordeiroDeDeus3.map(letra => getAcordes(letra, ['E', 'G#m7', 'A9', 'B7', 'F#m7', 'B', 'A'])),
+    conhecoUmCoracao: conhecoUmCoracao.map(letra => getAcordes(letra, ['C', 'Em', 'Dm', 'G', 'F', '(E7)', 'Am', '(G4)', '(G7)', 'C', 'G/B', '(F)', '(C)'])),
 }
 
 export const cifrasSemEstrutura = {
@@ -531,7 +532,7 @@ export const cifrasSemEstrutura = {
         preparacao: 'B9'
     },
     benditoSejaDeus: {
-        titulo: 'Bendito Seja Deus', 
+        titulo: 'Bendito Seja Deus (Bendito e Louvado Seja o Pai, Nosso Criador)', 
         autor: 'Músicas Católicas',
         tomPadrao: 'Am',
         letra: benditoSejaDeus.map((letra, index) => getLetra(letra, acordes.benditoSejaDeus[index])),
@@ -570,6 +571,14 @@ export const cifrasSemEstrutura = {
         tomPadrao: 'E',
         letra: cordeiroDeDeus3.map((letra, index) => getLetra(letra, acordes.cordeiroDeDeus3[index])),
         acordes: acordes.cordeiroDeDeus3,
+        isRelativa: false
+    },
+    conhecoUmCoracao: {
+        titulo: 'Conheço um Coração', 
+        autor: 'Padre Joãozinho',
+        tomPadrao: 'C',
+        letra: conhecoUmCoracao.map((letra, index) => getLetra(letra, acordes.conhecoUmCoracao[index])),
+        acordes: acordes.conhecoUmCoracao,
         isRelativa: false
     },
 }

@@ -9,9 +9,11 @@ export const repertorios = {
             passaFogo: getCifra(Object.assign({}, cifrasSemEstrutura.passaFogo), 'crisma', 'passaFogo'), 
             pescadorDeCristo: getCifra(Object.assign({}, cifrasSemEstrutura.pescadorDeCristo), 'crisma', 'pescadorDeCristo'),
             pipoca: getCifra(Object.assign({}, cifrasSemEstrutura.pipoca), 'crisma', 'pipoca'),
+            vemVemVemEspiritoSanto: getCifra(Object.assign({}, cifrasSemEstrutura.vemVemVemEspiritoSanto), 'crisma', 'vemVemVemEspiritoSanto'),
+            ruah: getCifra(Object.assign({}, cifrasSemEstrutura.ruah), 'crisma', 'ruah'),
+            conhecoUmCoracao: getCifra(Object.assign({}, cifrasSemEstrutura.conhecoUmCoracao), 'crisma', 'conhecoUmCoracao'),
             refrigeraMinhaAlma_SopraEmNos: getCifra(Object.assign({}, cifrasSemEstrutura.refrigeraMinhaAlma_SopraEmNos), 'crisma', 'refrigeraMinhaAlma_SopraEmNos'),
             euNavegarei: getCifra(Object.assign({}, cifrasSemEstrutura.euNavegarei), 'crisma', 'euNavegarei'),
-            vemVemVemEspiritoSanto: getCifra(Object.assign({}, cifrasSemEstrutura.vemVemVemEspiritoSanto), 'crisma', 'vemVemVemEspiritoSanto'),
         }
     },
     missaTempoComum: {
