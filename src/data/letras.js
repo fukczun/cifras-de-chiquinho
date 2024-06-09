@@ -664,14 +664,25 @@ Aleluia, aleluia!
 
 [6º Domingo da Páscoa]
 
-        F#m
+        A
 Quem me ama realmente
-                 C#m
+                  D
 guardará minha palavra 
                Bm               
 E meu pai o amará
              E  
-e ele nós viremos`]
+e ele nós viremos
+
+[10º Domingo do Tempo Comum]
+
+    A                  
+O príncipe deste mundo
+              D
+agora será expulso
+                    Bm
+e eu, da terra levantado 
+                      E
+atrairei todos a mim mesmo`]
 
 export const euCreioNumMundoNovo = 
 [`     A                         E             A
@@ -3264,3 +3275,77 @@ Para transformar meu coração
 Je...sus manda teu espírito
  F   (F) (C) Dm           C (G7)
 Para transformar meu coração (2X)`]
+
+export const salmo129_130 = 
+[`[Refrão]
+
+      F#         B     C#7   F#
+No Senhor toda graça e reedenção!
+
+[Primeira parte]
+
+          F#                     (D#m7)
+Das profundezas eu clamo a vós, Senhor, 
+     B          (B) Bbm
+escutai a minha vooOoz!
+                               G#m
+Vossos ouvidos estejam bem atentos 
+      C#7           F#
+ao clamor da minha prece!
+
+[Refrão]
+
+      F#         B     C#7   F#
+No Senhor toda graça e reedenção!
+
+[Segunda parte]
+
+     F#                    (D#m7)
+Se levardes em conta nossas faltas, 
+          B          (B) Bbm
+quem haverá de subsistiiIir?
+                            G#m
+Mas em vós se encontra o perdão, 
+       C#7             F#      
+eu vos temo e em vós espero.
+
+[Refrão]
+
+      F#         B     C#7   F#
+No Senhor toda graça e reedenção!
+
+[Terceira parte]
+
+      F#                   (D#m7)
+No Senhor ponho a minha esperança, 
+   B            (B) Bbm
+espero em sua palaaavra.
+                        G#m
+A minh'alma espera no Senhor 
+             C#7        F#
+mais que o vigia pela aurora.
+
+[Refrão]
+
+      F#         B     C#7   F#
+No Senhor toda graça e reedenção!
+
+[Quarta parte]
+
+           F#       (D#m7)
+Espere Israel pelo Senhor, 
+              B         (B) Bbm
+mais que o vigia pela auroooraa!
+           F#                  (D#m7)  
+Pois no Senhor se encontra toda graça 
+      B         (B) Bbm
+e copiosa redençãããÃãão.
+                      G#m
+Ele vem libertar a Israel 
+   C#7        F#
+de toda a sua culpa.
+
+[Refrão]
+
+      F#         B     C#7   F#
+No Senhor toda graça e reedenção!!`]
