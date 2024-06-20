@@ -1,3 +1,10 @@
+# Tecnologias
+
+* HTML
+* CSS,usando a biblioteca tailwind css
+* JS
+* React
+
 # Para iniciar em sua máquina:
 
 * Abra o terminal
