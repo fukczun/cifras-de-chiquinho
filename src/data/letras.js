@@ -3349,3 +3349,76 @@ de toda a sua culpa.
 
       F#         B     C#7   F#
 No Senhor toda graça e reedenção!!`]
+
+export const oSenhorEMinhaLuz = 
+[`Am               Dm   
+O Senhor é minha luz
+E                Am
+ele é minha salvação
+               E 
+Que poderei temer
+                  Am
+Deus, minha proteção
+
+                 Dm   
+O Senhor é minha luz
+       G          C Am
+Ele é minha salvação
+                   E
+O que é que vou temer
+                  Am
+Deus é minha proteção
+Dm                 Am     
+Ele guarda a minha vida
+E                   Am
+eu não vou ter medo não
+Dm                 Am     
+Ele guarda a minha vida
+E                   Am
+eu não vou ter medo não`]
+
+export const aleluia2 = 
+[`    A       E
+Aleluia aleluia
+   F#m
+Aleluiaa
+    D  E   A (E7)
+AleluuUUUiaaa
+    A       E
+Aleluia aleluia
+   F#m
+Aleluiaa
+    D  E   A
+AleluuUUUiaaa
+   
+[10º Domingo do Tempo Comum]
+ 
+    A                  
+O príncipe deste mundo
+             F#m
+agora será expulso
+          D
+e eu, da terra levantado 
+                      E
+atrairei todos a mim mesmo`]
+
+export const amemSenhor = 
+[`  D   
+Amém Senhor
+ Bm
+Amém Senhor
+  G      A7
+Amém Senhor
+  D (E)
+Amém
+
+[Sobe um tom]
+
+  E   
+Amém Senhor
+ C#m
+Amém Senhor
+  A      B7
+Amém Senhor
+  E
+Amém`]

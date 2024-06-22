@@ -1,5 +1,5 @@
 import { getLetra, getAcordes, getCifra } from "../assets/cifras"
-import { aAlegriaDoSenhor, aAlegriaEstaNoCoracao, aEleAGloria, alegresVamosACasaDoPai, aleluia, aleluiaAlegriaMinhaGente, amem, anjosDeDeus, aparecida, aveMaria, benditoSejaDeus, benditoSejasOReiDaGloria, cantarABelezaDaVida, canticoDeAdoracao, celebremosNossaPascoa, chuvaDeGraca, conhecoUmCoracao, consagracaoANossaSenhora, cordeiroDeDeus, cordeiroDeDeus2, cordeiroDeDeus3, cristoEONossoAmem, dancaDaAmizade, eisMeAquiSenhor, emTuaPresenca, euConfesso, euCreioNumMundoNovo, euNavegarei, euSouDoSenhor, forcaEVitoria, gloriaADeusNasAlturas, gloriaADeusNosAltosCeus, ladainhaDosEmpobrecidos, mariaDeNazare, meuCoracaoEParaTi, molimMolim, oCeuSeAbre, oPaoDaVidaComunhao, oSenhorERei, oSenhorRessurgiu, parabensPraVoce, passaFogo, passeioDeCarangueijo, perfeitoEQuemTeCriou, pescadorDeCristo, pipoca, povoDeDeusFoiAssim, primeiraCrista, quemEEssaQueAvancaComoAurora, quemEEssaQueAvancaComoAurora_AEscolhida, refrigeraMinhaAlma_SopraEmNos, regacoAcolhedor, ruah, sabesSenhor, salmo129_130, salmo46, santo, taoSublime, todaTua, todoTeu, vemEEuMostrarei, vemODeusDaVida, vemVemVemEspiritoSanto } from "./letras"
+import { aAlegriaDoSenhor, aAlegriaEstaNoCoracao, aEleAGloria, alegresVamosACasaDoPai, aleluia, aleluia2, aleluiaAlegriaMinhaGente, amem, amemSenhor, anjosDeDeus, aparecida, aveMaria, benditoSejaDeus, benditoSejasOReiDaGloria, cantarABelezaDaVida, canticoDeAdoracao, celebremosNossaPascoa, chuvaDeGraca, conhecoUmCoracao, consagracaoANossaSenhora, cordeiroDeDeus, cordeiroDeDeus2, cordeiroDeDeus3, cristoEONossoAmem, dancaDaAmizade, eisMeAquiSenhor, emTuaPresenca, euConfesso, euCreioNumMundoNovo, euNavegarei, euSouDoSenhor, forcaEVitoria, gloriaADeusNasAlturas, gloriaADeusNosAltosCeus, ladainhaDosEmpobrecidos, mariaDeNazare, meuCoracaoEParaTi, molimMolim, oCeuSeAbre, oPaoDaVidaComunhao, oSenhorEMinhaLuz, oSenhorERei, oSenhorRessurgiu, parabensPraVoce, passaFogo, passeioDeCarangueijo, perfeitoEQuemTeCriou, pescadorDeCristo, pipoca, povoDeDeusFoiAssim, primeiraCrista, quemEEssaQueAvancaComoAurora, quemEEssaQueAvancaComoAurora_AEscolhida, refrigeraMinhaAlma_SopraEmNos, regacoAcolhedor, ruah, sabesSenhor, salmo129_130, salmo46, santo, taoSublime, todaTua, todoTeu, vemEEuMostrarei, vemODeusDaVida, vemVemVemEspiritoSanto } from "./letras"
 
 const acordes = {
     molimMolim: molimMolim.map(letra => getAcordes(letra, ['G', 'Em', 'C', 'D', '(D7)'])),
@@ -65,6 +65,9 @@ const acordes = {
     cordeiroDeDeus3: cordeiroDeDeus3.map(letra => getAcordes(letra, ['E', 'G#m7', 'A9', 'B7', 'F#m7', 'B', 'A'])),
     conhecoUmCoracao: conhecoUmCoracao.map(letra => getAcordes(letra, ['C', 'Em', 'Dm', 'G', 'F', '(E7)', 'Am', '(G4)', '(G7)', 'C', 'G/B', '(F)', '(C)'])),
     salmo129_130: salmo129_130.map(letra => getAcordes(letra, ['F#', 'B', 'Bbm', '(G#m)', '(D#m7)', '(B)', 'G#m', 'C#7'])),
+    oSenhorEMinhaLuz: oSenhorEMinhaLuz.map(letra => getAcordes(letra, ['Am', 'Dm', 'E', 'G', 'C'])),
+    amemSenhor: amemSenhor.map(letra => getAcordes(letra, ['D', 'Bm', 'G', 'A7', '(E)', 'E', 'C#m', 'A', 'B7'])),
+    aleluia2: aleluia2.map(letra => getAcordes(letra, ['A', 'E', 'F#m', 'D', '(E7)'])),
 }
 
 export const cifrasSemEstrutura = {
@@ -588,6 +591,31 @@ export const cifrasSemEstrutura = {
         tomPadrao: 'F#',
         letra: salmo129_130.map((letra, index) => getLetra(letra, acordes.salmo129_130[index])),
         acordes: acordes.salmo129_130,
+        isRelativa: false
+    },
+    oSenhorEMinhaLuz: {
+        titulo: 'O Senhor é Minha Luz', 
+        autor: 'CNBB',
+        tomPadrao: 'Am',
+        letra: oSenhorEMinhaLuz.map((letra, index) => getLetra(letra, acordes.oSenhorEMinhaLuz[index])),
+        acordes: acordes.oSenhorEMinhaLuz,
+        isRelativa: true,
+        preparacao: 'Am'
+    },
+    amemSenhor: {
+        titulo: 'Amém Senhor', 
+        autor: 'Músicas de Chiquinho',
+        tomPadrao: 'D',
+        letra: amemSenhor.map((letra, index) => getLetra(letra, acordes.amemSenhor[index])),
+        acordes: acordes.amemSenhor,
+        isRelativa: false
+    },
+    aleluia2: {
+        titulo: 'Aleluia', 
+        autor: 'Músicas de Chiquinho',
+        tomPadrao: 'A',
+        letra: aleluia2.map((letra, index) => getLetra(letra, acordes.aleluia2[index])),
+        acordes: acordes.aleluia2,
         isRelativa: false
     },
 }

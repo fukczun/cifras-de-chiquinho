@@ -1,6 +1,23 @@
 import { getCifra } from "../assets/cifras"
 import { cifrasSemEstrutura } from "./cifras"
 export const repertorios = {
+    missaTempoComum: {
+        titulo: 'Missa (Tempo Comum)',
+        cifras: {
+            oSenhorEMinhaLuz: getCifra(Object.assign({}, cifrasSemEstrutura.oSenhorEMinhaLuz), 'missaTempoComum', 'oSenhorEMinhaLuz'),
+            euConfesso: getCifra(Object.assign({}, cifrasSemEstrutura.euConfesso), 'missaTempoComum', 'euConfesso'),
+            gloriaADeusNasAlturas: getCifra(Object.assign({}, cifrasSemEstrutura.gloriaADeusNasAlturas), 'missaTempoComum', 'gloriaADeusNasAlturas'),
+            salmo129_130: getCifra(Object.assign({}, cifrasSemEstrutura.salmo129_130), 'missaTempoComum', 'salmo129_130'),
+            aleluia2: getCifra(Object.assign({}, cifrasSemEstrutura.aleluia2), 'missaTempoComum', 'aleluia2'),
+            benditoSejaDeus: getCifra(Object.assign({}, cifrasSemEstrutura.benditoSejaDeus), 'missaTempoComum', 'benditoSejaDeus'),
+            santo: getCifra(Object.assign({}, cifrasSemEstrutura.santo), 'missaTempoComum', 'santo'),
+            amemSenhor: getCifra(Object.assign({}, cifrasSemEstrutura.amemSenhor), 'missaTempoComum', 'amemSenhor'),
+            cordeiroDeDeus3: getCifra(Object.assign({}, cifrasSemEstrutura.cordeiroDeDeus3), 'missaTempoComum', 'cordeiroDeDeus3'),
+            vemEEuMostrarei: getCifra(Object.assign({}, cifrasSemEstrutura.vemEEuMostrarei), 'missaTempoComum', 'vemEEuMostrarei'),
+            parabensPraVoce: getCifra(Object.assign({}, cifrasSemEstrutura.parabensPraVoce), 'missaTempoComum', 'parabensPraVoce'),
+            quemEEssaQueAvancaComoAurora_AEscolhida: getCifra(Object.assign({}, cifrasSemEstrutura.quemEEssaQueAvancaComoAurora_AEscolhida), 'missaTempoComum', 'quemEEssaQueAvancaComoAurora_AEscolhida')
+        }
+    },
     crisma: {
         titulo: 'Crisma',
         cifras: {
@@ -13,23 +30,6 @@ export const repertorios = {
             conhecoUmCoracao: getCifra(Object.assign({}, cifrasSemEstrutura.conhecoUmCoracao), 'crisma', 'conhecoUmCoracao'),
             refrigeraMinhaAlma_SopraEmNos: getCifra(Object.assign({}, cifrasSemEstrutura.refrigeraMinhaAlma_SopraEmNos), 'crisma', 'refrigeraMinhaAlma_SopraEmNos'),
             euNavegarei: getCifra(Object.assign({}, cifrasSemEstrutura.euNavegarei), 'crisma', 'euNavegarei'),
-        }
-    },
-    missaTempoComum: {
-        titulo: 'Missa (Tempo Comum)',
-        cifras: {
-            alegresVamosACasaDoPai: getCifra(Object.assign({}, cifrasSemEstrutura.alegresVamosACasaDoPai), 'missaTempoComum', 'alegresVamosACasaDoPai'),
-            euConfesso: getCifra(Object.assign({}, cifrasSemEstrutura.euConfesso), 'missaTempoComum', 'euConfesso'),
-            gloriaADeusNasAlturas: getCifra(Object.assign({}, cifrasSemEstrutura.gloriaADeusNasAlturas), 'missaTempoComum', 'gloriaADeusNasAlturas'),
-            salmo129_130: getCifra(Object.assign({}, cifrasSemEstrutura.salmo129_130), 'missaTempoComum', 'salmo129_130'),
-            aleluia: getCifra(Object.assign({}, cifrasSemEstrutura.aleluia), 'missaTempoComum', 'aleluia'),
-            benditoSejaDeus: getCifra(Object.assign({}, cifrasSemEstrutura.benditoSejaDeus), 'missaTempoComum', 'benditoSejaDeus'),
-            santo: getCifra(Object.assign({}, cifrasSemEstrutura.santo), 'missaTempoComum', 'santo'),
-            cristoEONossoAmem: getCifra(Object.assign({}, cifrasSemEstrutura.cristoEONossoAmem), 'missaTempoComum', 'cristoEONossoAmem'),
-            cordeiroDeDeus: getCifra(Object.assign({}, cifrasSemEstrutura.cordeiroDeDeus), 'missaTempoComum', 'cordeiroDeDeus'),
-            vemEEuMostrarei: getCifra(Object.assign({}, cifrasSemEstrutura.vemEEuMostrarei), 'missaTempoComum', 'vemEEuMostrarei'),
-            parabensPraVoce: getCifra(Object.assign({}, cifrasSemEstrutura.parabensPraVoce), 'missaTempoComum', 'parabensPraVoce'),
-            todoTeu: getCifra(Object.assign({}, cifrasSemEstrutura.todoTeu), 'missaTempoComum', 'todoTeu')
         }
     },
     missaPascoa: {
