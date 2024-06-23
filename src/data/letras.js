@@ -3477,3 +3477,40 @@ E perdoai a nossa cuulpa!
 Porque nos somos vosso poooOovo
           Dm            E D E7 A9
 Que vem pedir vosso perdããÃão`]
+
+export const salmo106 = [`
+[Refrão]
+
+      D          Bm                Em
+Dai graças ao Senhor, porque ele é bom 
+         A                   D
+porque eterna é a sua misericórdia!
+
+Bm Em
+Os que sulcam o alto-mar com seus navios, *
+A7 D
+para ir comerciar nas grandes águas, D7 G
+testemunharam os prodígios do Senhor *
+A7 D
+e as suas maravilhas no alto-mar. R. Bm Em
+Ele ordenou, e levantou-se o furacão, *
+A7 D
+arremessando grandes ondas para o alto;
+D7 G
+aos céus subiam e desciam aos abismos, *
+A7 D
+seus corações desfaleciam de pavor. 
+
+Bm Em
+Mas gritaram ao Senhor na aflição, *
+A7 D
+e ele os libertou daquela angústia. D7 G
+Transformou a tempestade em bonança, *
+A7 D
+e as ondas do oceano se calaram. R. Bm Em
+Alegraram-se ao ver o mar tranquilo, *
+A7 D
+e ao porto desejado os conduziu. D7 G
+Agradeçam ao Senhor por seu amor *
+A7 D
+e por suas maravilhas entre os homens! R`]

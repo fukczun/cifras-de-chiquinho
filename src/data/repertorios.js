@@ -12,7 +12,7 @@ export const repertorios = {
             benditoSejaDeus: getCifra(Object.assign({}, cifrasSemEstrutura.benditoSejaDeus), 'missaTempoComum', 'benditoSejaDeus'),
             santo: getCifra(Object.assign({}, cifrasSemEstrutura.santo), 'missaTempoComum', 'santo'),
             amemSenhor: getCifra(Object.assign({}, cifrasSemEstrutura.amemSenhor), 'missaTempoComum', 'amemSenhor'),
-            cordeiroDeDeus3: getCifra(Object.assign({}, cifrasSemEstrutura.cordeiroDeDeus3), 'missaTempoComum', 'cordeiroDeDeus3'),
+            cordeiroDeDeus: getCifra(Object.assign({}, cifrasSemEstrutura.cordeiroDeDeus), 'missaTempoComum', 'cordeiroDeDeus'),
             vemEEuMostrarei: getCifra(Object.assign({}, cifrasSemEstrutura.vemEEuMostrarei), 'missaTempoComum', 'vemEEuMostrarei'),
             parabensPraVoce: getCifra(Object.assign({}, cifrasSemEstrutura.parabensPraVoce), 'missaTempoComum', 'parabensPraVoce'),
             quemEEssaQueAvancaComoAurora_AEscolhida: getCifra(Object.assign({}, cifrasSemEstrutura.quemEEssaQueAvancaComoAurora_AEscolhida), 'missaTempoComum', 'quemEEssaQueAvancaComoAurora_AEscolhida')
