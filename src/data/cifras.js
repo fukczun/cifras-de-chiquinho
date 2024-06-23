@@ -1,5 +1,5 @@
 import { getLetra, getAcordes, getCifra } from "../assets/cifras"
-import { aAlegriaDoSenhor, aAlegriaEstaNoCoracao, aEleAGloria, alegresVamosACasaDoPai, aleluia, aleluia2, aleluiaAlegriaMinhaGente, amem, amemSenhor, anjosDeDeus, aparecida, aveMaria, benditoSejaDeus, benditoSejasOReiDaGloria, cantarABelezaDaVida, canticoDeAdoracao, celebremosNossaPascoa, chuvaDeGraca, conhecoUmCoracao, consagracaoANossaSenhora, cordeiroDeDeus, cordeiroDeDeus2, cordeiroDeDeus3, cristoEONossoAmem, dancaDaAmizade, eisMeAquiSenhor, emTuaPresenca, euConfesso, euCreioNumMundoNovo, euNavegarei, euSouDoSenhor, forcaEVitoria, gloriaADeusNasAlturas, gloriaADeusNosAltosCeus, ladainhaDosEmpobrecidos, mariaDeNazare, meuCoracaoEParaTi, molimMolim, oCeuSeAbre, oPaoDaVidaComunhao, oSenhorEMinhaLuz, oSenhorERei, oSenhorRessurgiu, parabensPraVoce, passaFogo, passeioDeCarangueijo, perfeitoEQuemTeCriou, pescadorDeCristo, pipoca, povoDeDeusFoiAssim, primeiraCrista, quemEEssaQueAvancaComoAurora, quemEEssaQueAvancaComoAurora_AEscolhida, refrigeraMinhaAlma_SopraEmNos, regacoAcolhedor, ruah, sabesSenhor, salmo129_130, salmo46, santo, taoSublime, todaTua, todoTeu, vemEEuMostrarei, vemODeusDaVida, vemVemVemEspiritoSanto } from "./letras"
+import { aAlegriaDoSenhor, aAlegriaEstaNoCoracao, aEleAGloria, alegresVamosACasaDoPai, aleluia, aleluia2, aleluiaAlegriaMinhaGente, aleluiaUmGrandeProfetaSurgiu, amem, amemSenhor, anjosDeDeus, aparecida, aveMaria, benditoSejaDeus, benditoSejasOReiDaGloria, cantarABelezaDaVida, canticoDeAdoracao, celebremosNossaPascoa, chuvaDeGraca, conhecoUmCoracao, consagracaoANossaSenhora, cordeiroDeDeus, cordeiroDeDeus2, cordeiroDeDeus3, cristoEONossoAmem, dancaDaAmizade, eisMeAquiSenhor, emTuaPresenca, euConfesso, euCreioNumMundoNovo, euNavegarei, euSouDoSenhor, forcaEVitoria, gloriaADeusNasAlturas, gloriaADeusNosAltosCeus, ladainhaDosEmpobrecidos, mariaDeNazare, meuCoracaoEParaTi, molimMolim, oCeuSeAbre, oPaoDaVidaComunhao, oSenhorEMinhaLuz, oSenhorERei, oSenhorRessurgiu, parabensPraVoce, passaFogo, passeioDeCarangueijo, perfeitoEQuemTeCriou, pescadorDeCristo, pipoca, povoDeDeusFoiAssim, primeiraCrista, quemEEssaQueAvancaComoAurora, quemEEssaQueAvancaComoAurora_AEscolhida, refrigeraMinhaAlma_SopraEmNos, regacoAcolhedor, ruah, sabesSenhor, salmo129_130, salmo46, santo, senhorTendePiedadeEPerdoaiANossaCulpa, taoSublime, todaTua, todoTeu, vemEEuMostrarei, vemODeusDaVida, vemVemVemEspiritoSanto } from "./letras"
 
 const acordes = {
     molimMolim: molimMolim.map(letra => getAcordes(letra, ['G', 'Em', 'C', 'D', '(D7)'])),
@@ -24,7 +24,7 @@ const acordes = {
     parabensPraVoce: parabensPraVoce.map(letra => getAcordes(letra, ['E', 'B7', 'A', 'Am', 'E7', 'C#m', 'F#m', '(E7)'])),
     quemEEssaQueAvancaComoAurora_AEscolhida: quemEEssaQueAvancaComoAurora_AEscolhida.map(letra => getAcordes(letra, ['D', 'A', 'Bm', 'G', 'F#m', 'E', '(A7)', '(Bm)', 'A7', '(A)'])),
     benditoSejasOReiDaGloria: benditoSejasOReiDaGloria.map(letra => getAcordes(letra, ['Dm', 'A7', 'Bb', 'F', 'Gm', 'C7', '(C)', '(A7)', 'D', 'G', 'E7', 'A', 'C'])),
-    gloriaADeusNosAltosCeus: gloriaADeusNosAltosCeus.map(letra => getAcordes(letra, ['D', '(Bm)', 'Em', 'E7', 'A', 'G', '(A7)', 'E'])),
+    gloriaADeusNosAltosCeus: gloriaADeusNosAltosCeus.map(letra => getAcordes(letra, ['D', '(Bm)', 'Em', 'E7', 'A', 'G', '(A7)', 'E', 'Gm', 'A7', 'D7', 'D9'])),
     quemEEssaQueAvancaComoAurora: quemEEssaQueAvancaComoAurora.map(letra => getAcordes(letra, ['D', 'A', 'Bm'])),
     consagracaoANossaSenhora: consagracaoANossaSenhora.map(letra => getAcordes(letra, ['G', 'Bm7', 'Am', 'D9', '(Dm7)', 'Em7', 'D7', '(Am7)', '(D7)', 'Am7', 'D', 'B4', 'B7', 'Cm', '(Dm)', '(G)'])),
     anjosDeDeus: anjosDeDeus.map(letra => getAcordes(letra, ['C', 'G', 'F'])),
@@ -68,6 +68,8 @@ const acordes = {
     oSenhorEMinhaLuz: oSenhorEMinhaLuz.map(letra => getAcordes(letra, ['Am', 'Dm', 'E', 'G', 'C'])),
     amemSenhor: amemSenhor.map(letra => getAcordes(letra, ['D', 'Bm', 'G', 'A7', '(E)', 'E', 'C#m', 'A', 'B7'])),
     aleluia2: aleluia2.map(letra => getAcordes(letra, ['A', 'E', 'F#m', 'D', '(E7)'])),
+    aleluiaUmGrandeProfetaSurgiu: aleluiaUmGrandeProfetaSurgiu.map(letra => getAcordes(letra, ['C', 'Bb', 'Am', 'G', 'Gm', 'F'])),
+    senhorTendePiedadeEPerdoaiANossaCulpa: senhorTendePiedadeEPerdoaiANossaCulpa.map(letra => getAcordes(letra, ['A', 'D', 'E', 'F#m', 'Bm', 'E7', '(A7)', '(E7)', 'Dm', 'A9'])),
 }
 
 export const cifrasSemEstrutura = {
@@ -617,6 +619,24 @@ export const cifrasSemEstrutura = {
         letra: aleluia2.map((letra, index) => getLetra(letra, acordes.aleluia2[index])),
         acordes: acordes.aleluia2,
         isRelativa: false
+    },
+    aleluiaUmGrandeProfetaSurgiu: {
+        titulo: 'Aleluia um Grande Profeta Surgiu', 
+        autor: 'Arquidiocese de Goiânia',
+        tomPadrao: 'C',
+        letra: aleluiaUmGrandeProfetaSurgiu.map((letra, index) => getLetra(letra, acordes.aleluiaUmGrandeProfetaSurgiu[index])),
+        acordes: acordes.aleluiaUmGrandeProfetaSurgiu,
+        isRelativa: false,
+        preparacao: 'C'
+    },
+    senhorTendePiedadeEPerdoaiANossaCulpa: {
+        titulo: 'Senhor Tende Piedade e Perdoai a Nossa Culpa', 
+        autor: 'Hinário Litúrgico',
+        tomPadrao: 'A',
+        letra: senhorTendePiedadeEPerdoaiANossaCulpa.map((letra, index) => getLetra(letra, acordes.senhorTendePiedadeEPerdoaiANossaCulpa[index])),
+        acordes: acordes.senhorTendePiedadeEPerdoaiANossaCulpa,
+        isRelativa: false,
+        preparacao: 'A'
     },
 }
 

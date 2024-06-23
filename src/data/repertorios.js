@@ -5,10 +5,10 @@ export const repertorios = {
         titulo: 'Missa (Tempo Comum)',
         cifras: {
             oSenhorEMinhaLuz: getCifra(Object.assign({}, cifrasSemEstrutura.oSenhorEMinhaLuz), 'missaTempoComum', 'oSenhorEMinhaLuz'),
-            euConfesso: getCifra(Object.assign({}, cifrasSemEstrutura.euConfesso), 'missaTempoComum', 'euConfesso'),
-            gloriaADeusNasAlturas: getCifra(Object.assign({}, cifrasSemEstrutura.gloriaADeusNasAlturas), 'missaTempoComum', 'gloriaADeusNasAlturas'),
+            senhorTendePiedadeEPerdoaiANossaCulpa: getCifra(Object.assign({}, cifrasSemEstrutura.senhorTendePiedadeEPerdoaiANossaCulpa), 'missaTempoComum', 'senhorTendePiedadeEPerdoaiANossaCulpa'),
+            gloriaADeusNosAltosCeus: getCifra(Object.assign({}, cifrasSemEstrutura.gloriaADeusNosAltosCeus), 'missaTempoComum', 'gloriaADeusNosAltosCeus'),
             salmo129_130: getCifra(Object.assign({}, cifrasSemEstrutura.salmo129_130), 'missaTempoComum', 'salmo129_130'),
-            aleluia2: getCifra(Object.assign({}, cifrasSemEstrutura.aleluia2), 'missaTempoComum', 'aleluia2'),
+            aleluiaUmGrandeProfetaSurgiu: getCifra(Object.assign({}, cifrasSemEstrutura.aleluiaUmGrandeProfetaSurgiu), 'missaTempoComum', 'aleluiaUmGrandeProfetaSurgiu'),
             benditoSejaDeus: getCifra(Object.assign({}, cifrasSemEstrutura.benditoSejaDeus), 'missaTempoComum', 'benditoSejaDeus'),
             santo: getCifra(Object.assign({}, cifrasSemEstrutura.santo), 'missaTempoComum', 'santo'),
             amemSenhor: getCifra(Object.assign({}, cifrasSemEstrutura.amemSenhor), 'missaTempoComum', 'amemSenhor'),

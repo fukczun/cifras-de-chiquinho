@@ -10,9 +10,17 @@ function Home(props) {
         setSearchTerm(event.target.value);
     }
 
-    const filteredCifras = Object.keys(cifras).filter((cifraNome) =>
-        cifras[cifraNome].titulo.toLowerCase().includes(searchTerm.toLowerCase()) || cifras[cifraNome].autor.toLowerCase().includes(searchTerm.toLowerCase())
-    )
+    const normalizeString = (str) => {
+        return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+    };
+    
+    const filteredCifras = Object.keys(cifras).filter((cifraNome) => {
+        const tituloNormalized = normalizeString(cifras[cifraNome].titulo);
+        const autorNormalized = normalizeString(cifras[cifraNome].autor);
+        const searchTermNormalized = normalizeString(searchTerm);
+    
+        return tituloNormalized.includes(searchTermNormalized) || autorNormalized.includes(searchTermNormalized);
+    });    
 
     const filteredRepertorios = Object.keys(repertorios).map((repertorio) => {
         const filteredCifrasRepertorio = Object.keys(repertorios[repertorio].cifras).filter((cifraNome) =>

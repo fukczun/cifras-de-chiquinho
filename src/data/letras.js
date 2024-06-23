@@ -1128,52 +1128,52 @@ export const gloriaADeusNosAltosCeus =
 Glória a Deus nos altos céus,
                      Em
 paz na terra a seus amados
-                    D             E          A
-A vós louvam rei celeste, os que foram libertados!
-  D             G          
+Gm     A            D             E          A (A7)
+A vós louvam rei celeste, os que foram libertaAados!
+  D       D7    G     Gm    
 Glória a Deus, lá nos céus,
-    D       A       D  
+    D       A       D  (A7)
  e paz aos seus a--mém!
 
  D                                          Em
 Deus e Pai nós vos louvamos, adoramos bendizemos
-                       D            E            A
-Damos glória ao vosso nome, vossos dons agradece|--mos!
-  D             G          
+Gm      A              D            E          A (A7)
+Damos glória ao vosso nome, vossos dons agradeceEemos!
+  D      D7     G     Gm    
 Glória a Deus, lá nos céus,
-    D       A       D 
+    D       A       D (A7)
  e paz aos seus a--mém!
 
  D                                      Em
 Senhor nosso Jesus Cristo, unigênito do Pai
-                      D             E            A
-Vós de Deus cordeiro santo, nossas culpas perdoa---ai!
-  D             G          
+Gm      A             D             E          A (A7)
+Vós de Deus cordeiro santo, nossas culpas perdoaAai!
+  D      D7     G     Gm    
 Glória a Deus, lá nos céus,
-    D       A       D  
+    D       A       D (A7)
  e paz aos seus a--mém!
 
  D                                               Em
 Vós, que estais junto do Pai, como nosso intercessor
-                  D          E              A
-Acolhei nossos pedidos, atendei nosso clamo---or!
-  D             G          
+Gm   A            D          E            A (A7)
+Acolhei nossos pedidos, atendei nosso clamoOor!
+  D      D7     G     Gm    
 Glória a Deus, lá nos céus,
-    D       A       D
+    D       A       D (A7)
  e paz aos seus a--mém!
 
  D                                         Em
 Vós somente sois o santo, o altíssimo o Senhor
-                D            E              A
-Com espirito divino de Deus Pai no esplendo---or!
+Gm     A        D            E            A (A7)
+Com espirito divino de Deus Pai no esplendoOor!
 
-  D             G          
+  D      D7     G     Gm    
 Glória a Deus, lá nos céus,
-    D       A       D  
+    D       A       D  (A7)
  e paz aos seus a--mém!
-  D             G          
+  D      D7     G     Gm    
 Glória a Deus, lá nos céus,
-    D       A       D
+    D      Em   A   G A7 D9
  e paz aos seus a--mém!`]
 
 export const quemEEssaQueAvancaComoAurora = 
@@ -3422,3 +3422,58 @@ Amém Senhor
 Amém Senhor
   E
 Amém`]
+
+export const aleluiaUmGrandeProfetaSurgiu = 
+[`    C       Bb         C   
+Aleluia, Aleluia!, Aleluia (2x)
+    Am       G         C
+Aleluia, Aleluia!, Aleluia (2x)
+
+     C       Bb       C
+Um grande profeta surgiu
+    C          Gm          C
+Surgiu e entre nós se mostrou
+  Am                   F
+É Deus que seu povo visita
+    Bb                  C
+Seu povo, meu Deus visitou!`]
+
+export const senhorTendePiedadeEPerdoaiANossaCulpa = 
+[`[Primeira Parte]
+
+         A        D          E           A F#m
+Senhor, tende piedade e perdoai a nossa culpa
+D      Bm         E7   A (A7)
+E perdoai a nossa cuulpa!
+
+[Refrão]
+            D          Bm  E  A F#m
+Porque nos somos vosso poooOovo
+          Bm            E A  (E7)
+Que vem pedir vosso perdããÃão
+
+[Segunda Parte]
+
+         A        D          E           A F#m
+Cristo, tende piedade e perdoai a nossa culpa
+D      Bm         E7   A (A7)
+E perdoai a nossa cuulpa!
+
+[Refrão]
+            D          Bm  E  A F#m
+Porque nos somos vosso poooOovo
+          Bm            E A  (E7)
+Que vem pedir vosso perdããÃão
+
+[Terceira Parte]
+
+         A        D          E           A F#m
+Senhor, tende piedade e perdoai a nossa culpa
+D      Bm         E7   A (A7)
+E perdoai a nossa cuulpa!
+
+[Refrão]
+            D          Bm  E  A F#m
+Porque nos somos vosso poooOovo
+          Dm            E D E7 A9
+Que vem pedir vosso perdããÃão`]
